@@ -1,0 +1,1293 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e914b171ddf1e99dce9728b0a4f7bd7f",
+    "packages": [
+        {
+            "name": "matthiasmullie/minify",
+            "version": "1.3.61",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/matthiasmullie/minify.git",
+                "reference": "d5acb8ce5b6acb7d11bafe97cecc533f6e4fd751"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/matthiasmullie/minify/zipball/d5acb8ce5b6acb7d11bafe97cecc533f6e4fd751",
+                "reference": "d5acb8ce5b6acb7d11bafe97cecc533f6e4fd751",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pcre": "*",
+                "matthiasmullie/path-converter": "~1.1",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "~2.0",
+                "matthiasmullie/scrapbook": "~1.0",
+                "phpunit/phpunit": "~4.8"
+            },
+            "suggest": {
+                "psr/cache-implementation": "Cache implementation to use with Minify::cache"
+            },
+            "bin": [
+                "bin/minifycss",
+                "bin/minifyjs"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MatthiasMullie\\Minify\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matthias Mullie",
+                    "email": "minify@mullie.eu",
+                    "homepage": "http://www.mullie.eu",
+                    "role": "Developer"
+                }
+            ],
+            "description": "CSS & JavaScript minifier, in PHP. Removes whitespace, strips comments, combines files (incl. @import statements and small assets in CSS files), and optimizes/shortens a few common programming patterns.",
+            "homepage": "http://www.minifier.org",
+            "keywords": [
+                "JS",
+                "css",
+                "javascript",
+                "minifier",
+                "minify"
+            ],
+            "time": "2018-11-26T23:10:39+00:00"
+        },
+        {
+            "name": "matthiasmullie/path-converter",
+            "version": "1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/matthiasmullie/path-converter.git",
+                "reference": "5e4b121c8b9f97c80835c1d878b0812ba1d607c9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/matthiasmullie/path-converter/zipball/5e4b121c8b9f97c80835c1d878b0812ba1d607c9",
+                "reference": "5e4b121c8b9f97c80835c1d878b0812ba1d607c9",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pcre": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MatthiasMullie\\PathConverter\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matthias Mullie",
+                    "email": "pathconverter@mullie.eu",
+                    "homepage": "http://www.mullie.eu",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Relative path converter",
+            "homepage": "http://github.com/matthiasmullie/path-converter",
+            "keywords": [
+                "converter",
+                "path",
+                "paths",
+                "relative"
+            ],
+            "time": "2018-10-25T15:19:41+00:00"
+        },
+        {
+            "name": "o2system/cache",
+            "version": "v2.2.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/o2system/cache.git",
+                "reference": "3d7658a055fcdae04fb652ac2fc0ca768e16dc06"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/o2system/cache/zipball/3d7658a055fcdae04fb652ac2fc0ca768e16dc06",
+                "reference": "3d7658a055fcdae04fb652ac2fc0ca768e16dc06",
+                "shasum": ""
+            },
+            "require": {
+                "o2system/kernel": "*",
+                "php": ">=5.6.0"
+            },
+            "type": "package",
+            "autoload": {
+                "psr-4": {
+                    "O2System\\Cache\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steeven Andrian Salim",
+                    "email": "steevenz@steevenz.com",
+                    "homepage": "http://www.steevenz.com",
+                    "role": "Founder and Lead Project"
+                },
+                {
+                    "name": "Teguh Rianto",
+                    "email": "teguh.rianto22@gmail.com",
+                    "homepage": "http://teguhrianto22.pusku.com",
+                    "role": "Template Designer"
+                }
+            ],
+            "description": "PHP Cache Management Handler Library",
+            "keywords": [
+                "driver",
+                "framework",
+                "libraries",
+                "php",
+                "utilities"
+            ],
+            "time": "2018-06-08T16:14:58+00:00"
+        },
+        {
+            "name": "o2system/curl",
+            "version": "v2.1.18",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/o2system/curl.git",
+                "reference": "9a495c8ebe24594edff0a012e380d07a341539cd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/o2system/curl/zipball/9a495c8ebe24594edff0a012e380d07a341539cd",
+                "reference": "9a495c8ebe24594edff0a012e380d07a341539cd",
+                "shasum": ""
+            },
+            "require": {
+                "o2system/kernel": "*",
+                "php": ">=5.6.0"
+            },
+            "type": "package",
+            "autoload": {
+                "psr-4": {
+                    "O2System\\Curl\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steeven Andrian Salim",
+                    "email": "steevenz@steevenz.com",
+                    "homepage": "http://www.steevenz.com",
+                    "role": "Founder and Lead Project"
+                },
+                {
+                    "name": "Teguh Rianto",
+                    "email": "teguh.rianto22@gmail.com",
+                    "homepage": "http://teguhrianto22.pusku.com",
+                    "role": "Template Designer"
+                }
+            ],
+            "description": "PHP Lightweight HTTP Request Client Libraries",
+            "keywords": [
+                "driver",
+                "framework",
+                "libraries",
+                "php",
+                "utilities"
+            ],
+            "time": "2018-07-19T06:06:45+00:00"
+        },
+        {
+            "name": "o2system/database",
+            "version": "v2.1.56",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/o2system/database.git",
+                "reference": "49fce1f0b25913ecb1c4ead22493ad420faf7a14"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/o2system/database/zipball/49fce1f0b25913ecb1c4ead22493ad420faf7a14",
+                "reference": "49fce1f0b25913ecb1c4ead22493ad420faf7a14",
+                "shasum": ""
+            },
+            "require": {
+                "o2system/kernel": "*",
+                "php": ">=5.6.0"
+            },
+            "type": "package",
+            "autoload": {
+                "psr-4": {
+                    "O2System\\Database\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steeven Andrian Salim",
+                    "email": "steevenz@steevenz.com",
+                    "homepage": "http://www.steevenz.com",
+                    "role": "Founder and Lead Project"
+                },
+                {
+                    "name": "Teguh Rianto",
+                    "email": "teguh.rianto22@gmail.com",
+                    "homepage": "http://teguhrianto22.pusku.com",
+                    "role": "Template Designer"
+                }
+            ],
+            "description": "PHP Database Management Library",
+            "keywords": [
+                "driver",
+                "framework",
+                "libraries",
+                "php",
+                "utilities"
+            ],
+            "time": "2018-10-07T13:57:37+00:00"
+        },
+        {
+            "name": "o2system/email",
+            "version": "v1.0.15",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/o2system/email.git",
+                "reference": "2718d07355dad0d64022d4f3babd804533fb6aee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/o2system/email/zipball/2718d07355dad0d64022d4f3babd804533fb6aee",
+                "reference": "2718d07355dad0d64022d4f3babd804533fb6aee",
+                "shasum": ""
+            },
+            "require": {
+                "o2system/kernel": "*",
+                "php": ">=5.6.0",
+                "phpmailer/phpmailer": "*",
+                "tijsverkoyen/css-to-inline-styles": "^2.2"
+            },
+            "type": "package",
+            "autoload": {
+                "psr-4": {
+                    "O2System\\Email\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steeven Andrian Salim",
+                    "email": "steevenz@steevenz.com",
+                    "homepage": "http://www.steevenz.com",
+                    "role": "Founder and Lead Project"
+                },
+                {
+                    "name": "Teguh Rianto",
+                    "email": "teguh.rianto22@gmail.com",
+                    "homepage": "http://teguhrianto22.pusku.com",
+                    "role": "Template Designer"
+                }
+            ],
+            "description": "PHP Email Library",
+            "keywords": [
+                "driver",
+                "framework",
+                "libraries",
+                "php",
+                "utilities"
+            ],
+            "time": "2018-06-08T16:20:16+00:00"
+        },
+        {
+            "name": "o2system/filesystem",
+            "version": "v1.0.32",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/o2system/filesystem.git",
+                "reference": "3133a2246fb0ee3cb23851bb9a3ee1268bd5d4b7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/o2system/filesystem/zipball/3133a2246fb0ee3cb23851bb9a3ee1268bd5d4b7",
+                "reference": "3133a2246fb0ee3cb23851bb9a3ee1268bd5d4b7",
+                "shasum": ""
+            },
+            "require": {
+                "o2system/kernel": "*",
+                "php": ">=5.6.0"
+            },
+            "type": "package",
+            "autoload": {
+                "psr-4": {
+                    "O2System\\Filesystem\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steeven Andrian Salim",
+                    "email": "steevenz@steevenz.com",
+                    "homepage": "http://www.steevenz.com",
+                    "role": "Founder and Lead Project"
+                },
+                {
+                    "name": "Teguh Rianto",
+                    "email": "teguh.rianto22@gmail.com",
+                    "homepage": "http://teguhrianto22.pusku.com",
+                    "role": "Template Designer"
+                }
+            ],
+            "description": "PHP Filesystem Library",
+            "keywords": [
+                "driver",
+                "framework",
+                "libraries",
+                "php",
+                "utilities"
+            ],
+            "time": "2018-10-13T03:10:10+00:00"
+        },
+        {
+            "name": "o2system/framework",
+            "version": "v5.5.520",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/o2system/framework.git",
+                "reference": "9c347011430bc1c414e629dabc6764f7bb5d95b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/o2system/framework/zipball/9c347011430bc1c414e629dabc6764f7bb5d95b2",
+                "reference": "9c347011430bc1c414e629dabc6764f7bb5d95b2",
+                "shasum": ""
+            },
+            "require": {
+                "matthiasmullie/minify": "^1.3",
+                "o2system/cache": "*",
+                "o2system/curl": "*",
+                "o2system/database": "*",
+                "o2system/email": "*",
+                "o2system/filesystem": "*",
+                "o2system/html": "*",
+                "o2system/image": "*",
+                "o2system/kernel": "*",
+                "o2system/parser": "*",
+                "o2system/security": "*",
+                "php": ">=5.6.0"
+            },
+            "type": "package",
+            "autoload": {
+                "psr-4": {
+                    "O2System\\Framework\\": "src"
+                },
+                "files": [
+                    "src/Framework.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steeven Andrian Salim",
+                    "email": "steevenz@steevenz.com",
+                    "homepage": "http://www.steevenz.com",
+                    "role": "Founder and Lead Project"
+                },
+                {
+                    "name": "Teguh Rianto",
+                    "email": "teguh.rianto22@gmail.com",
+                    "homepage": "http://teguhrianto22.pusku.com",
+                    "role": "Template Designer"
+                }
+            ],
+            "description": "O2System Framework",
+            "keywords": [
+                "driver",
+                "framework",
+                "libraries",
+                "php",
+                "utilities"
+            ],
+            "time": "2018-10-13T03:10:41+00:00"
+        },
+        {
+            "name": "o2system/gear",
+            "version": "v2.1.29",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/o2system/gear.git",
+                "reference": "eec1cc9ed3dd1c96ed69224ea9d49797825903ea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/o2system/gear/zipball/eec1cc9ed3dd1c96ed69224ea9d49797825903ea",
+                "reference": "eec1cc9ed3dd1c96ed69224ea9d49797825903ea",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "type": "package",
+            "autoload": {
+                "psr-4": {
+                    "O2System\\Gear\\": "src"
+                },
+                "files": [
+                    "src/Helper.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steeven Andrian Salim",
+                    "email": "steevenz@steevenz.com",
+                    "homepage": "http://www.steevenz.com",
+                    "role": "Founder and Lead Project"
+                },
+                {
+                    "name": "Teguh Rianto",
+                    "email": "teguh.rianto22@gmail.com",
+                    "homepage": "http://teguhrianto22.pusku.com",
+                    "role": "Template Designer"
+                }
+            ],
+            "description": "PHP Developer Tools Library",
+            "keywords": [
+                "driver",
+                "framework",
+                "libraries",
+                "php",
+                "utilities"
+            ],
+            "time": "2018-10-03T13:32:48+00:00"
+        },
+        {
+            "name": "o2system/html",
+            "version": "v1.0.41",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/o2system/html.git",
+                "reference": "e33ef8a7091b3d918e4a5d1af5d2fced5f9418cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/o2system/html/zipball/e33ef8a7091b3d918e4a5d1af5d2fced5f9418cb",
+                "reference": "e33ef8a7091b3d918e4a5d1af5d2fced5f9418cb",
+                "shasum": ""
+            },
+            "require": {
+                "o2system/kernel": "*",
+                "php": ">=5.6.0"
+            },
+            "type": "package",
+            "autoload": {
+                "psr-4": {
+                    "O2System\\Html\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steeven Andrian Salim",
+                    "email": "steevenz@steevenz.com",
+                    "homepage": "http://www.steevenz.com",
+                    "role": "Founder and Lead Project"
+                },
+                {
+                    "name": "Teguh Rianto",
+                    "email": "teguh.rianto22@gmail.com",
+                    "homepage": "http://teguhrianto22.pusku.com",
+                    "role": "Template Designer"
+                }
+            ],
+            "description": "PHP Document and Element Library.",
+            "keywords": [
+                "framework",
+                "interfaces",
+                "libraries",
+                "php",
+                "utilities"
+            ],
+            "time": "2018-10-13T03:11:06+00:00"
+        },
+        {
+            "name": "o2system/image",
+            "version": "v1.0.24",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/o2system/image.git",
+                "reference": "00b1b6575cfefb8bc2758c69689e2e9d1253e1c3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/o2system/image/zipball/00b1b6575cfefb8bc2758c69689e2e9d1253e1c3",
+                "reference": "00b1b6575cfefb8bc2758c69689e2e9d1253e1c3",
+                "shasum": ""
+            },
+            "require": {
+                "o2system/filesystem": "*",
+                "php": ">=5.6.0",
+                "ps/image-optimizer": "^1.1"
+            },
+            "type": "package",
+            "autoload": {
+                "psr-4": {
+                    "O2System\\Image\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steeven Andrian Salim",
+                    "email": "steevenz@steevenz.com",
+                    "homepage": "http://www.steevenz.com",
+                    "role": "Founder and Lead Project"
+                },
+                {
+                    "name": "Teguh Rianto",
+                    "email": "teguh.rianto22@gmail.com",
+                    "homepage": "http://teguhrianto22.pusku.com",
+                    "role": "Template Designer"
+                }
+            ],
+            "description": "O2System Image is a PHP image handling and manipulation library for O2System Framework providing an easier and expressive way to manipulate an image. Allows different PHP Image Processor and Generator to be used.",
+            "keywords": [
+                "framework",
+                "interfaces",
+                "libraries",
+                "php",
+                "utilities"
+            ],
+            "time": "2018-06-08T16:40:29+00:00"
+        },
+        {
+            "name": "o2system/kernel",
+            "version": "v1.9.114",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/o2system/kernel.git",
+                "reference": "7405b256000f6201c3019de6b644dc47a4d100cc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/o2system/kernel/zipball/7405b256000f6201c3019de6b644dc47a4d100cc",
+                "reference": "7405b256000f6201c3019de6b644dc47a4d100cc",
+                "shasum": ""
+            },
+            "require": {
+                "o2system/gear": "*",
+                "o2system/psr": "*",
+                "o2system/spl": "*",
+                "php": ">=5.6.0"
+            },
+            "type": "package",
+            "autoload": {
+                "psr-4": {
+                    "O2System\\Kernel\\": "src"
+                },
+                "files": [
+                    "src/Config/Constants.php",
+                    "src/Helpers/Common.php",
+                    "src/Helpers/Inflector.php",
+                    "src/Helpers/Cookie.php",
+                    "src/Kernel.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steeven Andrian Salim",
+                    "email": "steevenz@steevenz.com",
+                    "homepage": "http://www.steevenz.com",
+                    "role": "Founder and Lead Project"
+                },
+                {
+                    "name": "Teguh Rianto",
+                    "email": "teguh.rianto22@gmail.com",
+                    "homepage": "http://teguhrianto22.pusku.com",
+                    "role": "Template Designer"
+                }
+            ],
+            "description": "O2System Framework Kernel",
+            "keywords": [
+                "driver",
+                "framework",
+                "libraries",
+                "php",
+                "singleton"
+            ],
+            "time": "2018-10-13T03:11:24+00:00"
+        },
+        {
+            "name": "o2system/parser",
+            "version": "v1.0.34",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/o2system/parser.git",
+                "reference": "8a1302c4c40a7d5d29298700771151b523c21a5e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/o2system/parser/zipball/8a1302c4c40a7d5d29298700771151b523c21a5e",
+                "reference": "8a1302c4c40a7d5d29298700771151b523c21a5e",
+                "shasum": ""
+            },
+            "require": {
+                "o2system/kernel": "*",
+                "php": ">=5.6.0"
+            },
+            "type": "package",
+            "autoload": {
+                "psr-4": {
+                    "O2System\\Parser\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Steeven Andrian Salim",
+                    "email": "steevenz@steevenz.com",
+                    "homepage": "http://www.steevenz.com",
+                    "role": "Founder and Lead Project"
+                },
+                {
+                    "name": "Teguh Rianto",
+                    "email": "teguh.rianto22@gmail.com",
+                    "homepage": "http://teguhrianto22.pusku.com",
+                    "role": "Template Designer"
+                }
+            ],
+            "description": "PHP Parser library.",
+            "keywords": [
+                "framework",
+                "libraries",
+                "php",
+                "utilities"
+            ],
+            "time": "2018-10-13T06:38:10+00:00"
+        },
+        {
+            "name": "o2system/psr",
+            "version": "v1.2.78",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/o2system/psr.git",
+                "reference": "ab0c9ba7ab7140fc4d8e6046978b9b3b17330019"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/o2system/psr/zipball/ab0c9ba7ab7140fc4d8e6046978b9b3b17330019",
+                "reference": "ab0c9ba7ab7140fc4d8e6046978b9b3b17330019",
+                "shasum": ""
+            },
+            "require": {
+                "o2system/spl": "*",
+                "php": ">=5.6.0"
+            },
+            "type": "package",
+            "autoload": {
+                "psr-4": {
+                    "O2System\\Psr\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steeven Andrian Salim",
+                    "email": "steevenz@steevenz.com",
+                    "homepage": "http://www.steevenz.com",
+                    "role": "Founder and Lead Project"
+                },
+                {
+                    "name": "Teguh Rianto",
+                    "email": "teguh.rianto22@gmail.com",
+                    "homepage": "http://teguhrianto22.pusku.com",
+                    "role": "Template Designer"
+                }
+            ],
+            "description": "O2System PSR it's build based on PHP Framework Interop Group (PHP-FIG) standards recommendations. This repository contains a collection of PHP interfaces based on the PSR-0 until the PSR-7.",
+            "keywords": [
+                "framework",
+                "interfaces",
+                "libraries",
+                "php",
+                "utilities"
+            ],
+            "time": "2018-07-20T08:32:50+00:00"
+        },
+        {
+            "name": "o2system/security",
+            "version": "v1.5.58",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/o2system/security.git",
+                "reference": "fb0c3465798b3d47a0538c01d1d0fe9e13ae1ff4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/o2system/security/zipball/fb0c3465798b3d47a0538c01d1d0fe9e13ae1ff4",
+                "reference": "fb0c3465798b3d47a0538c01d1d0fe9e13ae1ff4",
+                "shasum": ""
+            },
+            "require": {
+                "o2system/session": "*",
+                "php": ">=5.6.0"
+            },
+            "type": "package",
+            "autoload": {
+                "psr-4": {
+                    "O2System\\Security\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Steeven Andrian Salim",
+                    "email": "steevenz@steevenz.com",
+                    "homepage": "http://www.steevenz.com",
+                    "role": "Founder and Lead Project"
+                },
+                {
+                    "name": "Teguh Rianto",
+                    "email": "teguh.rianto22@gmail.com",
+                    "homepage": "http://teguhrianto22.pusku.com",
+                    "role": "Template Designer"
+                }
+            ],
+            "description": "O2System Security",
+            "keywords": [
+                "framework",
+                "interfaces",
+                "libraries",
+                "php",
+                "utilities"
+            ],
+            "time": "2018-10-13T03:11:52+00:00"
+        },
+        {
+            "name": "o2system/session",
+            "version": "v2.0.24",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/o2system/session.git",
+                "reference": "04150c2a39d3254b4f8bc67587da099104119ab7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/o2system/session/zipball/04150c2a39d3254b4f8bc67587da099104119ab7",
+                "reference": "04150c2a39d3254b4f8bc67587da099104119ab7",
+                "shasum": ""
+            },
+            "require": {
+                "o2system/kernel": "*",
+                "php": ">=5.6.0"
+            },
+            "type": "package",
+            "autoload": {
+                "psr-4": {
+                    "O2System\\Session\\": "src"
+                },
+                "files": [
+                    "src/Session.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Steeven Andrian Salim",
+                    "email": "steevenz@steevenz.com",
+                    "homepage": "http://www.steevenz.com",
+                    "role": "Founder and Lead Project"
+                },
+                {
+                    "name": "Teguh Rianto",
+                    "email": "teguh.rianto22@gmail.com",
+                    "homepage": "http://teguhrianto22.pusku.com",
+                    "role": "Template Designer"
+                }
+            ],
+            "description": "Open Source PHP Session Management Library",
+            "keywords": [
+                "framework",
+                "interfaces",
+                "libraries",
+                "php",
+                "session"
+            ],
+            "time": "2018-10-13T03:12:02+00:00"
+        },
+        {
+            "name": "o2system/spl",
+            "version": "v1.0.62",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/o2system/spl.git",
+                "reference": "3b8967a70226a367f0314504c0675c8c051861e6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/o2system/spl/zipball/3b8967a70226a367f0314504c0675c8c051861e6",
+                "reference": "3b8967a70226a367f0314504c0675c8c051861e6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "type": "package",
+            "autoload": {
+                "psr-4": {
+                    "O2System\\Spl\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steeven Andrian Salim",
+                    "email": "steevenz@steevenz.com",
+                    "homepage": "http://www.steevenz.com",
+                    "role": "Founder and Lead Project"
+                },
+                {
+                    "name": "Teguh Rianto",
+                    "email": "teguh.rianto22@gmail.com",
+                    "homepage": "http://teguhrianto22.pusku.com",
+                    "role": "Template Designer"
+                }
+            ],
+            "description": "O2System Standard PHP Library (SPL) it's build based on original standard PHP library. It's made up primarily of commonly needed datastructure classes, iterators, handlers and exceptions for O2System PHP Framework, but also can be used independently outside O2System PHP Framework environment.",
+            "keywords": [
+                "framework",
+                "interfaces",
+                "libraries",
+                "php",
+                "utilities"
+            ],
+            "time": "2018-10-07T14:05:40+00:00"
+        },
+        {
+            "name": "phpmailer/phpmailer",
+            "version": "v6.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPMailer/PHPMailer.git",
+                "reference": "8190d73eb5def11a43cfb020b7f36db65330698c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/8190d73eb5def11a43cfb020b7f36db65330698c",
+                "reference": "8190d73eb5def11a43cfb020b7f36db65330698c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-filter": "*",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "doctrine/annotations": "1.2.*",
+                "friendsofphp/php-cs-fixer": "^2.2",
+                "phpdocumentor/phpdocumentor": "2.*",
+                "phpunit/phpunit": "^4.8 || ^5.7",
+                "zendframework/zend-eventmanager": "3.0.*",
+                "zendframework/zend-i18n": "2.7.3",
+                "zendframework/zend-serializer": "2.7.*"
+            },
+            "suggest": {
+                "ext-mbstring": "Needed to send email in multibyte encoding charset",
+                "hayageek/oauth2-yahoo": "Needed for Yahoo XOAUTH2 authentication",
+                "league/oauth2-google": "Needed for Google XOAUTH2 authentication",
+                "psr/log": "For optional PSR-3 debug logging",
+                "stevenmaguire/oauth2-microsoft": "Needed for Microsoft XOAUTH2 authentication",
+                "symfony/polyfill-mbstring": "To support UTF-8 if the Mbstring PHP extension is not enabled (^1.2)"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PHPMailer\\PHPMailer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1"
+            ],
+            "authors": [
+                {
+                    "name": "Jim Jagielski",
+                    "email": "jimjag@gmail.com"
+                },
+                {
+                    "name": "Marcus Bointon",
+                    "email": "phpmailer@synchromedia.co.uk"
+                },
+                {
+                    "name": "Andy Prevost",
+                    "email": "codeworxtech@users.sourceforge.net"
+                },
+                {
+                    "name": "Brent R. Matzelle"
+                }
+            ],
+            "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
+            "time": "2018-11-16T00:41:32+00:00"
+        },
+        {
+            "name": "ps/image-optimizer",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/psliwa/image-optimizer.git",
+                "reference": "72620751d99b7ab0f5e32685a7689cc99e46a82a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/psliwa/image-optimizer/zipball/72620751d99b7ab0f5e32685a7689cc99e46a82a",
+                "reference": "72620751d99b7ab0f5e32685a7689cc99e46a82a",
+                "shasum": ""
+            },
+            "require": {
+                "psr/log": "1.0.*",
+                "symfony/options-resolver": "~2.1 | ~3.0 | ~4.0",
+                "symfony/process": "~2.0 | ~3.0 | ~4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ImageOptimizer": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Piotr Sliwa",
+                    "email": "peter.pl7@gmail.com"
+                }
+            ],
+            "description": "Image optimization / compression library. This library is able to optimize png, jpg and gif files in very easy and handy way. It uses optipng, pngquant, pngcrush, pngout, gifsicle, jpegoptim and jpegtran tools.",
+            "keywords": [
+                "compression",
+                "image",
+                "image optimizer",
+                "jpegoptim",
+                "optimization",
+                "optipng"
+            ],
+            "time": "2018-04-11T21:27:34+00:00"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2016-10-10T12:19:37+00:00"
+        },
+        {
+            "name": "symfony/css-selector",
+            "version": "v4.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/css-selector.git",
+                "reference": "aa9fa526ba1b2ec087ffdfb32753803d999fcfcd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/aa9fa526ba1b2ec087ffdfb32753803d999fcfcd",
+                "reference": "aa9fa526ba1b2ec087ffdfb32753803d999fcfcd",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\CssSelector\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jean-François Simon",
+                    "email": "jeanfrancois.simon@sensiolabs.com"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony CssSelector Component",
+            "homepage": "https://symfony.com",
+            "time": "2018-11-11T19:52:12+00:00"
+        },
+        {
+            "name": "symfony/options-resolver",
+            "version": "v4.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/options-resolver.git",
+                "reference": "a9c38e8a3da2c03b3e71fdffa6efb0bda51390ba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/a9c38e8a3da2c03b3e71fdffa6efb0bda51390ba",
+                "reference": "a9c38e8a3da2c03b3e71fdffa6efb0bda51390ba",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\OptionsResolver\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony OptionsResolver Component",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "config",
+                "configuration",
+                "options"
+            ],
+            "time": "2018-11-11T19:52:12+00:00"
+        },
+        {
+            "name": "symfony/process",
+            "version": "v4.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/process.git",
+                "reference": "2b341009ccec76837a7f46f59641b431e4d4c2b0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/process/zipball/2b341009ccec76837a7f46f59641b431e4d4c2b0",
+                "reference": "2b341009ccec76837a7f46f59641b431e4d4c2b0",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Process\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Process Component",
+            "homepage": "https://symfony.com",
+            "time": "2018-11-20T16:22:05+00:00"
+        },
+        {
+            "name": "tijsverkoyen/css-to-inline-styles",
+            "version": "2.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tijsverkoyen/CssToInlineStyles.git",
+                "reference": "0ed4a2ea4e0902dac0489e6436ebcd5bbcae9757"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tijsverkoyen/CssToInlineStyles/zipball/0ed4a2ea4e0902dac0489e6436ebcd5bbcae9757",
+                "reference": "0ed4a2ea4e0902dac0489e6436ebcd5bbcae9757",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.5 || ^7.0",
+                "symfony/css-selector": "^2.7 || ^3.0 || ^4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TijsVerkoyen\\CssToInlineStyles\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Tijs Verkoyen",
+                    "email": "css_to_inline_styles@verkoyen.eu",
+                    "role": "Developer"
+                }
+            ],
+            "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
+            "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
+            "time": "2017-11-27T11:13:29+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.6.4"
+    },
+    "platform-dev": []
+}
