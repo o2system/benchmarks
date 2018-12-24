@@ -3,7 +3,7 @@
 list="
 phalcon-2.0
 ice-1.0
-#tipsy-0.10
+tipsy-0.10
 fatfree-3.5
 slim-2.6
 ci-4.0-dev
@@ -15,15 +15,14 @@ ze-1.0
 radar-1.0-dev
 yii-2.0
 silex-2.0
-cygnite-1.3
+#cygnite-1.3
 fuel-2.0-dev
 phpixie-3.2
 aura-2.0
 cake-3.2
-#bear-0.10
 symfony-4.0
 laravel-5.7
-o2sytem-basic
+o2system-basic
 o2system-hydro
 zf-3.0
 typo3f-3.0
