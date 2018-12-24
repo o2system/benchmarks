@@ -5,9 +5,13 @@ require __DIR__ . '/../libs/build_table.php';
 require __DIR__ . '/../libs/recalc_relative.php';
 
 $list = [
-    'cake-3.0',
-    'symfony-2.6',
-    'zf-2.4',
+    'cake-3.2',
+    'symfony-4.0',
+    'zf-3.0',
+    'lumen-5.7',
+    'laravel-5.7',
+    'o2system-basic',
+    'o2system-hydro',
 ];
 
 system('git checkout master');
