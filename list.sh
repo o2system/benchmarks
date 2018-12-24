@@ -48,7 +48,7 @@ symfony-4.0
 #tipsy-0.10
 #typo3f-2.3 # does not work
 #typo3f-3.0 # Catchable Fatal Error: Argument 1 passed to TYPO3\Flow\Object\ObjectManager::setObjects() must be of the type array, null given
-#yii-2.0
+yii-2.0
 #ze-1.0
 #zf-2.4
 #zf-1.12
