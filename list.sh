@@ -1,6 +1,7 @@
 #!/bin/sh
 
 list="
+<<<<<<< HEAD
 aura-2.0
 #bear-0.10
 bear-1.0
@@ -21,6 +22,24 @@ ci-3.1
 #laravel-5.1
 #laravel-5.2
 #laravel-5.3
+=======
+fatfree-3.5
+slim-2.6
+ci-4.0-dev
+slim-3.0
+bear-1.0
+lumen-5.7
+ze-1.0
+#radar-1.0-dev
+yii-2.0
+silex-2.0
+#cygnite-1.3
+#fuel-2.0-dev
+#phpixie-3.2
+#aura-2.0
+#cake-3.2
+symfony-4.0
+>>>>>>> 9716b15... add comparison time limit
 laravel-5.7
 #lumen-5.0
 #lumen-5.1
