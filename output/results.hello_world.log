@@ -1,14 +1,14 @@
-aura-2.0: 183.66:   769160: 0.0044388: 66
-bear-1.0: 310.13:   684448: 0.0022761: 88
-cake-3.2: 201.94: Hello World!: 0: Hello World!
-ci-3.1: 500.52:   436952: 0.0011888: 26
-laravel-5.7: 62.54: Hello World!: 0: Hello World!
-lumen-5.7: 235.44: </html>: 0: </html>
-o2system-basic: 67.67: Hello World!: 0: Hello World!
-o2system-hydro: 84.13: Hello World!: 0: Hello World!
-no-framework: 1145.19: Hello World!: 0: Hello World!
-silex-2.0: 295.27: Hello World!: 0: Hello World!
-slim-3.0: 386.90: Hello World!: 0: Hello World!
-symfony-4.0: 284.68: Hello world: 0: Hello world
-yii-2.0: 661.66: : 0: 
-zf-3.0: 147.13:  1201600: 0.0058831: 189
+aura-2.0: 183.48:   769160: 0.0049452: 66
+bear-1.0: 358.93:   684448: 0.0019951: 88
+cake-3.2: 199.98: Hello World!: 0: Hello World!
+ci-3.1: 514.90:   436952: 0.0011655: 26
+laravel-5.7: 65.85: Hello World!: 0: Hello World!
+lumen-5.7: 209.53: : 0: 
+o2system-basic: 79.66: </html>: 0: </html>
+o2system-hydro: 68.60: Hello World!: 0: Hello World!
+no-framework: 1008.75: Hello World!: 0: Hello World!
+silex-2.0: 271.62: Hello World!: 0: Hello World!
+slim-3.0: 383.84: Hello World!: 0: Hello World!
+symfony-4.0: 257.16: Hello world: 0: Hello world
+yii-2.0: 665.61: : 0: 
+zf-3.0: 150.88:  1201600: 0.0055025: 189

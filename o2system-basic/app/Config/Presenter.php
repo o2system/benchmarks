@@ -26,14 +26,14 @@ $presenter->enabled = false;
  *
  * @var bool
  */
-$presenter->debugToolBar = true;
+$presenter->debugToolBar = false;
 
 /**
  * Presenter Theme
  *
  * @var string
  */
-$presenter->theme = 'default';
+$presenter->theme = false;
 
 /**
  * Presenter SocialGraph
