@@ -1,7 +1,10 @@
-laravel-5.7: 122.32: Hello World!: 0: Hello World!
-lumen-5.1: 452.67: Hello World!: 0: Hello World!
-o2system-basic: 130.07: Hello World!: 0: Hello World!
-o2system-hydro: 325.35: </html>: 0: </html>
-no-framework: 1858.35: Hello World!: 0: Hello World!
-symfony-4.0: 785.92: : 0: 
-zf-3.0: 225.44:  1213536: 0: 194
+ci-4.0-dev: 1388.63: : 0: 
+laravel-5.7: 134.13: </html>: 0: </html>
+lumen-5.7: 638.29: </html>: 0: </html>
+o2system-basic: 146.78: Hello World!: 0: Hello World!
+o2system-hydro: 164.11: Hello World!: 0: Hello World!
+no-framework: 2081.82: Hello World!: 0: Hello World!
+silex-2.0: 502.19: Hello World!: 0: Hello World!
+slim-3.0: 670.61: Hello World!: 0: Hello World!
+symfony-4.0: 478.64: Hello world: 0: Hello world
+zf-3.0: 240.68:  1201528: 0: 189

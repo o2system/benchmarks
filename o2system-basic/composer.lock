@@ -982,20 +982,20 @@
         },
         {
             "name": "ps/image-optimizer",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/psliwa/image-optimizer.git",
-                "reference": "72620751d99b7ab0f5e32685a7689cc99e46a82a"
+                "reference": "fbe41e4fd67d8e9675c5437441080e44f5d5e5f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/psliwa/image-optimizer/zipball/72620751d99b7ab0f5e32685a7689cc99e46a82a",
-                "reference": "72620751d99b7ab0f5e32685a7689cc99e46a82a",
+                "url": "https://api.github.com/repos/psliwa/image-optimizer/zipball/fbe41e4fd67d8e9675c5437441080e44f5d5e5f6",
+                "reference": "fbe41e4fd67d8e9675c5437441080e44f5d5e5f6",
                 "shasum": ""
             },
             "require": {
-                "psr/log": "1.0.*",
+                "psr/log": "^1.0",
                 "symfony/options-resolver": "~2.1 | ~3.0 | ~4.0",
                 "symfony/process": "~2.0 | ~3.0 | ~4.0"
             },
@@ -1027,20 +1027,20 @@
                 "optimization",
                 "optipng"
             ],
-            "time": "2018-04-11T21:27:34+00:00"
+            "time": "2018-12-17T20:01:36+00:00"
         },
         {
             "name": "psr/log",
-            "version": "1.0.2",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
+                "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
-                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
+                "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
                 "shasum": ""
             },
             "require": {
@@ -1074,7 +1074,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-10-10T12:19:37+00:00"
+            "time": "2018-11-20T15:27:04+00:00"
         },
         {
             "name": "symfony/css-selector",

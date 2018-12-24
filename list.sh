@@ -9,7 +9,7 @@ list="
 #cake-3.2
 #ci-3.0
 #ci-3.1
-#ci-4.0-dev
+ci-4.0-dev
 #cygnite-1.3
 #fatfree-3.5
 #fuel-1.8
@@ -23,7 +23,8 @@ list="
 #laravel-5.3
 laravel-5.7
 #lumen-5.0
-lumen-5.1
+#lumen-5.1
+lumen-5.7
 o2system-basic
 o2system-hydro
 no-framework
@@ -35,9 +36,9 @@ no-framework
 #siler-0.6
 #silex-1.2
 #silex-1.3
-#silex-2.0
+silex-2.0
 #slim-2.6
-#slim-3.0
+slim-3.0
 #staticphp-0.9
 #symfony-2.5
 #symfony-2.6
