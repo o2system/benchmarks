@@ -1,16 +1,23 @@
-phalcon-2.0: 1427.29:   524288: 0.001249
-ice-1.0: 1080.03:   524288: 0.001117
-slim-2.6: 775.52:   524288: 0.001306
-codeigniter-3.0: 704.02:   524288: 0.001979
-lumen-5.0: 371.62:  1048576: 0.004153
-yii-2.0: 353.19:  1835008: 0.002520
-silex-1.2: 348.75:  1048576: 0.002944
-cygnite-1.3: 340.16:   786432: 0.002997
-bear-1.0: 328.33:  1048576: 0.002877
-fuel-1.8-dev: 299.56:   786432: 0.004232
-cake-3.0: 345.06:  1048576: 0.002707
-aura-2.0: 208.22:  1048576: 0.004123
-symfony-2.6: 181.19:  2097152: 0.005751
-laravel-5.0: 71.75:  2883584: 0.027018
-zf-2.4: 75.24:  3145728: 0.028073
-typo3-flow-2.3: 40.96:  5505024: 0.063222
+phalcon-2.0: 1041.26: : : 
+ice-1.0: 1044.21: : : 
+tipsy-0.10: 954.70: </table></font>: </table></font>: </table></font>
+fatfree-3.5: 1001.97: : : 
+slim-2.6: 973.25: : : 
+ci-3.0: 555.56:   436472: 0.001063: 26
+nofuss-1.2: 918.29: : : 
+slim-3.0: 439.46: Hello World!: Hello World!: Hello World!
+bear-1.0: 403.66:   684448: 0.002108: 88
+lumen-5.1: 373.98: Hello World!: Hello World!: Hello World!
+ze-1.0: 971.34: : : 
+radar-1.0-dev: 982.27: : : 
+yii-2.0: 718.25: : : 
+silex-1.3: 898.23: : : 
+cygnite-1.3: 1070.22: Cygnite requires Mcrypt PHP extension.: Cygnite requires Mcrypt PHP extension.: Cygnite requires Mcrypt PHP extension.
+fuel-1.8-dev: 1030.33: No composer autoloader found. Please run composer to install the FuelPHP framework dependencies first!: No composer autoloader found. Please run composer to install the FuelPHP framework dependencies first!: No composer autoloader found. Please run composer to install the FuelPHP framework dependencies first!
+phpixie-3.2: 895.46: : : 
+aura-2.0: 173.43:   769160: 0.003510: 66
+cake-3.1: 915.99: : : 
+symfony-2.7: 945.33: : : 
+laravel-5.1: 918.21: : : 
+zf-2.5: 978.06: : : 
+typo3f-3.0: 974.13: : : 
