@@ -1,0 +1,69 @@
+Tue, 11 Dec 2018 08:11:50 +0000
+get page://self?hello=
+
+[BEAR\Resource\Exception\UriException]
+page://self
+in file /var/www/work/php-framework-benchmark/bear-1.0/vendor/bear/resource/src/Uri.php on line 44
+
+#0 /var/www/work/php-framework-benchmark/bear-1.0/vendor/bear/resource/src/Uri.php(21): BEAR\Resource\Uri->validate('page://self')
+#1 /var/www/work/php-framework-benchmark/bear-1.0/vendor/bear/resource/src/Resource.php(123): BEAR\Resource\Uri->__construct('page://self')
+#2 /var/www/work/php-framework-benchmark/bear-1.0/bootstrap/bootstrap.php(27): BEAR\Resource\Resource->uri('page://self')
+#3 /var/www/work/php-framework-benchmark/bear-1.0/var/www/index.php(13): require('/var/www/work/p...')
+#4 {main}
+
+PHP Variables
+
+$_SERVER => Array
+(
+    [PHP_EXTRA_CONFIGURE_ARGS] => --enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data
+    [HOSTNAME] => 8bd6bb32c173
+    [PHP_INI_DIR] => /usr/local/etc/php
+    [HOME] => /var/www
+    [LARADOCK_PHALCON_VERSION] => 3.4.1
+    [PHP_IDE_CONFIG] => serverName=laradock
+    [PHP_LDFLAGS] => -Wl,-O1 -Wl,--hash-style=both -pie
+    [PHP_CFLAGS] => -fstack-protector-strong -fpic -fpie -O2
+    [PHP_MD5] => 
+    [PHP_VERSION] => 7.2.4
+    [GPG_KEYS] => 1729F83938DA44E27BA0F4D3DBDB397470D12172 B1B44D8F021E4E2D6021E995DC9FF8D3EE5AF27F
+    [PHP_CPPFLAGS] => -fstack-protector-strong -fpic -fpie -O2
+    [PHP_ASC_URL] => https://secure.php.net/get/php-7.2.4.tar.xz.asc/from/this/mirror
+    [PHP_URL] => https://secure.php.net/get/php-7.2.4.tar.xz/from/this/mirror
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    [FAKETIME] => -0
+    [DEBIAN_FRONTEND] => noninteractive
+    [DOCKER_HOST] => tcp://docker-in-docker:2375
+    [PHPIZE_DEPS] => autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c
+    [PWD] => /var/www
+    [PHP_SHA256] => 7916b1bd148ddfd46d7f8f9a517d4b09cd8a8ad9248734e7c8dd91ef17057a88
+    [DB_1_ENV_MYSQL_PASSWORD] => 
+    [DB_1_ENV_MYSQL_USER] => 
+    [DB_1_ENV_MYSQL_DATABASE] => 
+    [USER] => www-data
+    [HTTP_ACCEPT] => */*
+    [HTTP_USER_AGENT] => curl/7.61.1
+    [HTTP_HOST] => 127.0.0.1
+    [REDIRECT_STATUS] => 200
+    [SERVER_NAME] => localhost
+    [SERVER_PORT] => 80
+    [SERVER_ADDR] => 172.19.0.2
+    [REMOTE_PORT] => 55202
+    [REMOTE_ADDR] => 172.19.0.1
+    [SERVER_SOFTWARE] => nginx/1.15.6
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [REQUEST_SCHEME] => http
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [DOCUMENT_ROOT] => /var/www/work
+    [DOCUMENT_URI] => /php-framework-benchmark/bear-1.0/var/www/index.php
+    [REQUEST_URI] => ?hello
+    [SCRIPT_NAME] => /php-framework-benchmark/bear-1.0/var/www/index.php
+    [CONTENT_LENGTH] => 
+    [CONTENT_TYPE] => 
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => hello
+    [SCRIPT_FILENAME] => /var/www/work/php-framework-benchmark/bear-1.0/var/www/index.php
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /php-framework-benchmark/bear-1.0/var/www/index.php
+    [REQUEST_TIME_FLOAT] => 1544515910.1856
+    [REQUEST_TIME] => 1544515910
+)
