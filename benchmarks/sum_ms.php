@@ -1,6 +1,6 @@
 <?php
 
-$ms = isset($argv[1]) ? $argv[1] : 0;
-$total = isset($argv[2]) ? $argv[2] : 0;
+$ms = $argv[1];
+$total = $argv[2];
 
-echo ($total > 0 && $ms > 0 ? (int) $ms + (int) $total : 'nan');
+echo $ms + $total;
