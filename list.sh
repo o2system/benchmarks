@@ -1,15 +1,15 @@
 #!/bin/sh
 
 list="
-#aura-2.0
+aura-2.0
 #bear-0.10
-#bear-1.0
+bear-1.0
 #cake-3.0
 #cake-3.1
-#cake-3.2
+cake-3.2
 #ci-3.0
-#ci-3.1
-ci-4.0-dev
+ci-3.1
+#ci-4.0-dev
 #cygnite-1.3
 #fatfree-3.5
 #fuel-1.8
