@@ -12,7 +12,7 @@ ci-3.0
 nofuss-1.2
 slim-3.0
 bear-1.0
-lumen-5.1
+lumen-5.7
 ze-1.0
 radar-1.0-dev
 yii-2.0
@@ -30,9 +30,9 @@ cake-3.1
 #symfony-2.5
 #symfony-2.6
 symfony-2.7
-#laravel-4.2
+laravel-4.2
 #laravel-5.0
-laravel-5.1
+laravel-5.7
 #zf-2.4
 zf-2.5
 #typo3f-2.3
