@@ -70,7 +70,7 @@ If you want to benchmark PHP extension frameworks like Phalcon, you need to inst
 Install source code as <http://localhost/php-framework-benchmark/>:
 
 ```sh
-$ git clone https://github.com/kenjis/php-framework-benchmark.git
+$ git clone https://github.com/o2system/benchmarks.git
 $ cd php-framework-benchmark
 $ bash setup.sh
 ```
