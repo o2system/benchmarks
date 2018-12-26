@@ -24,7 +24,7 @@ This is `master` branch.
 
 Some people may think using default configuration is not fair. But I think a framework's default configuration is an assertion of what it is. Default configuration is a good starting point to know a framework. And I can't optimize all the frameworks. Some frameworks are optimized, some are not, it is not fair. So I don't remove any components/configurations.
 
-But if you are interested in benchmarking with optimization (removing components/configurations which are not used), See [optimize](https://github.com/kenjis/php-framework-benchmark/tree/optimize) branch.
+But if you are interested in benchmarking with optimization (removing components/configurations which are not used), See [optimize](https://github.com/o2system/benchmarks/tree/optimize) branch.
 
 If you find something wrong with my code, please feel free to send Pull Requests. But please note optimizing only for "Hello World" is not acceptable. Building fastest "Hello World" application is not the goal in this project.
 
@@ -32,10 +32,10 @@ If you find something wrong with my code, please feel free to send Pull Requests
 
 ### Benchmarking Environment
 
-* CentOS 6.8 64bit (VM; VirtualBox)
-  * PHP 5.6.30 (Remi RPM)
-    * Zend OPcache v7.0.6-dev
-  * Apache 2.2
+* Fedora 28 64bit (Droptlet; Digital Ocean)
+  * PHP 7.2 
+    * Zend OPcache v7.2.13
+  *  Apache/2.4.34 (Fedora)
 
 ### Hello World Benchmark
 
@@ -47,32 +47,21 @@ These are my benchmarks, not yours. **I encourage you to run on your (production
 
 |framework          |requests per second|relative|peak memory|relative|
 |-------------------|------------------:|-------:|----------:|-------:|
-|siler-0.6          |           2,069.69|    20.3|       0.25|     1.0|
-|kumbia-1.0-dev     |           1,753.60|    17.2|       0.29|     1.2|
-|staticphp-0.9      |           1,665.28|    16.3|       0.27|     1.1|
-|phalcon-2.0        |           1,618.39|    15.9|       0.26|     1.1|
-|tipsy-0.10         |           1,376.97|    13.5|       0.32|     1.3|
-|fatfree-3.5        |             965.16|     9.5|       0.41|     1.7|
-|ci-3.0             |             753.09|     7.4|       0.42|     1.7|
-|nofuss-1.2         |             667.24|     6.5|       0.40|     1.6|
-|slim-3.0           |             550.43|     5.4|       0.61|     2.5|
-|bear-1.0           |             502.52|     4.9|       0.73|     3.0|
-|lumen-5.1          |             415.57|     4.1|       0.85|     3.5|
-|yii-2.0            |             410.08|     4.0|       1.32|     5.4|
-|ze-1.0             |             403.34|     4.0|       0.75|     3.1|
-|cygnite-1.3        |             369.12|     3.6|       0.71|     2.9|
-|fuel-1.8           |             344.26|     3.4|       0.63|     2.6|
-|silex-2.0          |             342.81|     3.4|       0.78|     3.2|
-|phpixie-3.2        |             267.24|     2.6|       1.25|     5.1|
-|aura-2.0           |             233.54|     2.3|       0.88|     3.6|
-|cake-3.2           |             174.91|     1.7|       1.95|     7.9|
-|zf-3.0             |             133.87|     1.3|       2.24|     9.1|
-|symfony-3.0        |             131.50|     1.3|       2.18|     8.9|
-|laravel-5.3        |             101.94|     1.0|       2.83|    11.5|
+|fatfree-3.5        |             811.68|    10.9|       0.46|     inf|
+|slim-2.6           |             603.73|     8.1|       0.52|     inf|
+|ci-4.0-dev         |           1,030.29|    13.8|       0.00|     nan|
+|slim-3.0           |             519.23|     7.0|       0.00|     nan|
+|bear-1.0           |             425.33|     5.7|       0.65|     inf|
+|lumen-5.7          |             228.51|     3.1|       0.00|     nan|
+|ze-1.0             |             462.78|     6.2|       0.00|     nan|
+|yii-2.0            |             847.80|    11.4|       0.00|     nan|
+|silex-2.0          |             397.36|     5.3|       0.00|     nan|
+|symfony-4.0        |             364.31|     4.9|       0.00|     nan|
+|laravel-5.7        |              74.44|     1.0|       0.00|     nan|
+|o2system-basic     |              98.34|     1.3|       0.00|     nan|
+|o2system-hydro     |             102.01|     1.4|       0.00|     nan|
+|zf-3.0             |             186.88|     2.5|       1.15|     inf|
 
-Note(1): All the results are run on php with `phalcon.so` and `ice.so`. If you don't load phalcon.so or ice.so, the rps except for Phalcon or Ice probably increase a bit.
-
-Note(2): This benchmarks are limited by `ab` performance. See [#62](https://github.com/kenjis/php-framework-benchmark/issues/62).
 
 ## How to Benchmark
 
@@ -80,17 +69,17 @@ If you want to benchmark PHP extension frameworks like Phalcon, you need to inst
 
 Install source code as <http://localhost/php-framework-benchmark/>:
 
-~~~
+```sh
 $ git clone https://github.com/kenjis/php-framework-benchmark.git
 $ cd php-framework-benchmark
 $ bash setup.sh
-~~~
+```
 
 Run benchmarks:
 
-~~~
+```sh
 $ bash benchmark.sh
-~~~
+```
 
 See <http://localhost/php-framework-benchmark/>.
 
@@ -129,6 +118,9 @@ If you want to see current configuration, run `sudo sysctl -a`.
 
 ## References
 
+* [o2sytem](o2system.id)
+  * [o2system-basic](https://github.com/o2system/o2system)
+  * [o2system-hydro](https://github.com/o2system/hydro)
 * [Aura](http://auraphp.com/) ([@auraphp](https://twitter.com/auraphp))
 * [BEAR.Sunday](https://bearsunday.github.io/) ([@BEARSunday](https://twitter.com/BEARSunday))
 * [CakePHP](http://cakephp.org/) ([@cakephp](https://twitter.com/cakephp))
@@ -158,8 +150,3 @@ If you want to see current configuration, run `sudo sysctl -a`.
 * [Yii](http://www.yiiframework.com/) ([@yiiframework](https://twitter.com/yiiframework))
 * [zend-expressive](https://github.com/zendframework/zend-expressive) ([@zfdevteam](https://twitter.com/zfdevteam))
 * [Zend Framework](http://framework.zend.com/) ([@zfdevteam](https://twitter.com/zfdevteam))
-
-## Other Benchmarks
-
-* [PHP ORM Benchmark](https://github.com/kenjis/php-orm-benchmark)
-* [PHP User Agent Parser Benchmarks](https://github.com/kenjis/user-agent-parser-benchmarks)
