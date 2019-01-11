@@ -2,8 +2,8 @@
   'app' => 
   array (
     'name' => 'Laravel',
-    'env' => 'production',
-    'debug' => false,
+    'env' => 'prod',
+    'debug' => '0',
     'url' => 'http://localhost',
     'asset_url' => NULL,
     'timezone' => 'UTC',
@@ -170,7 +170,7 @@
       'file' => 
       array (
         'driver' => 'file',
-        'path' => '/var/www/html/php-framework-benchmark/laravel-5.7/storage/framework/cache/data',
+        'path' => '/usr/local/var/www/benchmarks/laravel-5.7/storage/framework/cache/data',
       ),
       'memcached' => 
       array (
@@ -286,12 +286,12 @@
       'local' => 
       array (
         'driver' => 'local',
-        'root' => '/var/www/html/php-framework-benchmark/laravel-5.7/storage/app',
+        'root' => '/usr/local/var/www/benchmarks/laravel-5.7/storage/app',
       ),
       'public' => 
       array (
         'driver' => 'local',
-        'root' => '/var/www/html/php-framework-benchmark/laravel-5.7/storage/app/public',
+        'root' => '/usr/local/var/www/benchmarks/laravel-5.7/storage/app/public',
         'url' => 'http://localhost/storage',
         'visibility' => 'public',
       ),
@@ -336,13 +336,13 @@
       'single' => 
       array (
         'driver' => 'single',
-        'path' => '/var/www/html/php-framework-benchmark/laravel-5.7/storage/logs/laravel.log',
+        'path' => '/usr/local/var/www/benchmarks/laravel-5.7/storage/logs/laravel.log',
         'level' => 'debug',
       ),
       'daily' => 
       array (
         'driver' => 'daily',
-        'path' => '/var/www/html/php-framework-benchmark/laravel-5.7/storage/logs/laravel.log',
+        'path' => '/usr/local/var/www/benchmarks/laravel-5.7/storage/logs/laravel.log',
         'level' => 'debug',
         'days' => 14,
       ),
@@ -405,7 +405,7 @@
       'theme' => 'default',
       'paths' => 
       array (
-        0 => '/var/www/html/php-framework-benchmark/laravel-5.7/resources/views/vendor/mail',
+        0 => '/usr/local/var/www/benchmarks/laravel-5.7/resources/views/vendor/mail',
       ),
     ),
     'log_channel' => NULL,
@@ -493,7 +493,7 @@
     'lifetime' => '120',
     'expire_on_close' => false,
     'encrypt' => false,
-    'files' => '/var/www/html/php-framework-benchmark/laravel-5.7/storage/framework/sessions',
+    'files' => '/usr/local/var/www/benchmarks/laravel-5.7/storage/framework/sessions',
     'connection' => NULL,
     'table' => 'sessions',
     'store' => NULL,
@@ -513,9 +513,9 @@
   array (
     'paths' => 
     array (
-      0 => '/var/www/html/php-framework-benchmark/laravel-5.7/resources/views',
+      0 => '/usr/local/var/www/benchmarks/laravel-5.7/resources/views',
     ),
-    'compiled' => '/var/www/html/php-framework-benchmark/laravel-5.7/storage/framework/views',
+    'compiled' => '/usr/local/var/www/benchmarks/laravel-5.7/storage/framework/views',
   ),
   'trustedproxy' => 
   array (

@@ -1,0 +1,47 @@
+Fri, 11 Jan 2019 14:01:05 +0000
+get page://self/benchmarks/bear-1.0/var/www/index.php/hello
+
+[BEAR\Resource\Exception\ResourceNotFoundException]
+page://self/benchmarks/bear-1.0/var/www/index.php/hello
+in file /usr/local/var/www/benchmarks/bear-1.0/vendor/bear/resource/src/Factory.php on line 70
+
+#0 /usr/local/var/www/benchmarks/bear-1.0/vendor/bear/resource/src/Factory.php(55): BEAR\Resource\Factory->retryWithIndexSuffix(Object(Ray\Compiler\Exception\NotCompiled), Object(BEAR\Resource\Uri))
+#1 /usr/local/var/www/benchmarks/bear-1.0/vendor/bear/resource/src/Resource.php(77): BEAR\Resource\Factory->newInstance(Object(BEAR\Resource\Uri))
+#2 /usr/local/var/www/benchmarks/bear-1.0/vendor/bear/resource/src/Resource.php(100): BEAR\Resource\Resource->newInstance(Object(BEAR\Resource\Uri))
+#3 /usr/local/var/www/benchmarks/bear-1.0/bootstrap/bootstrap.php(27): BEAR\Resource\Resource->uri(Object(BEAR\Resource\Uri))
+#4 /usr/local/var/www/benchmarks/bear-1.0/var/www/index.php(13): require('/usr/local/var/...')
+#5 {main}
+
+PHP Variables
+
+$_SERVER => Array
+(
+    [HTTP_HOST] => localhost:8080
+    [HTTP_USER_AGENT] => curl/7.61.0
+    [HTTP_ACCEPT] => */*
+    [PATH] => /usr/bin:/bin:/usr/sbin:/sbin
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.4.37 (Unix) PHP/7.2.13
+    [SERVER_NAME] => localhost
+    [SERVER_ADDR] => ::1
+    [SERVER_PORT] => 8080
+    [REMOTE_ADDR] => ::1
+    [DOCUMENT_ROOT] => /usr/local/var/www
+    [REQUEST_SCHEME] => http
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /usr/local/var/www
+    [SERVER_ADMIN] => you@example.com
+    [SCRIPT_FILENAME] => /usr/local/var/www/benchmarks/bear-1.0/var/www/index.php
+    [REMOTE_PORT] => 58762
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => 
+    [REQUEST_URI] => /benchmarks/bear-1.0/var/www/index.php/hello
+    [SCRIPT_NAME] => /benchmarks/bear-1.0/var/www/index.php
+    [PATH_INFO] => /hello
+    [PATH_TRANSLATED] => /usr/local/var/www/hello
+    [PHP_SELF] => /benchmarks/bear-1.0/var/www/index.php/hello
+    [REQUEST_TIME_FLOAT] => 1547215265.738
+    [REQUEST_TIME] => 1547215265
+)

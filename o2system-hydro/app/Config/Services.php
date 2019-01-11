@@ -25,3 +25,9 @@
 |   $services[ 'foo' ] = new App\Libraries\Foo( 'bar' );
 |
 */
+
+$services = [
+	// 'webTokenAuthentication' => '\O2System\Security\Authentication\WebToken',
+	// 'jsonWebTokenAuthentication' => '\O2System\Security\Authentication\Jwt\Token',
+	// 'throttle' => '\O2System\Security\Protections\Throttle',
+];

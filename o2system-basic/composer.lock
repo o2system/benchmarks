@@ -117,16 +117,16 @@
         },
         {
             "name": "o2system/cache",
-            "version": "v2.2.28",
+            "version": "v2.2.36",
             "source": {
                 "type": "git",
                 "url": "https://github.com/o2system/cache.git",
-                "reference": "3d7658a055fcdae04fb652ac2fc0ca768e16dc06"
+                "reference": "318839f99d274f95f1c34cfdc6300c5be743da2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/o2system/cache/zipball/3d7658a055fcdae04fb652ac2fc0ca768e16dc06",
-                "reference": "3d7658a055fcdae04fb652ac2fc0ca768e16dc06",
+                "url": "https://api.github.com/repos/o2system/cache/zipball/318839f99d274f95f1c34cfdc6300c5be743da2e",
+                "reference": "318839f99d274f95f1c34cfdc6300c5be743da2e",
                 "shasum": ""
             },
             "require": {
@@ -165,20 +165,20 @@
                 "php",
                 "utilities"
             ],
-            "time": "2018-06-08T16:14:58+00:00"
+            "time": "2019-01-10T16:30:44+00:00"
         },
         {
             "name": "o2system/curl",
-            "version": "v2.1.18",
+            "version": "v2.1.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/o2system/curl.git",
-                "reference": "9a495c8ebe24594edff0a012e380d07a341539cd"
+                "reference": "c7e6c7b4989153998ffbd7c505280d9b2b8eb8ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/o2system/curl/zipball/9a495c8ebe24594edff0a012e380d07a341539cd",
-                "reference": "9a495c8ebe24594edff0a012e380d07a341539cd",
+                "url": "https://api.github.com/repos/o2system/curl/zipball/c7e6c7b4989153998ffbd7c505280d9b2b8eb8ad",
+                "reference": "c7e6c7b4989153998ffbd7c505280d9b2b8eb8ad",
                 "shasum": ""
             },
             "require": {
@@ -217,20 +217,20 @@
                 "php",
                 "utilities"
             ],
-            "time": "2018-07-19T06:06:45+00:00"
+            "time": "2019-01-10T16:35:25+00:00"
         },
         {
             "name": "o2system/database",
-            "version": "v2.1.56",
+            "version": "v2.1.78",
             "source": {
                 "type": "git",
                 "url": "https://github.com/o2system/database.git",
-                "reference": "49fce1f0b25913ecb1c4ead22493ad420faf7a14"
+                "reference": "febb9266a83b171bd5db9819925b4922c09678c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/o2system/database/zipball/49fce1f0b25913ecb1c4ead22493ad420faf7a14",
-                "reference": "49fce1f0b25913ecb1c4ead22493ad420faf7a14",
+                "url": "https://api.github.com/repos/o2system/database/zipball/febb9266a83b171bd5db9819925b4922c09678c1",
+                "reference": "febb9266a83b171bd5db9819925b4922c09678c1",
                 "shasum": ""
             },
             "require": {
@@ -269,20 +269,20 @@
                 "php",
                 "utilities"
             ],
-            "time": "2018-10-07T13:57:37+00:00"
+            "time": "2019-01-10T16:36:50+00:00"
         },
         {
             "name": "o2system/email",
-            "version": "v1.0.15",
+            "version": "v1.0.28",
             "source": {
                 "type": "git",
                 "url": "https://github.com/o2system/email.git",
-                "reference": "2718d07355dad0d64022d4f3babd804533fb6aee"
+                "reference": "efa2265f3928bbb852f15b1c0d075ac622393119"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/o2system/email/zipball/2718d07355dad0d64022d4f3babd804533fb6aee",
-                "reference": "2718d07355dad0d64022d4f3babd804533fb6aee",
+                "url": "https://api.github.com/repos/o2system/email/zipball/efa2265f3928bbb852f15b1c0d075ac622393119",
+                "reference": "efa2265f3928bbb852f15b1c0d075ac622393119",
                 "shasum": ""
             },
             "require": {
@@ -323,20 +323,20 @@
                 "php",
                 "utilities"
             ],
-            "time": "2018-06-08T16:20:16+00:00"
+            "time": "2019-01-10T16:38:13+00:00"
         },
         {
             "name": "o2system/filesystem",
-            "version": "v1.0.32",
+            "version": "v1.0.33",
             "source": {
                 "type": "git",
                 "url": "https://github.com/o2system/filesystem.git",
-                "reference": "3133a2246fb0ee3cb23851bb9a3ee1268bd5d4b7"
+                "reference": "b5564cdfd437ece8b8089fbe0f4b3955b1b36223"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/o2system/filesystem/zipball/3133a2246fb0ee3cb23851bb9a3ee1268bd5d4b7",
-                "reference": "3133a2246fb0ee3cb23851bb9a3ee1268bd5d4b7",
+                "url": "https://api.github.com/repos/o2system/filesystem/zipball/b5564cdfd437ece8b8089fbe0f4b3955b1b36223",
+                "reference": "b5564cdfd437ece8b8089fbe0f4b3955b1b36223",
                 "shasum": ""
             },
             "require": {
@@ -375,20 +375,20 @@
                 "php",
                 "utilities"
             ],
-            "time": "2018-10-13T03:10:10+00:00"
+            "time": "2019-01-10T16:39:28+00:00"
         },
         {
             "name": "o2system/framework",
-            "version": "v5.5.520",
+            "version": "v5.5.575",
             "source": {
                 "type": "git",
                 "url": "https://github.com/o2system/framework.git",
-                "reference": "9c347011430bc1c414e629dabc6764f7bb5d95b2"
+                "reference": "deac27826b02d564652078ce540c66af5ca3d183"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/o2system/framework/zipball/9c347011430bc1c414e629dabc6764f7bb5d95b2",
-                "reference": "9c347011430bc1c414e629dabc6764f7bb5d95b2",
+                "url": "https://api.github.com/repos/o2system/framework/zipball/deac27826b02d564652078ce540c66af5ca3d183",
+                "reference": "deac27826b02d564652078ce540c66af5ca3d183",
                 "shasum": ""
             },
             "require": {
@@ -440,20 +440,20 @@
                 "php",
                 "utilities"
             ],
-            "time": "2018-10-13T03:10:41+00:00"
+            "time": "2019-01-11T10:45:27+00:00"
         },
         {
             "name": "o2system/gear",
-            "version": "v2.1.29",
+            "version": "v2.1.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/o2system/gear.git",
-                "reference": "eec1cc9ed3dd1c96ed69224ea9d49797825903ea"
+                "reference": "1c6b845df2e99c26039c1eb20863f3435483bea5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/o2system/gear/zipball/eec1cc9ed3dd1c96ed69224ea9d49797825903ea",
-                "reference": "eec1cc9ed3dd1c96ed69224ea9d49797825903ea",
+                "url": "https://api.github.com/repos/o2system/gear/zipball/1c6b845df2e99c26039c1eb20863f3435483bea5",
+                "reference": "1c6b845df2e99c26039c1eb20863f3435483bea5",
                 "shasum": ""
             },
             "require": {
@@ -494,20 +494,20 @@
                 "php",
                 "utilities"
             ],
-            "time": "2018-10-03T13:32:48+00:00"
+            "time": "2019-01-10T16:41:51+00:00"
         },
         {
             "name": "o2system/html",
-            "version": "v1.0.41",
+            "version": "v1.0.42",
             "source": {
                 "type": "git",
                 "url": "https://github.com/o2system/html.git",
-                "reference": "e33ef8a7091b3d918e4a5d1af5d2fced5f9418cb"
+                "reference": "e3ac2a66d4446e4bd90a5cbb1851e12a1b82cf44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/o2system/html/zipball/e33ef8a7091b3d918e4a5d1af5d2fced5f9418cb",
-                "reference": "e33ef8a7091b3d918e4a5d1af5d2fced5f9418cb",
+                "url": "https://api.github.com/repos/o2system/html/zipball/e3ac2a66d4446e4bd90a5cbb1851e12a1b82cf44",
+                "reference": "e3ac2a66d4446e4bd90a5cbb1851e12a1b82cf44",
                 "shasum": ""
             },
             "require": {
@@ -546,20 +546,20 @@
                 "php",
                 "utilities"
             ],
-            "time": "2018-10-13T03:11:06+00:00"
+            "time": "2019-01-10T16:42:47+00:00"
         },
         {
             "name": "o2system/image",
-            "version": "v1.0.24",
+            "version": "v1.0.42",
             "source": {
                 "type": "git",
                 "url": "https://github.com/o2system/image.git",
-                "reference": "00b1b6575cfefb8bc2758c69689e2e9d1253e1c3"
+                "reference": "7d61d58ab5de4a8705f06cf764ba1ac73623660d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/o2system/image/zipball/00b1b6575cfefb8bc2758c69689e2e9d1253e1c3",
-                "reference": "00b1b6575cfefb8bc2758c69689e2e9d1253e1c3",
+                "url": "https://api.github.com/repos/o2system/image/zipball/7d61d58ab5de4a8705f06cf764ba1ac73623660d",
+                "reference": "7d61d58ab5de4a8705f06cf764ba1ac73623660d",
                 "shasum": ""
             },
             "require": {
@@ -599,20 +599,20 @@
                 "php",
                 "utilities"
             ],
-            "time": "2018-06-08T16:40:29+00:00"
+            "time": "2019-01-10T16:45:07+00:00"
         },
         {
             "name": "o2system/kernel",
-            "version": "v1.9.114",
+            "version": "v1.9.134",
             "source": {
                 "type": "git",
                 "url": "https://github.com/o2system/kernel.git",
-                "reference": "7405b256000f6201c3019de6b644dc47a4d100cc"
+                "reference": "da4c7436e2bc50aa8da20dd7914ffa89cf3cdda2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/o2system/kernel/zipball/7405b256000f6201c3019de6b644dc47a4d100cc",
-                "reference": "7405b256000f6201c3019de6b644dc47a4d100cc",
+                "url": "https://api.github.com/repos/o2system/kernel/zipball/da4c7436e2bc50aa8da20dd7914ffa89cf3cdda2",
+                "reference": "da4c7436e2bc50aa8da20dd7914ffa89cf3cdda2",
                 "shasum": ""
             },
             "require": {
@@ -660,7 +660,7 @@
                 "php",
                 "singleton"
             ],
-            "time": "2018-10-13T03:11:24+00:00"
+            "time": "2019-01-11T11:54:28+00:00"
         },
         {
             "name": "o2system/parser",
@@ -712,16 +712,16 @@
         },
         {
             "name": "o2system/psr",
-            "version": "v1.2.78",
+            "version": "v1.2.101",
             "source": {
                 "type": "git",
                 "url": "https://github.com/o2system/psr.git",
-                "reference": "ab0c9ba7ab7140fc4d8e6046978b9b3b17330019"
+                "reference": "5629ca9b9508a29871e6c2be51d46c8ec2a7cc57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/o2system/psr/zipball/ab0c9ba7ab7140fc4d8e6046978b9b3b17330019",
-                "reference": "ab0c9ba7ab7140fc4d8e6046978b9b3b17330019",
+                "url": "https://api.github.com/repos/o2system/psr/zipball/5629ca9b9508a29871e6c2be51d46c8ec2a7cc57",
+                "reference": "5629ca9b9508a29871e6c2be51d46c8ec2a7cc57",
                 "shasum": ""
             },
             "require": {
@@ -760,20 +760,20 @@
                 "php",
                 "utilities"
             ],
-            "time": "2018-07-20T08:32:50+00:00"
+            "time": "2019-01-10T16:52:24+00:00"
         },
         {
             "name": "o2system/security",
-            "version": "v1.5.58",
+            "version": "v1.5.65",
             "source": {
                 "type": "git",
                 "url": "https://github.com/o2system/security.git",
-                "reference": "fb0c3465798b3d47a0538c01d1d0fe9e13ae1ff4"
+                "reference": "cf9e967cc730371270d6307564261a343b0dd23f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/o2system/security/zipball/fb0c3465798b3d47a0538c01d1d0fe9e13ae1ff4",
-                "reference": "fb0c3465798b3d47a0538c01d1d0fe9e13ae1ff4",
+                "url": "https://api.github.com/repos/o2system/security/zipball/cf9e967cc730371270d6307564261a343b0dd23f",
+                "reference": "cf9e967cc730371270d6307564261a343b0dd23f",
                 "shasum": ""
             },
             "require": {
@@ -809,20 +809,20 @@
                 "php",
                 "utilities"
             ],
-            "time": "2018-10-13T03:11:52+00:00"
+            "time": "2019-01-11T11:52:57+00:00"
         },
         {
             "name": "o2system/session",
-            "version": "v2.0.24",
+            "version": "v2.0.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/o2system/session.git",
-                "reference": "04150c2a39d3254b4f8bc67587da099104119ab7"
+                "reference": "3ef5b5cd6f17e7a8674d7014dde5b64c9c610603"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/o2system/session/zipball/04150c2a39d3254b4f8bc67587da099104119ab7",
-                "reference": "04150c2a39d3254b4f8bc67587da099104119ab7",
+                "url": "https://api.github.com/repos/o2system/session/zipball/3ef5b5cd6f17e7a8674d7014dde5b64c9c610603",
+                "reference": "3ef5b5cd6f17e7a8674d7014dde5b64c9c610603",
                 "shasum": ""
             },
             "require": {
@@ -861,20 +861,20 @@
                 "php",
                 "session"
             ],
-            "time": "2018-10-13T03:12:02+00:00"
+            "time": "2019-01-10T16:54:52+00:00"
         },
         {
             "name": "o2system/spl",
-            "version": "v1.0.62",
+            "version": "v1.0.65",
             "source": {
                 "type": "git",
                 "url": "https://github.com/o2system/spl.git",
-                "reference": "3b8967a70226a367f0314504c0675c8c051861e6"
+                "reference": "c9828810f6f61ab72c741bbe96714bc55704b6f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/o2system/spl/zipball/3b8967a70226a367f0314504c0675c8c051861e6",
-                "reference": "3b8967a70226a367f0314504c0675c8c051861e6",
+                "url": "https://api.github.com/repos/o2system/spl/zipball/c9828810f6f61ab72c741bbe96714bc55704b6f5",
+                "reference": "c9828810f6f61ab72c741bbe96714bc55704b6f5",
                 "shasum": ""
             },
             "require": {
@@ -912,7 +912,7 @@
                 "php",
                 "utilities"
             ],
-            "time": "2018-10-07T14:05:40+00:00"
+            "time": "2019-01-10T16:55:58+00:00"
         },
         {
             "name": "phpmailer/phpmailer",
@@ -1078,16 +1078,16 @@
         },
         {
             "name": "symfony/css-selector",
-            "version": "v4.2.1",
+            "version": "v4.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
-                "reference": "aa9fa526ba1b2ec087ffdfb32753803d999fcfcd"
+                "reference": "76dac1dbe2830213e95892c7c2ec1edd74113ea4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/css-selector/zipball/aa9fa526ba1b2ec087ffdfb32753803d999fcfcd",
-                "reference": "aa9fa526ba1b2ec087ffdfb32753803d999fcfcd",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/76dac1dbe2830213e95892c7c2ec1edd74113ea4",
+                "reference": "76dac1dbe2830213e95892c7c2ec1edd74113ea4",
                 "shasum": ""
             },
             "require": {
@@ -1127,20 +1127,20 @@
             ],
             "description": "Symfony CssSelector Component",
             "homepage": "https://symfony.com",
-            "time": "2018-11-11T19:52:12+00:00"
+            "time": "2019-01-03T09:07:35+00:00"
         },
         {
             "name": "symfony/options-resolver",
-            "version": "v4.2.1",
+            "version": "v4.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/options-resolver.git",
-                "reference": "a9c38e8a3da2c03b3e71fdffa6efb0bda51390ba"
+                "reference": "fbcb106aeee72f3450298bf73324d2cc00d083d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/a9c38e8a3da2c03b3e71fdffa6efb0bda51390ba",
-                "reference": "a9c38e8a3da2c03b3e71fdffa6efb0bda51390ba",
+                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/fbcb106aeee72f3450298bf73324d2cc00d083d1",
+                "reference": "fbcb106aeee72f3450298bf73324d2cc00d083d1",
                 "shasum": ""
             },
             "require": {
@@ -1181,20 +1181,20 @@
                 "configuration",
                 "options"
             ],
-            "time": "2018-11-11T19:52:12+00:00"
+            "time": "2019-01-03T09:07:35+00:00"
         },
         {
             "name": "symfony/process",
-            "version": "v4.2.1",
+            "version": "v4.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "2b341009ccec76837a7f46f59641b431e4d4c2b0"
+                "reference": "ea043ab5d8ed13b467a9087d81cb876aee7f689a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/2b341009ccec76837a7f46f59641b431e4d4c2b0",
-                "reference": "2b341009ccec76837a7f46f59641b431e4d4c2b0",
+                "url": "https://api.github.com/repos/symfony/process/zipball/ea043ab5d8ed13b467a9087d81cb876aee7f689a",
+                "reference": "ea043ab5d8ed13b467a9087d81cb876aee7f689a",
                 "shasum": ""
             },
             "require": {
@@ -1230,7 +1230,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2018-11-20T16:22:05+00:00"
+            "time": "2019-01-03T14:48:52+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",

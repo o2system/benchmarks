@@ -31,6 +31,6 @@ class Hello extends Controller
         //presenter()->page->setHeader( 'Hello World' );
 
         //view('hello');
-        exit 'Hello World!';
+        exit('Hello World!');
     }
 }

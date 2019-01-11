@@ -1,43 +1,14 @@
-<<<<<<< HEAD
-phalcon-2.0: 1427.29:   524288: 0.001249
-ice-1.0: 1080.03:   524288: 0.001117
-slim-2.6: 775.52:   524288: 0.001306
-codeigniter-3.0: 704.02:   524288: 0.001979
-lumen-5.0: 371.62:  1048576: 0.004153
-yii-2.0: 353.19:  1835008: 0.002520
-silex-1.2: 348.75:  1048576: 0.002944
-cygnite-1.3: 340.16:   786432: 0.002997
-bear-1.0: 328.33:  1048576: 0.002877
-fuel-1.8-dev: 299.56:   786432: 0.004232
-cake-3.0: 345.06:  1048576: 0.002707
-aura-2.0: 208.22:  1048576: 0.004123
-symfony-2.6: 181.19:  2097152: 0.005751
-laravel-5.0: 71.75:  2883584: 0.027018
-zf-2.4: 75.24:  3145728: 0.028073
-typo3-flow-2.3: 40.96:  5505024: 0.063222
-=======
-phalcon-2.0: 960.67: : : 
-ice-1.0: 1013.65: : : 
-tipsy-0.10: 898.98: </table></font>: </table></font>: </table></font>
-fatfree-3.5: 953.33: : : 
-slim-2.6: 970.65: : : 
-ci-3.0: 556.24:   436472: 0.001297: 26
-nofuss-1.2: 929.29: : : 
-slim-3.0: 369.78: Hello World!: Hello World!: Hello World!
-bear-1.0: 351.72:   684448: 0.001737: 88
-lumen-5.7: 209.99: : : 
-ze-1.0: 852.55: : : 
-radar-1.0-dev: 927.99: : : 
-yii-2.0: 693.62: : : 
-silex-1.3: 981.81: : : 
-cygnite-1.3: 1135.28: Cygnite requires Mcrypt PHP extension.: Cygnite requires Mcrypt PHP extension.: Cygnite requires Mcrypt PHP extension.
-fuel-1.8-dev: 1093.87: No composer autoloader found. Please run composer to install the FuelPHP framework dependencies first!: No composer autoloader found. Please run composer to install the FuelPHP framework dependencies first!: No composer autoloader found. Please run composer to install the FuelPHP framework dependencies first!
-phpixie-3.2: 988.13: : : 
-aura-2.0: 201.66:   769160: 0.003925: 66
-cake-3.1: 897.12: : : 
-symfony-2.7: 963.64: : : 
-laravel-5.7: 62.63: Hello World!: Hello World!: Hello World!
-o2system-hydro: 83.26: Hello World!: Hello World!: Hello World!
-zf-2.5: 906.92: : : 
-typo3f-3.0: 962.10: : : 
->>>>>>> b0e652a4c272a497fc297ce1af0a7c1288f51a99
+fatfree-3.5: 2347.63: </html>: </html>: </html>
+slim-2.6: 0.40: <b>Fatal error</b>:   require():  Failed opening required '/usr/local/var/www/php-framework-benchmark/libs/output_data.php' (include_path='.
+ci-4.0-dev: 1456.98: </html>: </html>: </html>
+slim-3.0: 0.20: <b>Fatal error</b>:   require():  Failed opening required '/usr/local/var/www/php-framework-benchmark/libs/output_data.php' (include_path='.
+bear-1.0: 1323.75: {"message": "404 Not Found"}: 
+lumen-5.7: : </html>: </html>: </html>
+ze-1.0: 0.20: <b>Fatal error</b>:   require():  Failed opening required '/usr/local/var/www/php-framework-benchmark/libs/output_data.php' (include_path='.
+yii-2.0: 1975.61: <b>Fatal error</b>:   Cannot use 'Object' as class name as it is reserved in <b>/usr/local/var/www/benchmarks/yii-2.0/vendor/yiisoft/yii2/base/Object.php</b> on line <b>77</b><br />: 
+silex-2.0: 824.59: <b>Fatal error</b>:   require():  Failed opening required '/usr/local/var/www/php-framework-benchmark/libs/output_data.php' (include_path='.
+symfony-4.0: 935.37: Hello world: Hello world: Hello world
+laravel-5.7: 152.48: </html>: </html>: </html>
+o2system-basic: 80.99: Hello World!: Hello World!: Hello World!
+o2system-hydro: 186.91: Hello World!: Hello World!: Hello World!
+zf-3.0: 401.17: <b>Fatal error</b>:   require():  Failed opening required '/usr/local/var/www/php-framework-benchmark/libs/output_data.php' (include_path='.
