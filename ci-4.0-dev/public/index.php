@@ -278,4 +278,4 @@ if ($composer_autoload = $config->composerAutoload)
 $codeigniter = new CodeIgniter\CodeIgniter($startMemory, $startTime, $config);
 $codeigniter->run();
 
-require $_SERVER['DOCUMENT_ROOT'].'/php-framework-benchmark/libs/output_data.php';
+require $_SERVER['DOCUMENT_ROOT'].'/benchmarks/libs/output_data.php';

@@ -15,9 +15,9 @@ $router->get('/', function () use ($router) {
     return $router->app->version();
 });
 
-$app->group(['namespace' => 'App\Http\Controllers'], function ($group) {
+$router->group(['namespace' => '\App\Http\Controllers'], function ($group) {
     $group->get(
-        '/php-framework-benchmark/lumen-5.7/public/index.php/hello/index',
+        '/hello/index',
         'HelloController@index'
      );
 });
