@@ -1,4 +1,4 @@
-Fri, 11 Jan 2019 14:01:05 +0000
+Sat, 12 Jan 2019 02:55:31 +0000
 get page://self/benchmarks/bear-1.0/var/www/index.php/hello
 
 [BEAR\Resource\Exception\ResourceNotFoundException]
@@ -32,7 +32,7 @@ $_SERVER => Array
     [CONTEXT_DOCUMENT_ROOT] => /usr/local/var/www
     [SERVER_ADMIN] => you@example.com
     [SCRIPT_FILENAME] => /usr/local/var/www/benchmarks/bear-1.0/var/www/index.php
-    [REMOTE_PORT] => 58762
+    [REMOTE_PORT] => 65054
     [GATEWAY_INTERFACE] => CGI/1.1
     [SERVER_PROTOCOL] => HTTP/1.1
     [REQUEST_METHOD] => GET
@@ -42,6 +42,6 @@ $_SERVER => Array
     [PATH_INFO] => /hello
     [PATH_TRANSLATED] => /usr/local/var/www/hello
     [PHP_SELF] => /benchmarks/bear-1.0/var/www/index.php/hello
-    [REQUEST_TIME_FLOAT] => 1547215265.738
-    [REQUEST_TIME] => 1547215265
+    [REQUEST_TIME_FLOAT] => 1547261731.964
+    [REQUEST_TIME] => 1547261731
 )

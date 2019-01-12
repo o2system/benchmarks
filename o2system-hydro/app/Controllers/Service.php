@@ -26,6 +26,9 @@ class Service extends Controller
     public function index()
     {
         //$this->sendPayload('Hello World');
-        exit('Hello World!');
+        // exit('Hello World!');
+        echo 'Hello World!';
+        require $_SERVER['DOCUMENT_ROOT'].'/benchmarks/libs/output_data.php';
+        exit();
     }
 }

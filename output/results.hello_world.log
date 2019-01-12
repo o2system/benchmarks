@@ -1,14 +1,9 @@
-fatfree-3.5: 2347.63: </html>: </html>: </html>
-slim-2.6: 0.40: <b>Fatal error</b>:   require():  Failed opening required '/usr/local/var/www/php-framework-benchmark/libs/output_data.php' (include_path='.
-ci-4.0-dev: 1456.98: </html>: </html>: </html>
-slim-3.0: 0.20: <b>Fatal error</b>:   require():  Failed opening required '/usr/local/var/www/php-framework-benchmark/libs/output_data.php' (include_path='.
-bear-1.0: 1323.75: {"message": "404 Not Found"}: 
-lumen-5.7: : </html>: </html>: </html>
-ze-1.0: 0.20: <b>Fatal error</b>:   require():  Failed opening required '/usr/local/var/www/php-framework-benchmark/libs/output_data.php' (include_path='.
-yii-2.0: 1975.61: <b>Fatal error</b>:   Cannot use 'Object' as class name as it is reserved in <b>/usr/local/var/www/benchmarks/yii-2.0/vendor/yiisoft/yii2/base/Object.php</b> on line <b>77</b><br />: 
-silex-2.0: 824.59: <b>Fatal error</b>:   require():  Failed opening required '/usr/local/var/www/php-framework-benchmark/libs/output_data.php' (include_path='.
-symfony-4.0: 935.37: Hello world: Hello world: Hello world
-laravel-5.7: 152.48: </html>: </html>: </html>
-o2system-basic: 80.99: Hello World!: Hello World!: Hello World!
-o2system-hydro: 186.91: Hello World!: Hello World!: Hello World!
-zf-3.0: 401.17: <b>Fatal error</b>:   require():  Failed opening required '/usr/local/var/www/php-framework-benchmark/libs/output_data.php' (include_path='.
+o2system-basic: 201.15:  1936944: 0.014343: 110
+o2system-hydro: 253.58:  2003080: 0.014589: 114
+laravel-5.7: 153.79:  2233928: 0.013832: 283
+cake-3.7: 0.18:  2267192: 0.037655: 202
+zf-3.0: 428.86:  1205296: 0.009593: 193
+symfony-4.2: 1197.28:   855520: 0.003211: 106
+ci-3.1: 1614.87:   437128: 0.001975: 26
+yii-2.0: 415.41:  1295552: 0.003873: 83
+fatfree-3.6: 362.16:   484848: 0.002306: 2

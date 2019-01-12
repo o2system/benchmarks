@@ -1,5 +1,4 @@
 <?php
-
 printf(
     "\n%' 8d:%f:%d",
     memory_get_peak_usage(),

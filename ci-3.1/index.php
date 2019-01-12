@@ -312,6 +312,7 @@ switch (ENVIRONMENT)
  *
  * And away we go...
  */
-require_once BASEPATH.'core/CodeIgniter.php';
+error_reporting(E_ALL);
 
-require $_SERVER['DOCUMENT_ROOT'].'/php-framework-benchmark/libs/output_data.php';
+require_once BASEPATH.'core/CodeIgniter.php';
+require $_SERVER['DOCUMENT_ROOT'].'/benchmarks/libs/output_data.php';
