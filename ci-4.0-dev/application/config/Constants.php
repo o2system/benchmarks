@@ -17,7 +17,7 @@ define('APP_NAMESPACE', 'App');
 |--------------------------------------------------------------------------
 | Timing Constants
 |--------------------------------------------------------------------------
-|
+| 
 | Provide simple ways to work with the myriad of PHP functions that
 | require information to be in seconds.
 */
