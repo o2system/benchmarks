@@ -83,14 +83,14 @@ return array (
     'exception_template' => 'error/index',
     'template_map' => 
     array (
-      'layout/layout' => '/usr/local/var/www/benchmarks/zf-3.0/module/Application/config/../view/layout/layout.phtml',
-      'application/index/index' => '/usr/local/var/www/benchmarks/zf-3.0/module/Application/config/../view/application/index/index.phtml',
-      'error/404' => '/usr/local/var/www/benchmarks/zf-3.0/module/Application/config/../view/error/404.phtml',
-      'error/index' => '/usr/local/var/www/benchmarks/zf-3.0/module/Application/config/../view/error/index.phtml',
+      'layout/layout' => '/var/www/html/benchmarks/zf-3.0/module/Application/config/../view/layout/layout.phtml',
+      'application/index/index' => '/var/www/html/benchmarks/zf-3.0/module/Application/config/../view/application/index/index.phtml',
+      'error/404' => '/var/www/html/benchmarks/zf-3.0/module/Application/config/../view/error/404.phtml',
+      'error/index' => '/var/www/html/benchmarks/zf-3.0/module/Application/config/../view/error/index.phtml',
     ),
     'template_path_stack' => 
     array (
-      0 => '/usr/local/var/www/benchmarks/zf-3.0/module/Application/config/../view',
+      0 => '/var/www/html/benchmarks/zf-3.0/module/Application/config/../view',
     ),
   ),
 );

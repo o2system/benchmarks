@@ -93,6 +93,12 @@ class Hello
 }
 
 
-$f3->route('GET /hello/index', 'Hello->index');
+//$f3->route('GET /hello/index', 'Hello->index');
+
+$f3->route('GET /hello/index',
+    function() {
+        echo 'Hello, world!';
+    }
+);
 
 $f3->run();

@@ -23,17 +23,15 @@
     19 => 'Illuminate\\Translation\\TranslationServiceProvider',
     20 => 'Illuminate\\Validation\\ValidationServiceProvider',
     21 => 'Illuminate\\View\\ViewServiceProvider',
-    22 => 'BeyondCode\\DumpServer\\DumpServerServiceProvider',
-    23 => 'Fideloper\\Proxy\\TrustedProxyServiceProvider',
-    24 => 'Illuminate\\Notifications\\NexmoChannelServiceProvider',
-    25 => 'Illuminate\\Notifications\\SlackChannelServiceProvider',
-    26 => 'Laravel\\Tinker\\TinkerServiceProvider',
-    27 => 'Carbon\\Laravel\\ServiceProvider',
-    28 => 'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider',
-    29 => 'App\\Providers\\AppServiceProvider',
-    30 => 'App\\Providers\\AuthServiceProvider',
-    31 => 'App\\Providers\\EventServiceProvider',
-    32 => 'App\\Providers\\RouteServiceProvider',
+    22 => 'Fideloper\\Proxy\\TrustedProxyServiceProvider',
+    23 => 'Illuminate\\Notifications\\NexmoChannelServiceProvider',
+    24 => 'Illuminate\\Notifications\\SlackChannelServiceProvider',
+    25 => 'Laravel\\Tinker\\TinkerServiceProvider',
+    26 => 'Carbon\\Laravel\\ServiceProvider',
+    27 => 'App\\Providers\\AppServiceProvider',
+    28 => 'App\\Providers\\AuthServiceProvider',
+    29 => 'App\\Providers\\EventServiceProvider',
+    30 => 'App\\Providers\\RouteServiceProvider',
   ),
   'eager' => 
   array (
@@ -47,15 +45,14 @@
     7 => 'Illuminate\\Pagination\\PaginationServiceProvider',
     8 => 'Illuminate\\Session\\SessionServiceProvider',
     9 => 'Illuminate\\View\\ViewServiceProvider',
-    10 => 'BeyondCode\\DumpServer\\DumpServerServiceProvider',
-    11 => 'Fideloper\\Proxy\\TrustedProxyServiceProvider',
-    12 => 'Illuminate\\Notifications\\NexmoChannelServiceProvider',
-    13 => 'Illuminate\\Notifications\\SlackChannelServiceProvider',
-    14 => 'Carbon\\Laravel\\ServiceProvider',
-    15 => 'App\\Providers\\AppServiceProvider',
-    16 => 'App\\Providers\\AuthServiceProvider',
-    17 => 'App\\Providers\\EventServiceProvider',
-    18 => 'App\\Providers\\RouteServiceProvider',
+    10 => 'Fideloper\\Proxy\\TrustedProxyServiceProvider',
+    11 => 'Illuminate\\Notifications\\NexmoChannelServiceProvider',
+    12 => 'Illuminate\\Notifications\\SlackChannelServiceProvider',
+    13 => 'Carbon\\Laravel\\ServiceProvider',
+    14 => 'App\\Providers\\AppServiceProvider',
+    15 => 'App\\Providers\\AuthServiceProvider',
+    16 => 'App\\Providers\\EventServiceProvider',
+    17 => 'App\\Providers\\RouteServiceProvider',
   ),
   'deferred' => 
   array (
@@ -161,7 +158,6 @@
     'validator' => 'Illuminate\\Validation\\ValidationServiceProvider',
     'validation.presence' => 'Illuminate\\Validation\\ValidationServiceProvider',
     'command.tinker' => 'Laravel\\Tinker\\TinkerServiceProvider',
-    'NunoMaduro\\Collision\\Contracts\\Provider' => 'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider',
   ),
   'when' => 
   array (
@@ -202,9 +198,6 @@
     array (
     ),
     'Laravel\\Tinker\\TinkerServiceProvider' => 
-    array (
-    ),
-    'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider' => 
     array (
     ),
   ),
