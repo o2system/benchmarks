@@ -25,6 +25,7 @@ $app = require __DIR__.'/../bootstrap/app.php';
 |
 */
 
+require $_SERVER['DOCUMENT_ROOT'].'/benchmarks/libs/output_data.php';
+
 $app->run();
 
-require $_SERVER['DOCUMENT_ROOT'].'/benchmarks/libs/output_data.php';
