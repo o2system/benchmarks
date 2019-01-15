@@ -17,6 +17,8 @@ ci-3.1
 lumen-5.7
 yii-2.0
 fatfree-3.6
+slim-3.11
+silex-2.0
 "
 
 # listMicro="

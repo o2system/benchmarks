@@ -25,6 +25,6 @@ require __DIR__ . '/../src/middleware.php';
 
 // Register routes
 require __DIR__ . '/../src/routes.php';
-
+require $_SERVER['DOCUMENT_ROOT'].'/benchmarks/libs/output_data.php';
 // Run app
 $app->run();
