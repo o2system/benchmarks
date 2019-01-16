@@ -7,7 +7,7 @@ use Symfony\Component\HttpFoundation\Request;
 
 require __DIR__.'/../vendor/autoload.php';
 
-require $_SERVER['DOCUMENT_ROOT'].'/benchmarks/libs/output_data.php';
+// require $_SERVER['DOCUMENT_ROOT'].'/benchmarks/libs/output_data.php';
 
 // For the purpose of kenjis/php-framework-benchmark we hardcode this here.
 // Normally you would set this up in your web server / container configuration

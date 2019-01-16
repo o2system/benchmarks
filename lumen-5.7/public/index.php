@@ -24,8 +24,9 @@ $app = require __DIR__.'/../bootstrap/app.php';
 | and wonderful application we have prepared for them.
 |
 */
-
-require $_SERVER['DOCUMENT_ROOT'].'/benchmarks/libs/output_data.php';
+define( 'STARTUP_TIME', microtime( true ) );
+define( 'STARTUP_MEMORY', memory_get_usage( true ) );
+// require $_SERVER['DOCUMENT_ROOT'].'/benchmarks/libs/output_data.php';
 
 $app->run();
 

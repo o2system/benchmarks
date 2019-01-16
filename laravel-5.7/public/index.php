@@ -8,7 +8,8 @@
  */
 
 define('LARAVEL_START', microtime(true));
-
+define( 'STARTUP_TIME', microtime( true ) );
+define( 'STARTUP_MEMORY', memory_get_usage( true ) );
 /*
 |--------------------------------------------------------------------------
 | Register The Auto Loader
@@ -59,4 +60,4 @@ $response->send();
 
 $kernel->terminate($request, $response);
 
-require $_SERVER['DOCUMENT_ROOT'].'/benchmarks/libs/output_data.php';
+// require $_SERVER['DOCUMENT_ROOT'].'/benchmarks/libs/output_data.php';

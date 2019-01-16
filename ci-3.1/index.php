@@ -315,4 +315,4 @@ switch (ENVIRONMENT)
 error_reporting(E_ALL);
 
 require_once BASEPATH.'core/CodeIgniter.php';
-require $_SERVER['DOCUMENT_ROOT'].'/benchmarks/libs/output_data.php';
+// require $_SERVER['DOCUMENT_ROOT'].'/benchmarks/libs/output_data.php';

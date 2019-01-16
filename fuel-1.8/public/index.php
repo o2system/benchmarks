@@ -20,7 +20,8 @@ ini_set('display_errors', 1);
  * Website document root
  */
 define('DOCROOT', __DIR__.DIRECTORY_SEPARATOR);
-
+define( 'STARTUP_TIME', microtime( true ) );
+define( 'STARTUP_MEMORY', memory_get_usage( true ) );
 /**
  * Path to the application directory.
  */
@@ -126,4 +127,4 @@ if (strpos($response->body(), '{exec_time}') !== false or strpos($response->body
 // Send the output to the client
 $response->send(true);
 
-require $_SERVER['DOCUMENT_ROOT'].'/benchmarks/libs/output_data.php';
+// require $_SERVER['DOCUMENT_ROOT'].'/benchmarks/libs/output_data.php';

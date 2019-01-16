@@ -1,6 +1,6 @@
 #!/bin/sh
 
-base="http://localhost/benchmarks/"
+base="http://localhost/benchmarks"
 
 cd `dirname $0`
 

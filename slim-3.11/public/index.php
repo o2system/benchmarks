@@ -8,6 +8,8 @@ if (PHP_SAPI == 'cli-server') {
         return false;
     }
 }
+// define( 'STARTUP_TIME', microtime( true ) );
+// define( 'STARTUP_MEMORY', memory_get_usage( true ) );
 
 require __DIR__ . '/../vendor/autoload.php';
 
@@ -25,6 +27,6 @@ require __DIR__ . '/../src/middleware.php';
 
 // Register routes
 require __DIR__ . '/../src/routes.php';
-require $_SERVER['DOCUMENT_ROOT'].'/benchmarks/libs/output_data.php';
+// require $_SERVER['DOCUMENT_ROOT'].'/benchmarks/libs/output_data.php';
 // Run app
 $app->run();

@@ -33,6 +33,10 @@ require dirname(__DIR__) . '/vendor/autoload.php';
 use App\Application;
 use Cake\Http\Server;
 
+
+define( 'STARTUP_TIME', microtime( true ) );
+define( 'STARTUP_MEMORY', memory_get_usage( true ) );
+
 // Bind your application to the server.
 $server = new Server(new Application(dirname(__DIR__) . '/config'));
 

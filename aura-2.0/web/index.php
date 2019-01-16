@@ -14,6 +14,7 @@ $kernel = (new \Aura\Project_Kernel\Factory)->newKernel(
     $path,
     'Aura\Web_Kernel\WebKernel'
 );
+
 define( 'STARTUP_TIME', microtime( true ) );
 define( 'STARTUP_MEMORY', memory_get_usage( true ) );
 
