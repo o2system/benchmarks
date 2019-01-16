@@ -11,9 +11,10 @@ benchmark ()
 
     rps=`grep "Requests per second:" "$ab_log" | cut -f 7 -d " "`
     memory=`tail -1 "$output" | cut -f 1 -d ':'`
-    time=`tail -1 "$output" | cut -f 2 -d ':'`
-    file=`tail -1 "$output" | cut -f 3 -d ':'`
-    echo "$fw: $rps: $memory: $time: $file" >> "$results_file"
+    memory_peak=`tail -1 "$output" | cut -f 2 -d ':'`
+    time=`tail -1 "$output" | cut -f 3 -d ':'`
+    file=`tail -1 "$output" | cut -f 4 -d ':'`
+    echo "$fw: $rps: $memory: $memory_peak: $time: $file" >> "$results_file"
 
     echo "$fw" >> "$check_file"
     grep "Document Length:" "$ab_log" >> "$check_file"

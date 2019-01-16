@@ -9,12 +9,14 @@ function recalc_relative($results)
     foreach ($results as $fw) {
         $min_rps    = min($min_rps,    $fw['rps']);
         $min_memory = min($min_memory, $fw['memory']);
+        $min_memory_peak = min($min_memory_peak, $fw['memory_peak']);
         $min_time   = min($min_time,   $fw['time']);
     }
     
     foreach ($results as $fw => $data) {
         $results[$fw]['rps_relative']    = $data['rps']    / $min_rps;
         $results[$fw]['memory_relative'] = $data['memory'] / $min_memory;
+        $results[$fw]['memory_relative_peak'] = $data['memory_Peak'] / $min_memory_peak;
         $results[$fw]['time_relative']   = $data['time']   / $min_time;
     }
     
