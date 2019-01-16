@@ -2,7 +2,7 @@
 
 return array(
     'translator' => array(
-        'basePath' => '/php-framework-benchmark/phpixie-3.2/web/index.php/'
+        'basePath' => '/benchmarks/phpixie-3.2/web/index.php/'
     ),
     'resolver' => array(
         'type' => 'pattern',
