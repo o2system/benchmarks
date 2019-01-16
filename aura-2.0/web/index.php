@@ -14,6 +14,9 @@ $kernel = (new \Aura\Project_Kernel\Factory)->newKernel(
     $path,
     'Aura\Web_Kernel\WebKernel'
 );
+define( 'STARTUP_TIME', microtime( true ) );
+define( 'STARTUP_MEMORY', memory_get_usage( true ) );
+
+//require $_SERVER['DOCUMENT_ROOT'].'/benchmarks/libs/output_data.php';
 $kernel();
 
-require $_SERVER['DOCUMENT_ROOT'].'/php-framework-benchmark/libs/output_data.php';
