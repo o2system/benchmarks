@@ -40,6 +40,10 @@ list($chart_file, $div_file) = make_graph('file', 'Included Files', 'count');
 <head>
 <meta charset="UTF-8">
 <title>PHP Framework Benchmark</title>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/o2system-venus-ui@1.1.0/dist/venus-ui.min.css">
+<link rel="stylesheet" href="/libs/dist/assets/css/theme.css">
+
 <script src="https://www.google.com/jsapi"></script>
 <script>
 <?php
@@ -48,33 +52,205 @@ echo $chart_rpm, $chart_mem, $chart_time, $chart_file;
 </script>
 </head>
 <body>
-<h1>PHP Framework Benchmark</h1>
-<h2>Hello World Benchmark</h2>
-<div>
+
+<div class="banner-benchmarks">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 align-self-center text-center">
+                <h1 class="title">
+                    PHP Framework Benchmark
+                </h1>
+                <h6 class="subtitle">
+                    Hello World Benchmark
+                </h6>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="chart">
 <?php
 echo $div_rpm, $div_mem, $div_time, $div_file;
 ?>
 </div>
 
+<section>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-10 text-center">
+                <h2 class="framework-title">All The PHP Framework</h2>
+                <div class="framework-area">
+                    <a href="#" class="framework-list">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="libs/dist/assets/img/o2system.png" class="framework-logo mb-3">
+                                <h4>O2System Basic</h4>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="framework-list">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="libs/dist/assets/img/o2system.png" class="framework-logo mb-3">
+                                <h4>O2System Basic</h4>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="framework-list">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="libs/dist/assets/img/laravel.png" class="framework-logo mb-3">
+                                <h4>Laravel 5.7</h4>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="framework-list">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="libs/dist/assets/img/cake.jpg" class="framework-logo mb-3">
+                                <h4>Cake 3.7</h4>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="framework-list">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="libs/dist/assets/img/zf.png" class="framework-logo mb-3">
+                                <h4>ZF 3.0</h4>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="framework-list">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="libs/dist/assets/img/symfony.png" class="framework-logo mb-3">
+                                <h4>Symfony 4.2</h4>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="framework-list">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="libs/dist/assets/img/ci.png" class="framework-logo mb-3">
+                                <h4>Codeigniter 4.0</h4>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="framework-list">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="libs/dist/assets/img/lumen.png" class="framework-logo mb-3">
+                                <h4>Lumen 5.7</h4>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="framework-list">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="libs/dist/assets/img/yii.png" class="framework-logo mb-3">
+                                <h4>YII 2.0</h4>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="framework-list">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="libs/dist/assets/img/fatfree.png" class="framework-logo mb-3">
+                                <h4>Fat Free 3.6</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <ul>
-<?php
-$url_file = __DIR__ . '/output/urls.log';
-if (file_exists($url_file)) {
-    $urls = file($url_file);
-    foreach ($urls as $url) {
-        $url = str_replace('127.0.0.1', $_SERVER['HTTP_HOST'], $url);
-        echo '<li><a href="' . htmlspecialchars($url, ENT_QUOTES, 'UTF-8') .
-             '">' . htmlspecialchars($url, ENT_QUOTES, 'UTF-8') .
-             '</a></li>' . "\n";
+    <?php
+    $url_file = __DIR__ . '/output/urls.log';
+    if (file_exists($url_file)) {
+        $urls = file($url_file);
+        foreach ($urls as $url) {
+            $url = str_replace('127.0.0.1', $_SERVER['HTTP_HOST'], $url);
+            echo '<li>
+            <a href="' . htmlspecialchars($url, ENT_QUOTES, 'UTF-8') .
+                '">' . htmlspecialchars($url, ENT_QUOTES, 'UTF-8') .
+                '</a>
+            </li>' . "\n";
+        }
     }
-}
-?>
+    ?>
 </ul>
 
 <hr>
 
-<footer>
-    <p style="text-align: right">This page is a part of <a href="https://github.com/kenjis/php-framework-benchmark">php-framework-benchmark</a>.</p>
-</footer>
+<div class="footer-benchmarks">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4">
+                    <div class="d-flex text-white">
+                        <div class="icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="content">
+                            <span>
+                                1 (888) 123 4567
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="d-flex text-white">
+                        <div class="icon">
+                            <i class="far fa-envelope"></i>
+                        </div>
+                        <div class="content">
+                            <a href="mailto:email@venus.com" class="text-white">
+                                email@venus.com
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 ml-auto">
+                    <div class="social text-right">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <span>
+                        Copyright 2019. All Rights Reserved by <a href="o2system.id">O2System</a>.
+                    </span>
+                </div>
+                <div class="col-lg-6">
+                    <p style="text-align: right">This page is a part of <a href="https://github.com/kenjis/php-framework-benchmark">php-framework-benchmark</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/o2system-venus-ui@1.1.0/dist/venus-ui.min.js"></script>
 </body>
 </html>

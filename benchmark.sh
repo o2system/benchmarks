@@ -1,6 +1,6 @@
 #!/bin/sh
 
-base="http://benchmarks.o2system.id/benchmarks"
+base="http://benchmark-o2system.local"
 
 cd `dirname $0`
 
