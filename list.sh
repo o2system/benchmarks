@@ -13,7 +13,7 @@ laravel-5.7
 cake-3.7
 zf-3.0
 symfony-4.2
-ci-4.0-dev
+ci-3.1
 lumen-5.7
 yii-2.0
 fatfree-3.6

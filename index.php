@@ -80,110 +80,35 @@ echo $div_rpm, $div_mem, $div_time, $div_file;
             <div class="col-12 col-lg-10 text-center">
                 <h2 class="framework-title">All The PHP Framework</h2>
                 <div class="framework-area">
-                    <a href="#" class="framework-list">
-                        <div class="card">
+
+                <?php
+    $url_file = __DIR__ . '/output/urls.log';
+    if (file_exists($url_file)) {
+        $urls = file($url_file);
+        
+        foreach ($urls as $url) {
+            $url = str_replace('127.0.0.1', $_SERVER['HTTP_HOST'], $url);
+            $img = explode('/', $url);
+            echo '<a href="' . htmlspecialchars($url, ENT_QUOTES, 'UTF-8') . '" class="framework-list">
+            <div class="card">
                             <div class="card-body">
-                                <img src="libs/dist/assets/img/o2system.png" class="framework-logo mb-3">
-                                <h4>O2System Basic</h4>
+                            <img src="libs/dist/assets/img/' . $img[4] .'.png" class="framework-logo mb-3">
+                                <h4>' . $img[4] .'</h4>
                             </div>
                         </div>
-                    </a>
-                    <a href="#" class="framework-list">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="libs/dist/assets/img/o2system.png" class="framework-logo mb-3">
-                                <h4>O2System Basic</h4>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="framework-list">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="libs/dist/assets/img/laravel.png" class="framework-logo mb-3">
-                                <h4>Laravel 5.7</h4>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="framework-list">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="libs/dist/assets/img/cake.jpg" class="framework-logo mb-3">
-                                <h4>Cake 3.7</h4>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="framework-list">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="libs/dist/assets/img/zf.png" class="framework-logo mb-3">
-                                <h4>ZF 3.0</h4>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="framework-list">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="libs/dist/assets/img/symfony.png" class="framework-logo mb-3">
-                                <h4>Symfony 4.2</h4>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="framework-list">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="libs/dist/assets/img/ci.png" class="framework-logo mb-3">
-                                <h4>Codeigniter 4.0</h4>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="framework-list">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="libs/dist/assets/img/lumen.png" class="framework-logo mb-3">
-                                <h4>Lumen 5.7</h4>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="framework-list">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="libs/dist/assets/img/yii.png" class="framework-logo mb-3">
-                                <h4>YII 2.0</h4>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="framework-list">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="libs/dist/assets/img/fatfree.png" class="framework-logo mb-3">
-                                <h4>Fat Free 3.6</h4>
-                            </div>
-                        </div>
-                    </a>
+                </a>' . "\n";
+        }
+    }
+    ?>
+    
+                    
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<ul>
-    <?php
-    $url_file = __DIR__ . '/output/urls.log';
-    if (file_exists($url_file)) {
-        $urls = file($url_file);
-        foreach ($urls as $url) {
-            $url = str_replace('127.0.0.1', $_SERVER['HTTP_HOST'], $url);
-            echo '<li>
-            <a href="' . htmlspecialchars($url, ENT_QUOTES, 'UTF-8') .
-                '">' . htmlspecialchars($url, ENT_QUOTES, 'UTF-8') .
-                '</a>
-            </li>' . "\n";
-        }
-    }
-    ?>
-</ul>
 
-<hr>
 
 <div class="footer-benchmarks">
     <div class="footer-top">
