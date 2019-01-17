@@ -42,7 +42,7 @@ list($chart_file, $div_file) = make_graph('file', 'Included Files', 'count');
 <title>PHP Framework Benchmark</title>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/o2system-venus-ui@1.1.0/dist/venus-ui.min.css">
-<link rel="stylesheet" href="/libs/dist/assets/css/theme.css">
+<link rel="stylesheet" href="libs/dist/assets/css/theme.css">
 
 <script src="https://www.google.com/jsapi"></script>
 <script>
