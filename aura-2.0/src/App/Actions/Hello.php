@@ -17,6 +17,12 @@ class Hello
     {
         $this->response->content->set(
             'Hello World!'
-        );
+    );
+	$output['memory'] = memory_get_usage(true);
+	        $output['memory_peak'] = memory_get_peak_usage(true);
+	        $output['execution_time'] = microtime(true) - STARTUP_TIME;
+		        
+		        echo implode(':', $output);
+
     }
 }

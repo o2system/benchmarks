@@ -41,4 +41,3 @@ $adr->get(
  */
 $adr->run(ServerRequestFactory::fromGlobals(), new Response());
 
-require $_SERVER['DOCUMENT_ROOT'].'/php-framework-benchmark/libs/output_data.php';

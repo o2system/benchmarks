@@ -6,4 +6,3 @@ $framework = new Project\Framework();
 $framework->registerDebugHandlers();
 $framework->processHttpSapiRequest();
 
-require $_SERVER['DOCUMENT_ROOT'].'/php-framework-benchmark/libs/output_data.php';
