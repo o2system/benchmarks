@@ -27,7 +27,10 @@ Load_Theme: {
 list($chart_rpm, $div_rpm) = make_graph('rps', 'Throughput', 'requests per second');
 
 // Memory Benchmark
-list($chart_mem, $div_mem) = make_graph('memory', 'Memory', 'peak memory (MB)');
+list($chart_mem, $div_mem) = make_graph('memory', 'Memory', 'memory (MB)');
+
+// Memory  Peak Benchmark
+list($chart_mem_peak, $div_mem_peak) = make_graph('memory', 'Memory Peak', 'peak memory (MB)');
 
 // Exec Time Benchmark
 list($chart_time, $div_time) = make_graph('time', 'Exec Time', 'ms');
@@ -43,7 +46,7 @@ list($chart_file, $div_file) = make_graph('file', 'Included Files', 'count');
 <script src="https://www.google.com/jsapi"></script>
 <script>
 <?php
-echo $chart_rpm, $chart_mem, $chart_time, $chart_file;
+echo $chart_rpm, $chart_mem, $chart_mem_peak, $chart_time, $chart_file;
 ?>
 </script>
 </head>

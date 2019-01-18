@@ -28,6 +28,7 @@ class Hello extends Controller
      */
     public function index()
     {
+<<<<<<< HEAD
         echo "Hello World!\n";
 
         $output['memory'] = memory_get_usage(true);
@@ -37,6 +38,17 @@ class Hello extends Controller
         
         echo implode(':', $output);
 
+=======
+	    echo "Hello World! \n";
+	    $output['memory'] = memory_get_usage(true);
+	    $output['memory_peak'] = memory_get_peak_usage(true);
+	    $output['execution_time'] = microtime(true) - STARTUP_TIME;
+	            $output['included_files'] = count(get_included_files());
+		            
+		            echo implode(':', $output);
+
+        // require $_SERVER['DOCUMENT_ROOT'].'/benchmarks/libs/output_data.php';
+>>>>>>> ca014bb08b34ede61dacf03640efdaab76849a4c
         exit();
     }
 }

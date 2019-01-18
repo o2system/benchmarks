@@ -126,4 +126,4 @@ if (strpos($response->body(), '{exec_time}') !== false or strpos($response->body
 // Send the output to the client
 $response->send(true);
 
-require $_SERVER['DOCUMENT_ROOT'].'/php-framework-benchmark/libs/output_data.php';
+require $_SERVER['DOCUMENT_ROOT'].'/benchmarks/libs/output_data.php';
