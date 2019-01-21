@@ -5,24 +5,28 @@
 
 
 
-
+# full stack services
 list="
 aura-2.0
 o2system-basic
-o2system-hydro
 laravel-5.7
 cake-3.7
 zf-3.0
 symfony-4.2
 ci-3.1
-lumen-5.7
-slim-3.1
-silex-2.0
 staticphp-0.9
 yii-2.0
-fatfree-3.6
 fuel-1.8
 "
+# list="
+# o2system-hydro
+# cake-3.7
+# lumen-5.7
+# slim-3.1
+# silex-2.0
+# staticphp-0.9
+# fatfree-3.6
+# "
 
 # listMicro="
 # lumen-5.7
