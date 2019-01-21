@@ -20,11 +20,9 @@
 # "
 list="
 o2system-hydro
-cake-3.7
 lumen-5.7
 slim-3.1
 silex-2.0
-staticphp-0.9
 fatfree-3.6
 "
 
