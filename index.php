@@ -89,7 +89,7 @@ echo $div_rpm, $div_mem, $div_time, $div_file;
         foreach ($urls as $url) {
             $url = str_replace('127.0.0.1', $_SERVER['HTTP_HOST'], $url);
             $img = explode('/', $url);
-            echo '<a href="' . htmlspecialchars($url, ENT_QUOTES, 'UTF-8') . '" class="framework-list">
+            echo '<a href="' . htmlspecialchars($url, ENT_QUOTES, 'UTF-8') . '" class="framework-list" target="_blank">
             <div class="card">
                             <div class="card-body">
                             <img src="libs/dist/assets/img/' . $img[4] .'.png" class="framework-logo mb-3">
@@ -165,7 +165,7 @@ echo $div_rpm, $div_mem, $div_time, $div_file;
             <div class="row">
                 <div class="col-lg-6">
                     <span>
-                        Copyright 2019. All Rights Reserved by <a href="o2system.id">O2System</a>.
+                        Copyright &copy; <?php echo date('Y') ?>. All Rights Reserved by <a href="o2system.id">O2System</a>.
                     </span>
                 </div>
                 <div class="col-lg-6">
