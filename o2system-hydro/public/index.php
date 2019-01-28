@@ -47,14 +47,14 @@ if ( ! defined( 'ENVIRONMENT' ) ) {
      *
      * @value DEVELOPMENT|TESTING|PRODUCTION
      */
-    define( 'ENVIRONMENT', 'PRODUCTION' );
+    define( 'ENVIRONMENT', 'DEVELOPMENT' );
 
     /**
      * Environment Debug Stage
      *
      * @value DEVELOPER|TESTER|PUBLIC
      */
-    $_ENV[ 'DEBUG_STAGE' ] = 'PUBLIC';
+    $_ENV[ 'DEBUG_STAGE' ] = 'DEVELOPER';
 }
 
 /*
@@ -161,6 +161,6 @@ require __DIR__ . '/../vendor/autoload.php';
  * STARTUP O2SYSTEM
  * ------------------------------------------------------
  */
-if ( class_exists( 'O2System\Framework', false ) ) {
-    O2System\Framework::getInstance();
+if ( class_exists( 'O2System\Reactor', false ) ) {
+    O2System\Reactor::getInstance();
 }

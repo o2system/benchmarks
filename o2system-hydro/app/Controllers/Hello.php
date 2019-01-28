@@ -10,24 +10,23 @@
  */
 // ------------------------------------------------------------------------
 
-namespace App\Http;
+namespace App\Controllers;
 
 // ------------------------------------------------------------------------
 
-use O2System\Reactor\Http;
+use App\Http\Controller;
 
 /**
- * Class Middleware
+ * Class Service
  *
- * @package App\Http
+ * @package App\Controllers
  */
-class Middleware extends Http\Middleware
+class Hello extends Controller
 {
-    public function __construct()
+    public function index()
     {
-        parent::__construct();
-
-        $this->register( new Middleware\WebToken(), 'webToken' );
-        $this->register( new Middleware\JsonWebToken(), 'jsonWebToken' );
+	echo 'Hello World!';
+        require $_SERVER['DOCUMENT_ROOT'].'/benchmarks/libs/output_data.php';
+        exit();
     }
 }

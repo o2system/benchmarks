@@ -29,10 +29,3 @@ $addresses->get(
 );
 
 // ------------------------------------------------------------------------
-
-$addresses->get(
-    '/throttle',
-    function () {
-        return ['service', 'throttle'];
-    }
-);
