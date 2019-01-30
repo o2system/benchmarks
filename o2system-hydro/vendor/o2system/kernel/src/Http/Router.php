@@ -107,9 +107,12 @@ class Router
                 }
 
                 $this->uri = $this->uri->withSegments(new Message\Uri\Segments($uriSegments));
-                $uriString = $this->uri->getSegments()->getString();
 
                 $this->parseAction($action, $uriSegments);
+
+                if (services()->has('controller')) {
+                    return true;
+                }
             }
         }
 

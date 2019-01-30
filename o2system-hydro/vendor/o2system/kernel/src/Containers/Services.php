@@ -28,51 +28,35 @@ class Services extends SplServiceContainer
     /**
      * Services::load
      *
-     * @param string        $service
-     * @param string|null   $offset
+     * @param string      $className
+     * @param string|null $offset
      */
-    public function load($service, $offset = null)
+    public function load($className, $offset = null)
     {
-        if (is_string($service)) {
-            if(class_exists('O2System\Framework', false)) {
-                $className = str_replace(
-                    ['App\\','App\Kernel\\','O2System\Framework\\','O2System\Kernel\\'],
-                    '',
-                    $service
-                );
-
-                foreach(['App\\','App\Kernel\\','O2System\Framework\\','O2System\Kernel\\'] as $namespace) {
-                    if (class_exists($namespace . $className)) {
-                        $service = $namespace . $className;
-                        break;
-                    }
+        if (is_string($className)) {
+            if(class_exists($className)) {
+                $service = new SplServiceRegistry($className);
+            } else {
+                if (class_exists($serviceClassName = 'App\\' . $className)) {
+                    $service = new SplServiceRegistry($serviceClassName);
+                } elseif (class_exists($serviceClassName = 'O2Ssystem\Framework\\' . $className)) {
+                    $service = new SplServiceRegistry($serviceClassName);
+                } elseif (class_exists($serviceClassName = 'O2System\Reactor\\' . $className)) {
+                    $service = new SplServiceRegistry($serviceClassName);
+                } elseif (class_exists($serviceClassName = 'O2System\Kernel\\' . $className)) {
+                    $service = new SplServiceRegistry($serviceClassName);
                 }
-            } elseif(class_exists('O2System\Reactor', false)) {
-                $className = str_replace(
-                    ['App\\','App\Kernel\\','O2System\Reactor\\','O2System\Kernel\\'],
-                    '',
-                    $service
-                );
-
-                foreach(['App\\','App\Kernel\\','O2System\Reactor\\','O2System\Kernel\\'] as $namespace) {
-                    if (class_exists($namespace . $className)) {
-                        $service = $namespace . $className;
-                        break;
-                    }
-                }
-            }
-
-            if (class_exists($service)) {
-                $service = new SplServiceRegistry($service);
             }
         }
 
-        if($service instanceof SplServiceRegistry) {
-            if (profiler() !== false) {
-                profiler()->watch('Load New Service: ' . $service->getClassName());
-            }
+        if (isset($service)) {
+            if ($service instanceof SplServiceRegistry) {
+                if (profiler() !== false) {
+                    profiler()->watch('Load New Service: ' . $service->getClassName());
+                }
 
-            $this->register($service, $offset);
+                $this->register($service, $offset);
+            }
         }
     }
 
@@ -81,8 +65,8 @@ class Services extends SplServiceContainer
     /**
      * Services::add
      *
-     * @param object        $service
-     * @param string|null   $offset
+     * @param object      $service
+     * @param string|null $offset
      */
     public function add($service, $offset = null)
     {

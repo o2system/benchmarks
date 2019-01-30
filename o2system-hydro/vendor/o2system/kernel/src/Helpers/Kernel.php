@@ -68,11 +68,15 @@ if (!function_exists('profiler')) {
      *
      * Convenient shortcut for O2System Gear Profiler service.
      *
-     * @return O2System\Gear\Profiler
+     * @return bool|O2System\Gear\Profiler
      */
     function profiler()
     {
-        return services('profiler');
+        if (services()->has('profiler') === false) {
+            return services('profiler');
+        }
+
+        return false;
     }
 }
 
@@ -92,7 +96,7 @@ if (!function_exists('language')) {
 
         if (count($args)) {
             if (services()->has('language')) {
-                $language =& kernel()->services->get('language');
+                $language =& services()->get('language');
 
                 return call_user_func_array([&$language, 'getLine'], $args);
             }
@@ -140,11 +144,15 @@ if (!function_exists('shutdown')) {
      *
      * Convenient shortcut for O2System Kernel Shutdown service.
      *
-     * @return O2System\Kernel\Services\Shutdown
+     * @return bool|O2System\Kernel\Services\Shutdown
      */
     function shutdown()
     {
-        return services('shutdown');
+        if (services()->has('shutdown')) {
+            return services('shutdown');
+        }
+
+        return false;
     }
 }
 
@@ -156,11 +164,15 @@ if (!function_exists('input')) {
      *
      * Convenient shortcut for O2System Kernel Input Instance
      *
-     * @return O2System\Kernel\Http\Input|O2System\Kernel\Cli\Input
+     * @return bool|O2System\Kernel\Http\Input|O2System\Kernel\Cli\Input
      */
     function input()
     {
-        return services('input');
+        if (services()->has('input')) {
+            return services('input');
+        }
+
+        return false;
     }
 }
 
@@ -172,11 +184,15 @@ if (!function_exists('output')) {
      *
      * Convenient shortcut for O2System Kernel Browser Instance
      *
-     * @return O2System\Kernel\Http\Output|O2System\Kernel\Cli\Output
+     * @return bool|O2System\Kernel\Http\Output|O2System\Kernel\Cli\Output
      */
     function output()
     {
-        return services('output');
+        if (services()->has('output')) {
+            return services('output');
+        }
+
+        return false;
     }
 }
 
@@ -192,18 +208,10 @@ if (!function_exists('server_request')) {
      */
     function server_request()
     {
-        if (function_exists('o2system')) {
-            if (!services()->has('serverRequest')) {
-                services()->load(new \O2System\Kernel\Http\Message\ServerRequest(), 'serverRequest');
-            }
-
-            return services('serverRequest');
-        } else {
-            if (!services()->has('serverRequest')) {
-                services()->load(new \O2System\Kernel\Http\Message\ServerRequest(), 'serverRequest');
-            }
-
-            return services('serverRequest');
+        if (services()->has('serverRequest') === false) {
+            services()->load(new \O2System\Kernel\Http\Message\ServerRequest(), 'serverRequest');
         }
+
+        return services('serverRequest');
     }
 }
