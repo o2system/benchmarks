@@ -25,22 +25,6 @@ class Service extends Controller
 {
     public function index()
     {
-        $headers = apache_request_headers();
-
-        $this->sendPayload(
-            [
-                'request' => [
-                    'method' => $this->input->server('REQUEST_METHOD'),
-                    'time'   => $this->input->server('REQUEST_TIME'),
-                    'uri'    => $this->input->server('REQUEST_URI'),
-                    'agent'  => $this->input->server('HTTP_USER_AGENT'),
-                    'authorization' => $this->input->server('HTTP_AUTHORIZATION')
-                ],
-                'headers' => $headers,
-                'get'  => $_GET,
-                'post' => $_POST,
-                'payload' => $this->globals->payload
-            ]
-        );
+        echo 'Hello World!';
     }
 }
