@@ -47,7 +47,7 @@ if ( ! defined( 'ENVIRONMENT' ) ) {
      *
      * @value DEVELOPMENT|TESTING|PRODUCTION
      */
-    define( 'ENVIRONMENT', 'DEVELOPMENT' );
+    define( 'ENVIRONMENT', 'PRODUCTION' );
 
     /**
      * Environment Debug Stage
