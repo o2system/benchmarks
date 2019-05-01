@@ -169,6 +169,8 @@ chdir( __DIR__ . DIRECTORY_SEPARATOR );
 */
 require __DIR__ . '/../vendor/autoload.php';
 
+require $_SERVER['DOCUMENT_ROOT'].'/benchmarks/libs/output_data.php';
+
 /*
  * ------------------------------------------------------
  * STARTUP O2SYSTEM
@@ -178,4 +180,3 @@ if ( class_exists( 'O2System\Framework', false ) ) {
     O2System\Framework::getInstance();
 }
 
-require $_SERVER['DOCUMENT_ROOT'].'/benchmarks/libs/output_data.php';

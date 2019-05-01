@@ -14,6 +14,6 @@ $kernel = (new \Aura\Project_Kernel\Factory)->newKernel(
     $path,
     'Aura\Web_Kernel\WebKernel'
 );
+require $_SERVER['DOCUMENT_ROOT'].'/benchmarks/libs/output_data.php';
 $kernel();
 
-require $_SERVER['DOCUMENT_ROOT'].'/benchmarks/libs/output_data.php';

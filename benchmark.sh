@@ -1,6 +1,6 @@
 #!/bin/sh
 
-base="http://127.0.0.1/benchmarks"
+base="http://127.0.0.1/fullstack"
 
 cd `dirname $0`
 
