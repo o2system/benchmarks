@@ -20,7 +20,7 @@ unset($minPHPVersion);
 
 // ------------------------------------------------------------------------
 
-define( 'STARTUP_TIME', microtime( true ) );
+define( 'STARTUP_TIME', $_SERVER['REQUEST_TIME'] );
 define( 'STARTUP_MEMORY', memory_get_usage( true ) );
 
 /*
@@ -47,14 +47,14 @@ if ( ! defined( 'ENVIRONMENT' ) ) {
      *
      * @value DEVELOPMENT|TESTING|PRODUCTION
      */
-    define( 'ENVIRONMENT', 'PRODUCTION' );
+    define( 'ENVIRONMENT', 'DEVELOPMENT' );
 
     /**
      * Environment Debug Stage
      *
      * @value DEVELOPER|TESTER|PUBLIC
      */
-    $_ENV[ 'DEBUG_STAGE' ] = 'PUBLIC';
+    $_ENV[ 'DEBUG_STAGE' ] = 'DEVELOPER';
 }
 
 /*
@@ -107,6 +107,19 @@ if ( ! defined( 'DIR_STORAGE' ) ) {
  */
 if ( ! defined( 'DIR_RESOURCES' ) ) {
     define( 'DIR_RESOURCES', 'resources' );
+}
+
+/*
+ *---------------------------------------------------------------
+ * DATABASE FOLDER NAME
+ *---------------------------------------------------------------
+ *
+ * Resources folder name.
+ *
+ * NO TRAILING SLASH!
+ */
+if ( ! defined( 'DIR_DATABASE' ) ) {
+    define( 'DIR_DATABASE', 'database' );
 }
 
 /*
@@ -164,3 +177,5 @@ require __DIR__ . '/../vendor/autoload.php';
 if ( class_exists( 'O2System\Framework', false ) ) {
     O2System\Framework::getInstance();
 }
+
+require $_SERVER['DOCUMENT_ROOT'].'/benchmarks/libs/output_data.php';

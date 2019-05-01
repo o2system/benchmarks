@@ -1,0 +1,112 @@
+/**
+ *   ___       _
+ *  / _ \  ___| |_ ___  _ __  _   _
+ * | | | |/ __| __/ _ \| '_ \| | | |
+ * | |_| | (__| || (_) | |_) | |_| |
+ *  \___/ \___|\__\___/| .__/ \__, |
+ *                     |_|    |___/
+ * @author  : Supian M <supianidz@gmail.com>
+ * @license : MIT
+ */
+
+html {
+    overflow: hidden;
+}
+
+body {
+    font-family: Nunito, sans-serif;
+    background-color: #0c1021
+}
+
+.container>.content {
+    text-align: center;
+    color: #fff;
+    font-size: 2rem
+}
+
+.container>.content>.logo {
+    padding-top: 100px;
+    font-size: 60px
+}
+
+.links>a {
+    color: #F2F2F1;
+    padding: 0 25px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+img {
+    min-width: 10%;
+    max-width: 15%
+}
+
+h2 {
+    padding: 0;
+    margin: 0
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    border: 0;
+    outline: 0;
+}
+
+.container>.head {
+    position: relative;
+    border-bottom: 0;
+    height: 28px
+}
+
+.container>.head>.buttons {
+    float: left;
+    padding: 6px;
+    position: relative;
+    z-index: 1
+}
+
+.container>.head>.buttons a {
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 2px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    font-size: 1.5em;
+    line-height: .83333em
+}
+
+.container>.head>.buttons a.close {
+    background: #f25056;
+    color: #f25056
+}
+
+.container>.head>.buttons a.close:hover {
+    color: #a21f2c
+}
+
+.container>.head>.buttons a.minimize {
+    background: #fac536;
+    color: #fac536
+}
+
+.container>.head>.buttons a.minimize:hover {
+    color: #c28723
+}
+
+.container>.head>.buttons a.enlarge {
+    background: #39ea49;
+    color: #39ea49
+}
+
+.container>.head>.buttons a.enlarge:hover {
+    color: #0b7407
+}

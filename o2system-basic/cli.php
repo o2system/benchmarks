@@ -111,6 +111,19 @@ if ( ! defined( 'DIR_RESOURCES' ) ) {
 
 /*
  *---------------------------------------------------------------
+ * DATABASE FOLDER NAME
+ *---------------------------------------------------------------
+ *
+ * Database folder name.
+ *
+ * NO TRAILING SLASH!
+ */
+if ( ! defined( 'DIR_DATABASE' ) ) {
+    define( 'DIR_DATABASE', 'database' );
+}
+
+/*
+ *---------------------------------------------------------------
  * PUBLIC FOLDER NAME
  *---------------------------------------------------------------
  *
@@ -132,7 +145,7 @@ if ( ! defined( 'DIR_PUBLIC' ) ) {
  * DEFINE ROOT PATH
  *---------------------------------------------------------------
  */
-define( 'PATH_ROOT', dirname( dirname( __FILE__ ) ) . DIRECTORY_SEPARATOR );
+define( 'PATH_ROOT', dirname( __FILE__ ) . DIRECTORY_SEPARATOR );
 
 /*
  *---------------------------------------------------------------
@@ -154,7 +167,7 @@ chdir( __DIR__ . DIRECTORY_SEPARATOR );
 | loading of any our classes "manually". Feels great to relax.
 |
 */
-require __DIR__ . '/../vendor/autoload.php';
+require __DIR__ . '/vendor/autoload.php';
 
 /*
  * ------------------------------------------------------

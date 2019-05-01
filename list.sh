@@ -9,7 +9,9 @@
 list="
 aura-2.0
 o2system-basic
-laravel-5.7
+octopy
+panada
+laravel-5.8
 cake-3.7
 zf-3.0
 symfony-4.2

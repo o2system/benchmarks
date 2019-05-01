@@ -14,7 +14,7 @@ namespace App\Controllers;
 
 // ------------------------------------------------------------------------
 
-use O2System\Framework\Http\Controller;
+use App\Http\Controller;
 
 /**
  * Class Hello
@@ -29,7 +29,6 @@ class Hello extends Controller
     public function index()
     {
         echo 'Hello World!';
-        require $_SERVER['DOCUMENT_ROOT'].'/benchmarks/libs/output_data.php';
         exit();
     }
 }
