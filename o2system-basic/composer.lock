@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "filp/whoops",
-            "version": "2.3.1",
+            "version": "2.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "bc0fd11bc455cc20ee4b5edabc63ebbf859324c7"
+                "reference": "fff6f1e4f36be0e0d0b84d66b413d9dcb0c49130"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/bc0fd11bc455cc20ee4b5edabc63ebbf859324c7",
-                "reference": "bc0fd11bc455cc20ee4b5edabc63ebbf859324c7",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/fff6f1e4f36be0e0d0b84d66b413d9dcb0c49130",
+                "reference": "fff6f1e4f36be0e0d0b84d66b413d9dcb0c49130",
                 "shasum": ""
             },
             "require": {
@@ -26,8 +26,8 @@
             },
             "require-dev": {
                 "mockery/mockery": "^0.9 || ^1.0",
-                "phpunit/phpunit": "^4.8.35 || ^5.7",
-                "symfony/var-dumper": "^2.6 || ^3.0 || ^4.0"
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.0",
+                "symfony/var-dumper": "^2.6 || ^3.0 || ^4.0 || ^5.0"
             },
             "suggest": {
                 "symfony/var-dumper": "Pretty print complex values better with var-dumper available",
@@ -36,7 +36,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.2-dev"
+                    "dev-master": "2.6-dev"
                 }
             },
             "autoload": {
@@ -65,20 +65,20 @@
                 "throwable",
                 "whoops"
             ],
-            "time": "2018-10-23T09:00:00+00:00"
+            "time": "2020-01-15T10:00:00+00:00"
         },
         {
             "name": "matthiasmullie/minify",
-            "version": "1.3.61",
+            "version": "1.3.63",
             "source": {
                 "type": "git",
                 "url": "https://github.com/matthiasmullie/minify.git",
-                "reference": "d5acb8ce5b6acb7d11bafe97cecc533f6e4fd751"
+                "reference": "9ba1b459828adc13430f4dd6c49dae4950dc4117"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/matthiasmullie/minify/zipball/d5acb8ce5b6acb7d11bafe97cecc533f6e4fd751",
-                "reference": "d5acb8ce5b6acb7d11bafe97cecc533f6e4fd751",
+                "url": "https://api.github.com/repos/matthiasmullie/minify/zipball/9ba1b459828adc13430f4dd6c49dae4950dc4117",
+                "reference": "9ba1b459828adc13430f4dd6c49dae4950dc4117",
                 "shasum": ""
             },
             "require": {
@@ -125,20 +125,20 @@
                 "minifier",
                 "minify"
             ],
-            "time": "2018-11-26T23:10:39+00:00"
+            "time": "2020-01-21T20:21:08+00:00"
         },
         {
             "name": "matthiasmullie/path-converter",
-            "version": "1.1.2",
+            "version": "1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/matthiasmullie/path-converter.git",
-                "reference": "5e4b121c8b9f97c80835c1d878b0812ba1d607c9"
+                "reference": "e7d13b2c7e2f2268e1424aaed02085518afa02d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/matthiasmullie/path-converter/zipball/5e4b121c8b9f97c80835c1d878b0812ba1d607c9",
-                "reference": "5e4b121c8b9f97c80835c1d878b0812ba1d607c9",
+                "url": "https://api.github.com/repos/matthiasmullie/path-converter/zipball/e7d13b2c7e2f2268e1424aaed02085518afa02d9",
+                "reference": "e7d13b2c7e2f2268e1424aaed02085518afa02d9",
                 "shasum": ""
             },
             "require": {
@@ -174,20 +174,20 @@
                 "paths",
                 "relative"
             ],
-            "time": "2018-10-25T15:19:41+00:00"
+            "time": "2019-02-05T23:41:09+00:00"
         },
         {
             "name": "o2system/cache",
-            "version": "v2.2.90",
+            "version": "v2.2.92",
             "source": {
                 "type": "git",
                 "url": "https://github.com/o2system/cache.git",
-                "reference": "d6957b34d701d1fac3afa456db9f51525f68084e"
+                "reference": "03c3862f3226e59b2e5104c1490ba020f2ecf46a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/o2system/cache/zipball/d6957b34d701d1fac3afa456db9f51525f68084e",
-                "reference": "d6957b34d701d1fac3afa456db9f51525f68084e",
+                "url": "https://api.github.com/repos/o2system/cache/zipball/03c3862f3226e59b2e5104c1490ba020f2ecf46a",
+                "reference": "03c3862f3226e59b2e5104c1490ba020f2ecf46a",
                 "shasum": ""
             },
             "require": {
@@ -226,23 +226,24 @@
                 "php",
                 "utilities"
             ],
-            "time": "2019-04-29T14:03:48+00:00"
+            "time": "2019-11-12T19:37:49+00:00"
         },
         {
             "name": "o2system/database",
-            "version": "v2.1.415",
+            "version": "v2.2.48",
             "source": {
                 "type": "git",
                 "url": "https://github.com/o2system/database.git",
-                "reference": "deb718666a47eab2b30cbca75d5aa80a5675b0f8"
+                "reference": "ec3a1fbade17de8aa5aac0b99623c269460c9af7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/o2system/database/zipball/deb718666a47eab2b30cbca75d5aa80a5675b0f8",
-                "reference": "deb718666a47eab2b30cbca75d5aa80a5675b0f8",
+                "url": "https://api.github.com/repos/o2system/database/zipball/ec3a1fbade17de8aa5aac0b99623c269460c9af7",
+                "reference": "ec3a1fbade17de8aa5aac0b99623c269460c9af7",
                 "shasum": ""
             },
             "require": {
+                "ext-ctype": "*",
                 "o2system/kernel": "*",
                 "php": "^7.2.0"
             },
@@ -260,14 +261,7 @@
                 {
                     "name": "Steeven Andrian Salim",
                     "email": "steevenz@steevenz.com",
-                    "homepage": "http://www.steevenz.com",
-                    "role": "Founder and Lead Project"
-                },
-                {
-                    "name": "Teguh Rianto",
-                    "email": "teguh.rianto22@gmail.com",
-                    "homepage": "http://teguhrianto22.pusku.com",
-                    "role": "Template Designer"
+                    "homepage": "http://www.steevenz.com"
                 }
             ],
             "description": "PHP Database Management Library",
@@ -278,20 +272,20 @@
                 "php",
                 "utilities"
             ],
-            "time": "2019-04-30T09:14:19+00:00"
+            "time": "2020-03-02T08:31:50+00:00"
         },
         {
             "name": "o2system/email",
-            "version": "v1.0.42",
+            "version": "v2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/o2system/email.git",
-                "reference": "dcb747975ca4979c488dd90a68b19d8d46ecf944"
+                "reference": "6cd74c9b07cc00ae792966f4f6b5296a6d8ee3c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/o2system/email/zipball/dcb747975ca4979c488dd90a68b19d8d46ecf944",
-                "reference": "dcb747975ca4979c488dd90a68b19d8d46ecf944",
+                "url": "https://api.github.com/repos/o2system/email/zipball/6cd74c9b07cc00ae792966f4f6b5296a6d8ee3c6",
+                "reference": "6cd74c9b07cc00ae792966f4f6b5296a6d8ee3c6",
                 "shasum": ""
             },
             "require": {
@@ -332,23 +326,24 @@
                 "php",
                 "utilities"
             ],
-            "time": "2019-04-09T06:21:21+00:00"
+            "time": "2019-11-12T19:38:17+00:00"
         },
         {
             "name": "o2system/filesystem",
-            "version": "v1.0.51",
+            "version": "v1.0.61",
             "source": {
                 "type": "git",
                 "url": "https://github.com/o2system/filesystem.git",
-                "reference": "1de7e58bd22e93c00d87af24c03744a48a081e77"
+                "reference": "bdc198216c63bfa8d8257d13a8ecbf3ff5cbc4b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/o2system/filesystem/zipball/1de7e58bd22e93c00d87af24c03744a48a081e77",
-                "reference": "1de7e58bd22e93c00d87af24c03744a48a081e77",
+                "url": "https://api.github.com/repos/o2system/filesystem/zipball/bdc198216c63bfa8d8257d13a8ecbf3ff5cbc4b9",
+                "reference": "bdc198216c63bfa8d8257d13a8ecbf3ff5cbc4b9",
                 "shasum": ""
             },
             "require": {
+                "ext-fileinfo": "*",
                 "o2system/kernel": "*",
                 "php": "^7.2.0"
             },
@@ -384,20 +379,20 @@
                 "php",
                 "utilities"
             ],
-            "time": "2019-04-09T06:21:39+00:00"
+            "time": "2019-11-12T19:38:31+00:00"
         },
         {
             "name": "o2system/framework",
-            "version": "v5.5.1000",
+            "version": "v5.7.62",
             "source": {
                 "type": "git",
                 "url": "https://github.com/o2system/framework.git",
-                "reference": "8611bc196d7190ab09b38de683e13583b61d5445"
+                "reference": "1c8e565144f7c02fcd556b0cfb08a58c577b94e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/o2system/framework/zipball/8611bc196d7190ab09b38de683e13583b61d5445",
-                "reference": "8611bc196d7190ab09b38de683e13583b61d5445",
+                "url": "https://api.github.com/repos/o2system/framework/zipball/1c8e565144f7c02fcd556b0cfb08a58c577b94e6",
+                "reference": "1c8e565144f7c02fcd556b0cfb08a58c577b94e6",
                 "shasum": ""
             },
             "require": {
@@ -448,20 +443,20 @@
                 "php",
                 "utilities"
             ],
-            "time": "2019-04-29T15:29:14+00:00"
+            "time": "2020-03-02T07:53:13+00:00"
         },
         {
             "name": "o2system/html",
-            "version": "v1.0.72",
+            "version": "v1.0.77",
             "source": {
                 "type": "git",
                 "url": "https://github.com/o2system/html.git",
-                "reference": "b580ea70ceb00dd0b764d4945f60e600a79d5cd0"
+                "reference": "600a196dcf5e475c3a16cc788dbead58c794c033"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/o2system/html/zipball/b580ea70ceb00dd0b764d4945f60e600a79d5cd0",
-                "reference": "b580ea70ceb00dd0b764d4945f60e600a79d5cd0",
+                "url": "https://api.github.com/repos/o2system/html/zipball/600a196dcf5e475c3a16cc788dbead58c794c033",
+                "reference": "600a196dcf5e475c3a16cc788dbead58c794c033",
                 "shasum": ""
             },
             "require": {
@@ -500,20 +495,20 @@
                 "php",
                 "utilities"
             ],
-            "time": "2019-04-29T15:33:10+00:00"
+            "time": "2019-11-12T19:37:21+00:00"
         },
         {
             "name": "o2system/image",
-            "version": "v1.0.63",
+            "version": "v2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/o2system/image.git",
-                "reference": "7a337e27e71a6b157b7c860fdc6bf0ae90e7f16d"
+                "reference": "4a3eec4933d763ae158e1cf5340d17694f5ad500"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/o2system/image/zipball/7a337e27e71a6b157b7c860fdc6bf0ae90e7f16d",
-                "reference": "7a337e27e71a6b157b7c860fdc6bf0ae90e7f16d",
+                "url": "https://api.github.com/repos/o2system/image/zipball/4a3eec4933d763ae158e1cf5340d17694f5ad500",
+                "reference": "4a3eec4933d763ae158e1cf5340d17694f5ad500",
                 "shasum": ""
             },
             "require": {
@@ -553,25 +548,24 @@
                 "php",
                 "utilities"
             ],
-            "time": "2019-04-09T06:23:10+00:00"
+            "time": "2019-11-12T19:39:08+00:00"
         },
         {
             "name": "o2system/kernel",
-            "version": "v1.9.153",
+            "version": "v2.0.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/o2system/kernel.git",
-                "reference": "6a35e204b28d0d25fe4c1c46edcd31b0d3182bc6"
+                "reference": "61ce830ecd54db229188310072e6f30f7e2cc97c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/o2system/kernel/zipball/6a35e204b28d0d25fe4c1c46edcd31b0d3182bc6",
-                "reference": "6a35e204b28d0d25fe4c1c46edcd31b0d3182bc6",
+                "url": "https://api.github.com/repos/o2system/kernel/zipball/61ce830ecd54db229188310072e6f30f7e2cc97c",
+                "reference": "61ce830ecd54db229188310072e6f30f7e2cc97c",
                 "shasum": ""
             },
             "require": {
                 "filp/whoops": "^2.3",
-                "o2system/psr": "*",
                 "o2system/spl": "*",
                 "php": "^7.2.0"
             },
@@ -617,20 +611,20 @@
                 "php",
                 "singleton"
             ],
-            "time": "2019-04-30T08:46:46+00:00"
+            "time": "2020-03-02T08:22:56+00:00"
         },
         {
             "name": "o2system/parser",
-            "version": "v1.0.59",
+            "version": "v1.0.61",
             "source": {
                 "type": "git",
                 "url": "https://github.com/o2system/parser.git",
-                "reference": "c4f4d8497d13234537df6ebed4795e1a85b83212"
+                "reference": "94057b657a4e272d399ca766d5eab5761bf4ae77"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/o2system/parser/zipball/c4f4d8497d13234537df6ebed4795e1a85b83212",
-                "reference": "c4f4d8497d13234537df6ebed4795e1a85b83212",
+                "url": "https://api.github.com/repos/o2system/parser/zipball/94057b657a4e272d399ca766d5eab5761bf4ae77",
+                "reference": "94057b657a4e272d399ca766d5eab5761bf4ae77",
                 "shasum": ""
             },
             "require": {
@@ -665,20 +659,20 @@
                 "php",
                 "utilities"
             ],
-            "time": "2019-04-29T16:26:48+00:00"
+            "time": "2019-11-12T19:39:46+00:00"
         },
         {
             "name": "o2system/psr",
-            "version": "v1.2.155",
+            "version": "v1.2.156",
             "source": {
                 "type": "git",
                 "url": "https://github.com/o2system/psr.git",
-                "reference": "b5155535b23113ff6156a45a4b8deeffc0fcb9e4"
+                "reference": "a379467c3aad955eeb0f9cb4a5911153bc9c75c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/o2system/psr/zipball/b5155535b23113ff6156a45a4b8deeffc0fcb9e4",
-                "reference": "b5155535b23113ff6156a45a4b8deeffc0fcb9e4",
+                "url": "https://api.github.com/repos/o2system/psr/zipball/a379467c3aad955eeb0f9cb4a5911153bc9c75c8",
+                "reference": "a379467c3aad955eeb0f9cb4a5911153bc9c75c8",
                 "shasum": ""
             },
             "require": {
@@ -722,20 +716,20 @@
                 "php",
                 "utilities"
             ],
-            "time": "2019-04-29T17:22:23+00:00"
+            "time": "2019-11-12T19:40:04+00:00"
         },
         {
             "name": "o2system/security",
-            "version": "v1.5.125",
+            "version": "v1.7.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/o2system/security.git",
-                "reference": "edc412166ab2e9372fc61ad05a173cfdfd663829"
+                "reference": "3ec9264d6d7b484532314061173dfcf7fb576909"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/o2system/security/zipball/edc412166ab2e9372fc61ad05a173cfdfd663829",
-                "reference": "edc412166ab2e9372fc61ad05a173cfdfd663829",
+                "url": "https://api.github.com/repos/o2system/security/zipball/3ec9264d6d7b484532314061173dfcf7fb576909",
+                "reference": "3ec9264d6d7b484532314061173dfcf7fb576909",
                 "shasum": ""
             },
             "require": {
@@ -772,20 +766,20 @@
                 "php",
                 "utilities"
             ],
-            "time": "2019-04-30T07:29:22+00:00"
+            "time": "2019-11-20T05:49:43+00:00"
         },
         {
             "name": "o2system/session",
-            "version": "v2.0.44",
+            "version": "v2.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/o2system/session.git",
-                "reference": "49f2af67b876a58c0895ac80fc64a01b27ea6a6d"
+                "reference": "1ce70359142ebeac4a1384951b465aab0880e6fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/o2system/session/zipball/49f2af67b876a58c0895ac80fc64a01b27ea6a6d",
-                "reference": "49f2af67b876a58c0895ac80fc64a01b27ea6a6d",
+                "url": "https://api.github.com/repos/o2system/session/zipball/1ce70359142ebeac4a1384951b465aab0880e6fb",
+                "reference": "1ce70359142ebeac4a1384951b465aab0880e6fb",
                 "shasum": ""
             },
             "require": {
@@ -802,6 +796,9 @@
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
             "authors": [
                 {
                     "name": "Steeven Andrian Salim",
@@ -824,20 +821,20 @@
                 "php",
                 "session"
             ],
-            "time": "2019-04-29T14:50:02+00:00"
+            "time": "2020-03-02T08:15:32+00:00"
         },
         {
             "name": "o2system/spl",
-            "version": "v1.0.140",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/o2system/spl.git",
-                "reference": "0a4a7e3c29fe2e371bd085c1ae0f84952f744019"
+                "reference": "1ccad90f4a4765d1594a7b2f924bf8d5f0763cc5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/o2system/spl/zipball/0a4a7e3c29fe2e371bd085c1ae0f84952f744019",
-                "reference": "0a4a7e3c29fe2e371bd085c1ae0f84952f744019",
+                "url": "https://api.github.com/repos/o2system/spl/zipball/1ccad90f4a4765d1594a7b2f924bf8d5f0763cc5",
+                "reference": "1ccad90f4a4765d1594a7b2f924bf8d5f0763cc5",
                 "shasum": ""
             },
             "require": {
@@ -876,20 +873,20 @@
                 "php",
                 "utilities"
             ],
-            "time": "2019-04-30T09:12:30+00:00"
+            "time": "2020-03-02T07:56:02+00:00"
         },
         {
             "name": "phpmailer/phpmailer",
-            "version": "v6.0.7",
+            "version": "v6.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPMailer/PHPMailer.git",
-                "reference": "0c41a36d4508d470e376498c1c0c527aa36a2d59"
+                "reference": "c5e61d0729507049cec9673aa1a679f9adefd683"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/0c41a36d4508d470e376498c1c0c527aa36a2d59",
-                "reference": "0c41a36d4508d470e376498c1c0c527aa36a2d59",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/c5e61d0729507049cec9673aa1a679f9adefd683",
+                "reference": "c5e61d0729507049cec9673aa1a679f9adefd683",
                 "shasum": ""
             },
             "require": {
@@ -898,13 +895,9 @@
                 "php": ">=5.5.0"
             },
             "require-dev": {
-                "doctrine/annotations": "1.2.*",
+                "doctrine/annotations": "^1.2",
                 "friendsofphp/php-cs-fixer": "^2.2",
-                "phpdocumentor/phpdocumentor": "2.*",
-                "phpunit/phpunit": "^4.8 || ^5.7",
-                "zendframework/zend-eventmanager": "3.0.*",
-                "zendframework/zend-i18n": "2.7.3",
-                "zendframework/zend-serializer": "2.7.*"
+                "phpunit/phpunit": "^4.8 || ^5.7"
             },
             "suggest": {
                 "ext-mbstring": "Needed to send email in multibyte encoding charset",
@@ -922,16 +915,16 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "LGPL-2.1"
+                "LGPL-2.1-only"
             ],
             "authors": [
                 {
-                    "name": "Jim Jagielski",
-                    "email": "jimjag@gmail.com"
-                },
-                {
                     "name": "Marcus Bointon",
                     "email": "phpmailer@synchromedia.co.uk"
+                },
+                {
+                    "name": "Jim Jagielski",
+                    "email": "jimjag@gmail.com"
                 },
                 {
                     "name": "Andy Prevost",
@@ -942,20 +935,20 @@
                 }
             ],
             "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
-            "time": "2019-02-01T15:04:28+00:00"
+            "time": "2019-12-10T11:17:38+00:00"
         },
         {
             "name": "ps/image-optimizer",
-            "version": "1.2.1",
+            "version": "1.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/psliwa/image-optimizer.git",
-                "reference": "fbe41e4fd67d8e9675c5437441080e44f5d5e5f6"
+                "reference": "0c973fc96fb45c1a4f45b010be20c98b6ec00d1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/psliwa/image-optimizer/zipball/fbe41e4fd67d8e9675c5437441080e44f5d5e5f6",
-                "reference": "fbe41e4fd67d8e9675c5437441080e44f5d5e5f6",
+                "url": "https://api.github.com/repos/psliwa/image-optimizer/zipball/0c973fc96fb45c1a4f45b010be20c98b6ec00d1e",
+                "reference": "0c973fc96fb45c1a4f45b010be20c98b6ec00d1e",
                 "shasum": ""
             },
             "require": {
@@ -991,7 +984,7 @@
                 "optimization",
                 "optipng"
             ],
-            "time": "2018-12-17T20:01:36+00:00"
+            "time": "2019-11-14T20:21:13+00:00"
         },
         {
             "name": "psr/cache",
@@ -1246,16 +1239,16 @@
         },
         {
             "name": "psr/log",
-            "version": "1.1.0",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd"
+                "reference": "446d54b4cb6bf489fc9d75f55843658e6f25d801"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
-                "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/446d54b4cb6bf489fc9d75f55843658e6f25d801",
+                "reference": "446d54b4cb6bf489fc9d75f55843658e6f25d801",
                 "shasum": ""
             },
             "require": {
@@ -1264,7 +1257,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-master": "1.1.x-dev"
                 }
             },
             "autoload": {
@@ -1289,7 +1282,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2018-11-20T15:27:04+00:00"
+            "time": "2019-11-01T11:05:21+00:00"
         },
         {
             "name": "psr/simple-cache",
@@ -1341,25 +1334,25 @@
         },
         {
             "name": "symfony/css-selector",
-            "version": "v4.2.8",
+            "version": "v5.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
-                "reference": "48eddf66950fa57996e1be4a55916d65c10c604a"
+                "reference": "a0b51ba9938ccc206d9284de7eb527c2d4550b44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/css-selector/zipball/48eddf66950fa57996e1be4a55916d65c10c604a",
-                "reference": "48eddf66950fa57996e1be4a55916d65c10c604a",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/a0b51ba9938ccc206d9284de7eb527c2d4550b44",
+                "reference": "a0b51ba9938ccc206d9284de7eb527c2d4550b44",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1.3"
+                "php": "^7.2.5"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.2-dev"
+                    "dev-master": "5.0-dev"
                 }
             },
             "autoload": {
@@ -1376,12 +1369,12 @@
             ],
             "authors": [
                 {
-                    "name": "Jean-François Simon",
-                    "email": "jeanfrancois.simon@sensiolabs.com"
-                },
-                {
                     "name": "Fabien Potencier",
                     "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Jean-François Simon",
+                    "email": "jeanfrancois.simon@sensiolabs.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -1390,20 +1383,20 @@
             ],
             "description": "Symfony CssSelector Component",
             "homepage": "https://symfony.com",
-            "time": "2019-01-16T20:31:39+00:00"
+            "time": "2020-02-04T09:41:09+00:00"
         },
         {
             "name": "symfony/options-resolver",
-            "version": "v4.2.8",
+            "version": "v4.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/options-resolver.git",
-                "reference": "fd4a5f27b7cd085b489247b9890ebca9f3e10044"
+                "reference": "9a02d6662660fe7bfadad63b5f0b0718d4c8b6b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/fd4a5f27b7cd085b489247b9890ebca9f3e10044",
-                "reference": "fd4a5f27b7cd085b489247b9890ebca9f3e10044",
+                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/9a02d6662660fe7bfadad63b5f0b0718d4c8b6b0",
+                "reference": "9a02d6662660fe7bfadad63b5f0b0718d4c8b6b0",
                 "shasum": ""
             },
             "require": {
@@ -1412,7 +1405,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.2-dev"
+                    "dev-master": "4.4-dev"
                 }
             },
             "autoload": {
@@ -1444,20 +1437,20 @@
                 "configuration",
                 "options"
             ],
-            "time": "2019-04-10T16:20:36+00:00"
+            "time": "2020-01-04T13:00:46+00:00"
         },
         {
             "name": "symfony/process",
-            "version": "v4.2.8",
+            "version": "v4.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "8cf39fb4ccff793340c258ee7760fd40bfe745fe"
+                "reference": "bf9166bac906c9e69fb7a11d94875e7ced97bcd7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/8cf39fb4ccff793340c258ee7760fd40bfe745fe",
-                "reference": "8cf39fb4ccff793340c258ee7760fd40bfe745fe",
+                "url": "https://api.github.com/repos/symfony/process/zipball/bf9166bac906c9e69fb7a11d94875e7ced97bcd7",
+                "reference": "bf9166bac906c9e69fb7a11d94875e7ced97bcd7",
                 "shasum": ""
             },
             "require": {
@@ -1466,7 +1459,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.2-dev"
+                    "dev-master": "4.4-dev"
                 }
             },
             "autoload": {
@@ -1493,25 +1486,27 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2019-04-10T16:20:36+00:00"
+            "time": "2020-02-07T20:06:44+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
-            "version": "2.2.1",
+            "version": "2.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tijsverkoyen/CssToInlineStyles.git",
-                "reference": "0ed4a2ea4e0902dac0489e6436ebcd5bbcae9757"
+                "reference": "dda2ee426acd6d801d5b7fd1001cde9b5f790e15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tijsverkoyen/CssToInlineStyles/zipball/0ed4a2ea4e0902dac0489e6436ebcd5bbcae9757",
-                "reference": "0ed4a2ea4e0902dac0489e6436ebcd5bbcae9757",
+                "url": "https://api.github.com/repos/tijsverkoyen/CssToInlineStyles/zipball/dda2ee426acd6d801d5b7fd1001cde9b5f790e15",
+                "reference": "dda2ee426acd6d801d5b7fd1001cde9b5f790e15",
                 "shasum": ""
             },
             "require": {
+                "ext-dom": "*",
+                "ext-libxml": "*",
                 "php": "^5.5 || ^7.0",
-                "symfony/css-selector": "^2.7 || ^3.0 || ^4.0"
+                "symfony/css-selector": "^2.7 || ^3.0 || ^4.0 || ^5.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.0"
@@ -1540,7 +1535,7 @@
             ],
             "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
             "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
-            "time": "2017-11-27T11:13:29+00:00"
+            "time": "2019-10-24T08:53:34+00:00"
         }
     ],
     "packages-dev": [],

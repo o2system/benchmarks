@@ -8,10 +8,11 @@
 # full stack services
 list="
 aura-2.0
-o2system-basic
+o2system
 octopy
 panada
-laravel-5.8
+ci4
+laravel-6
 cake-3.7
 zf-3.0
 symfony-4.2

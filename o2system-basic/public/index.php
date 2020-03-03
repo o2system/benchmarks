@@ -47,14 +47,14 @@ if ( ! defined( 'ENVIRONMENT' ) ) {
      *
      * @value DEVELOPMENT|TESTING|PRODUCTION
      */
-    define( 'ENVIRONMENT', 'DEVELOPMENT' );
+    define( 'ENVIRONMENT', 'PRODUCTION' );
 
     /**
      * Environment Debug Stage
      *
      * @value DEVELOPER|TESTER|PUBLIC
      */
-    $_ENV[ 'DEBUG_STAGE' ] = 'DEVELOPER';
+    $_ENV[ 'DEBUG_STAGE' ] = 'PUBLIC';
 }
 
 /*
@@ -168,8 +168,6 @@ chdir( __DIR__ . DIRECTORY_SEPARATOR );
 |
 */
 require __DIR__ . '/../vendor/autoload.php';
-
-require $_SERVER['DOCUMENT_ROOT'].'/benchmarks/libs/output_data.php';
 
 /*
  * ------------------------------------------------------
