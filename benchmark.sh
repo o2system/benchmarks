@@ -1,6 +1,6 @@
 #!/bin/sh
 
-base="http://benchmarks.o2system.id/fullstack"
+base="http://127.0.0.1/fullstack"
 
 cd `dirname $0`
 

@@ -3,24 +3,33 @@
 
 # phalcon-3.4 (after zf)
 
-
-
-# full stack services
 list="
-aura-2.0
 o2system
-octopy
-panada
-ci4
-laravel-6
-cake-3.7
+codeigniter-4.0
+laravel-6.1
+symfony-5.0
+cakephp-3.8
 zf-3.0
-symfony-4.2
-ci-3.1
-staticphp-0.9
 yii-2.0
 fuel-1.8
 "
+
+# full stack services
+# list="
+# aura-2.0
+# o2system
+# octopy
+# panada
+# ci4
+# laravel-6
+# cake-3.7
+# zf-3.0
+# symfony-4.2
+# ci-3.1
+# staticphp-0.9
+# yii-2.0
+# fuel-1.8
+# "
 # list="
 # o2system-hydro
 # cake-3.7
