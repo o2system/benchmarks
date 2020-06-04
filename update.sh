@@ -18,7 +18,7 @@ do
     if [ -d "$fw" ]; then
         echo "***** $fw *****"
         cd "$fw"
-        composer update
+        composer update --no-dev --optimize-autoloader
         cd ..
     fi
 done

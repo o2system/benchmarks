@@ -1,10 +1,9 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "5b787b7f98f6f47a827ac94391e33c7d",
     "content-hash": "63e309b47fd2dab914763f2a66af5f05",
     "packages": [
         {
@@ -13,20 +12,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/arbiterphp/Arbiter.Arbiter.git",
-                "reference": "2eccaa0f1c6758d0c4a61fe10b48ebeeaa624950"
+                "reference": "5cd8974edeec41a52620e8351f65aa88586e9bc6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/arbiterphp/Arbiter.Arbiter/zipball/2eccaa0f1c6758d0c4a61fe10b48ebeeaa624950",
-                "reference": "2eccaa0f1c6758d0c4a61fe10b48ebeeaa624950",
+                "url": "https://api.github.com/repos/arbiterphp/Arbiter.Arbiter/zipball/5cd8974edeec41a52620e8351f65aa88586e9bc6",
+                "reference": "5cd8974edeec41a52620e8351f65aa88586e9bc6",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5.0",
-                "psr/http-message": "~1.0"
-            },
-            "require-dev": {
-                "zendframework/zend-diactoros": "~1.0"
+                "php": ">=5.5.0"
             },
             "type": "library",
             "autoload": {
@@ -44,15 +39,13 @@
                     "homepage": "https://github.com/arbiterphp/Arbiter.Arbiter/contributors"
                 }
             ],
-            "description": "A PSR-7 Action system for Action-Domain-Responder.",
+            "description": "An Action system for Action-Domain-Responder.",
             "homepage": "https://github.com/arbiterphp/Arbiter.Arbiter",
             "keywords": [
                 "action domain responder",
-                "adr",
-                "middleware",
-                "psr-7"
+                "adr"
             ],
-            "time": "2016-10-19 20:54:40"
+            "time": "2017-07-25T15:12:45+00:00"
         },
         {
             "name": "aura/di",
@@ -60,12 +53,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/auraphp/Aura.Di.git",
-                "reference": "e688871c5e206ae954c7af18b0c155c965264db2"
+                "reference": "68a7a4323b4df00f602e0ac4e768aacac8a6d416"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/auraphp/Aura.Di/zipball/e688871c5e206ae954c7af18b0c155c965264db2",
-                "reference": "e688871c5e206ae954c7af18b0c155c965264db2",
+                "url": "https://api.github.com/repos/auraphp/Aura.Di/zipball/68a7a4323b4df00f602e0ac4e768aacac8a6d416",
+                "reference": "68a7a4323b4df00f602e0ac4e768aacac8a6d416",
                 "shasum": ""
             },
             "require": {
@@ -77,7 +70,8 @@
             },
             "require-dev": {
                 "acclimate/container": "~1.0",
-                "mouf/picotainer": "~1.0"
+                "mouf/picotainer": "~1.0",
+                "phpunit/phpunit": "~5.7 || ~4.8"
             },
             "type": "library",
             "autoload": {
@@ -104,7 +98,7 @@
                 "di",
                 "di container"
             ],
-            "time": "2017-02-10 02:08:53"
+            "time": "2019-01-04T08:23:21+00:00"
         },
         {
             "name": "aura/payload",
@@ -112,12 +106,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/auraphp/Aura.Payload.git",
-                "reference": "0fe2dcef54a8df163e9408e7316ec4fe33c3c07e"
+                "reference": "33f3684099fa7a25c9d21a41df00abc712c4f461"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/auraphp/Aura.Payload/zipball/0fe2dcef54a8df163e9408e7316ec4fe33c3c07e",
-                "reference": "0fe2dcef54a8df163e9408e7316ec4fe33c3c07e",
+                "url": "https://api.github.com/repos/auraphp/Aura.Payload/zipball/33f3684099fa7a25c9d21a41df00abc712c4f461",
+                "reference": "33f3684099fa7a25c9d21a41df00abc712c4f461",
                 "shasum": ""
             },
             "require": {
@@ -147,7 +141,7 @@
                 "domain",
                 "payload"
             ],
-            "time": "2016-10-03 21:41:00"
+            "time": "2018-04-08T20:39:28+00:00"
         },
         {
             "name": "aura/payload-interface",
@@ -155,16 +149,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/auraphp/Aura.Payload_Interface.git",
-                "reference": "3228967aa56095f62caa6564be0b0529d668db15"
+                "reference": "c5379aa6675a0326bf16e0d43c54ef15bd4fdb1a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/auraphp/Aura.Payload_Interface/zipball/3228967aa56095f62caa6564be0b0529d668db15",
-                "reference": "3228967aa56095f62caa6564be0b0529d668db15",
+                "url": "https://api.github.com/repos/auraphp/Aura.Payload_Interface/zipball/c5379aa6675a0326bf16e0d43c54ef15bd4fdb1a",
+                "reference": "c5379aa6675a0326bf16e0d43c54ef15bd4fdb1a",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "pds/skeleton": "^1.0",
+                "phpunit/phpunit": "~5.7 || ~4.8"
             },
             "type": "library",
             "autoload": {
@@ -189,7 +187,7 @@
                 "domain",
                 "payload"
             ],
-            "time": "2015-12-01 15:16:56"
+            "time": "2017-07-26T15:02:59+00:00"
         },
         {
             "name": "aura/router",
@@ -197,12 +195,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/auraphp/Aura.Router.git",
-                "reference": "34e508e85dc3040a9c1cdca466fe324900a9ea98"
+                "reference": "9167a38a8a9e9ec96667d939e3eaa4b2e7bd5333"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/auraphp/Aura.Router/zipball/34e508e85dc3040a9c1cdca466fe324900a9ea98",
-                "reference": "34e508e85dc3040a9c1cdca466fe324900a9ea98",
+                "url": "https://api.github.com/repos/auraphp/Aura.Router/zipball/9167a38a8a9e9ec96667d939e3eaa4b2e7bd5333",
+                "reference": "9167a38a8a9e9ec96667d939e3eaa4b2e7bd5333",
                 "shasum": ""
             },
             "require": {
@@ -211,6 +209,7 @@
                 "psr/log": "~1.0"
             },
             "require-dev": {
+                "phpunit/phpunit": "~5.7 || ~4.8",
                 "zendframework/zend-diactoros": "~1.0"
             },
             "type": "library",
@@ -237,21 +236,24 @@
                 "router",
                 "routing"
             ],
-            "time": "2017-02-10 18:43:29"
+            "time": "2018-11-06T02:14:29+00:00"
         },
         {
             "name": "container-interop/container-interop",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/container-interop/container-interop.git",
-                "reference": "fc08354828f8fd3245f77a66b9e23a6bca48297e"
+                "reference": "79cbf1341c22ec75643d841642dd5d6acd83bdb8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/container-interop/container-interop/zipball/fc08354828f8fd3245f77a66b9e23a6bca48297e",
-                "reference": "fc08354828f8fd3245f77a66b9e23a6bca48297e",
+                "url": "https://api.github.com/repos/container-interop/container-interop/zipball/79cbf1341c22ec75643d841642dd5d6acd83bdb8",
+                "reference": "79cbf1341c22ec75643d841642dd5d6acd83bdb8",
                 "shasum": ""
+            },
+            "require": {
+                "psr/container": "^1.0"
             },
             "type": "library",
             "autoload": {
@@ -264,7 +266,9 @@
                 "MIT"
             ],
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
-            "time": "2014-12-30 15:22:37"
+            "homepage": "https://github.com/container-interop/container-interop",
+            "abandoned": "psr/container",
+            "time": "2017-02-14T19:40:03+00:00"
         },
         {
             "name": "josegonzalez/dotenv",
@@ -315,7 +319,56 @@
                 "dotenv",
                 "php"
             ],
-            "time": "2016-01-07 07:13:27"
+            "time": "2016-01-07T07:13:27+00:00"
+        },
+        {
+            "name": "psr/container",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/container.git",
+                "reference": "fc1bc363ecf887921e3897c7b1dad3587ae154eb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/fc1bc363ecf887921e3897c7b1dad3587ae154eb",
+                "reference": "fc1bc363ecf887921e3897c7b1dad3587ae154eb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common Container Interface (PHP FIG PSR-11)",
+            "homepage": "https://github.com/php-fig/container",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interface",
+                "container-interop",
+                "psr"
+            ],
+            "time": "2019-10-04T14:07:35+00:00"
         },
         {
             "name": "psr/http-message",
@@ -323,12 +376,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-message.git",
-                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+                "reference": "efd67d1dc14a7ef4fc4e518e7dee91c271d524e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
-                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/efd67d1dc14a7ef4fc4e518e7dee91c271d524e4",
+                "reference": "efd67d1dc14a7ef4fc4e518e7dee91c271d524e4",
                 "shasum": ""
             },
             "require": {
@@ -365,7 +418,7 @@
                 "request",
                 "response"
             ],
-            "time": "2016-08-06 14:39:51"
+            "time": "2019-08-29T13:16:46+00:00"
         },
         {
             "name": "psr/log",
@@ -373,12 +426,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
+                "reference": "0f73288fd15629204f9d42b7055f72dacbe811fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
-                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/0f73288fd15629204f9d42b7055f72dacbe811fc",
+                "reference": "0f73288fd15629204f9d42b7055f72dacbe811fc",
                 "shasum": ""
             },
             "require": {
@@ -387,7 +440,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-master": "1.1.x-dev"
                 }
             },
             "autoload": {
@@ -412,7 +465,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-10-10 12:19:37"
+            "time": "2020-03-23T09:12:05+00:00"
         },
         {
             "name": "radar/adr",
@@ -420,12 +473,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/radarphp/Radar.Adr.git",
-                "reference": "2e8be1cc8a92b4ba7a735a2c16dc21f297c35ebf"
+                "reference": "85046fc14113d7072fe91e0dc152e91d2ba9e5bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/radarphp/Radar.Adr/zipball/2e8be1cc8a92b4ba7a735a2c16dc21f297c35ebf",
-                "reference": "2e8be1cc8a92b4ba7a735a2c16dc21f297c35ebf",
+                "url": "https://api.github.com/repos/radarphp/Radar.Adr/zipball/85046fc14113d7072fe91e0dc152e91d2ba9e5bf",
+                "reference": "85046fc14113d7072fe91e0dc152e91d2ba9e5bf",
                 "shasum": ""
             },
             "require": {
@@ -451,7 +504,7 @@
             ],
             "description": "The Action-Domain-Responder core library for Radar.",
             "homepage": "https://github.com/radarphp/Radar.Adr",
-            "time": "2016-10-19 21:18:08"
+            "time": "2019-04-15T05:37:45+00:00"
         },
         {
             "name": "relay/middleware",
@@ -459,12 +512,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/relayphp/Relay.Middleware.git",
-                "reference": "7ae2a923239e0de544869526a30f873990557aff"
+                "reference": "cc71ad77c735abfbd914098e68badc8689d69664"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/relayphp/Relay.Middleware/zipball/7ae2a923239e0de544869526a30f873990557aff",
-                "reference": "7ae2a923239e0de544869526a30f873990557aff",
+                "url": "https://api.github.com/repos/relayphp/Relay.Middleware/zipball/cc71ad77c735abfbd914098e68badc8689d69664",
+                "reference": "cc71ad77c735abfbd914098e68badc8689d69664",
                 "shasum": ""
             },
             "require": {
@@ -485,7 +538,8 @@
             ],
             "description": "Relay-compatible middleware decorators.",
             "homepage": "https://github.com/relayphp/Relay.Middleware",
-            "time": "2016-12-07 16:45:53"
+            "abandoned": true,
+            "time": "2018-03-27T19:09:25+00:00"
         },
         {
             "name": "relay/relay",
@@ -530,41 +584,56 @@
                 "middleware",
                 "psr-7"
             ],
-            "time": "2016-05-16 14:35:30"
+            "time": "2016-05-16T14:35:30+00:00"
         },
         {
             "name": "zendframework/zend-diactoros",
-            "version": "dev-develop",
+            "version": "dev-release-1.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-diactoros.git",
-                "reference": "79367d68b5ea582e6504f26f8009d4574518f867"
+                "reference": "437ea324cc7e096a395d989b6bd65e3554000d3d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-diactoros/zipball/79367d68b5ea582e6504f26f8009d4574518f867",
-                "reference": "79367d68b5ea582e6504f26f8009d4574518f867",
+                "url": "https://api.github.com/repos/zendframework/zend-diactoros/zipball/437ea324cc7e096a395d989b6bd65e3554000d3d",
+                "reference": "437ea324cc7e096a395d989b6bd65e3554000d3d",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.4 || ^7.0",
-                "psr/http-message": "~1.0"
+                "php": "^5.6 || ^7.0",
+                "psr/http-message": "^1.0"
+            },
+            "conflict": {
+                "phpspec/prophecy": "<1.9.0"
             },
             "provide": {
-                "psr/http-message-implementation": "~1.0.0"
+                "psr/http-message-implementation": "1.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.6 || ^5.5",
-                "zendframework/zend-coding-standard": "~1.0.0"
+                "ext-dom": "*",
+                "ext-libxml": "*",
+                "php-http/psr7-integration-tests": "dev-master",
+                "phpunit/phpunit": "^5.7.16 || ^6.0.8 || ^7.2.7",
+                "zendframework/zend-coding-standard": "~1.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.3-dev",
-                    "dev-develop": "1.4-dev"
+                    "dev-release-1.8": "1.8.x-dev"
                 }
             },
             "autoload": {
+                "files": [
+                    "src/functions/create_uploaded_file.php",
+                    "src/functions/marshal_headers_from_sapi.php",
+                    "src/functions/marshal_method_from_sapi.php",
+                    "src/functions/marshal_protocol_version_from_sapi.php",
+                    "src/functions/marshal_uri_from_sapi.php",
+                    "src/functions/normalize_server.php",
+                    "src/functions/normalize_uploaded_files.php",
+                    "src/functions/parse_cookie_header.php"
+                ],
                 "psr-4": {
                     "Zend\\Diactoros\\": "src/"
                 }
@@ -580,7 +649,8 @@
                 "psr",
                 "psr-7"
             ],
-            "time": "2017-01-23 04:54:09"
+            "abandoned": "laminas/laminas-diactoros",
+            "time": "2019-12-07T17:56:35+00:00"
         }
     ],
     "packages-dev": [],

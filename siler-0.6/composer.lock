@@ -1,10 +1,9 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "e0ed839e79ce1163113864f793e78909",
     "content-hash": "bf7a8be7aab9ff31d584f8c8c0666926",
     "packages": [
         {
@@ -62,7 +61,7 @@
                 "micro",
                 "router"
             ],
-            "time": "2017-02-14 01:11:38"
+            "time": "2017-02-14T01:11:38+00:00"
         }
     ],
     "packages-dev": [],

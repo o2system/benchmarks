@@ -1,10 +1,9 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "3ffa1ca12810dff3cef6cce002a75b9c",
     "content-hash": "b577fcc7ecec489b73c7768d1539983e",
     "packages": [
         {
@@ -35,7 +34,7 @@
                 "framework",
                 "nofussframework"
             ],
-            "time": "2015-09-28 12:26:28"
+            "time": "2015-09-28T12:26:28+00:00"
         }
     ],
     "packages-dev": [],

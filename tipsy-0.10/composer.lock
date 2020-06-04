@@ -1,10 +1,9 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "7f949e97b36a02aec1bb4c6972e5e0fa",
     "content-hash": "cb12c5fd9c86f035c235685ac8776f15",
     "packages": [
         {
@@ -53,7 +52,7 @@
                 "php"
             ],
             "abandoned": "https://github.com/tipsyphp/tipsy",
-            "time": "2014-07-24 00:00:00"
+            "time": "2014-07-24T00:00:00+00:00"
         }
     ],
     "packages-dev": [],
