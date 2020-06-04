@@ -1,14 +1,418 @@
-aura-2.0: 183.48:   769160: 0.0049452: 66
-bear-1.0: 358.93:   684448: 0.0019951: 88
-cake-3.2: 199.98: Hello World!: 0: Hello World!
-ci-3.1: 514.90:   436952: 0.0011655: 26
-laravel-5.7: 65.85: Hello World!: 0: Hello World!
-lumen-5.7: 209.53: : 0: 
-o2system-basic: 79.66: </html>: 0: </html>
-o2system-hydro: 68.60: Hello World!: 0: Hello World!
-no-framework: 1008.75: Hello World!: 0: Hello World!
-silex-2.0: 271.62: Hello World!: 0: Hello World!
-slim-3.0: 383.84: Hello World!: 0: Hello World!
-symfony-4.0: 257.16: Hello world: 0: Hello world
-yii-2.0: 665.61: : 0: 
-zf-3.0: 150.88:  1201600: 0.0055025: 189
+aura-2.0: 0.54: </table></font>: 
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0004     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0004     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: Division by zero in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0004     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+NAN: </table></font>
+bear-0.10: 443.37: ../../bootstrap/contexts/prod.php: 
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0004     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0004     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: Division by zero in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0004     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+NAN: ../../bootstrap/contexts/prod.php
+bear-1.0: 0.00: {"message": 
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0004     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0004     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: Division by zero in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0004     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+NAN: 
+cake-3.0: 0.16: Hello World!: 
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0006     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0006     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: Division by zero in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0006     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+NAN: Hello World!
+cake-3.1: 0.24: Hello World!: 
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0006     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0006     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: Division by zero in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0006     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+NAN: Hello World!
+cake-3.2: 0.24: Hello World!: 
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0005     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0005     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: Division by zero in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0005     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+NAN: Hello World!
+ci-3.0: 13.60: </div>: 
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0005     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0005     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: Division by zero in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0005     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+NAN: </div>
+ci-3.1: 14.00: Hello World!: 
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0005     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0005     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: Division by zero in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0005     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+NAN: Hello World!
+ci-4.0-dev: 51.58: </html>: 
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0005     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0005     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: Division by zero in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0005     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+NAN: </html>
+ci-4: 867.76: </body></html>: 
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0007     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0007     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: Division by zero in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0007     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+NAN: </body></html>
+cygnite-1.3: 485.66: Cygnite requires Mcrypt PHP extension.: 
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0006     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0006     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: Division by zero in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0006     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+NAN: Cygnite requires Mcrypt PHP extension.
+fatfree-3.5: 66.40: </html>: 
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0004     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0004     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: Division by zero in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0004     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+NAN: </html>
+fuel-1.8: 46.50: </html>: 
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0004     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0004     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: Division by zero in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0004     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+NAN: </html>
+ice-1.0: 39.63: </table></font>: 
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0004     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0004     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: Division by zero in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0004     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+NAN: </table></font>
+ice-1.1: 67.11: </table></font>: 
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0004     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0004     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: Division by zero in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0004     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+NAN: </table></font>
+kumbia-1.0-dev: 8.93: </table></font>: 
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0006     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0006     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: Division by zero in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0006     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+NAN: </table></font>
+laravel-4.2: 226.00: Mcrypt PHP extension required.: 
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0005     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0005     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: Division by zero in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0005     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+NAN: Mcrypt PHP extension required.
+laravel-5.0: 6.45: </table></font>: 
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0005     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0005     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: Division by zero in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0005     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+NAN: </table></font>
+laravel-5.1: 34.32: </html>: 
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0004     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0004     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: Division by zero in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0004     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+NAN: </html>
+laravel-5.2: 39.16: </html>: 
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0007     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0007     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: Division by zero in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0007     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+NAN: </html>
+laravel-5.3: 35.31: </html>: 
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0005     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0005     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: Division by zero in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0005     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+NAN: </html>
+laravel-5.7: : : 
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0007     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: A non-numeric value encountered in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0007     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+
+Warning: Division by zero in C:\laragon\www\benchmarks\benchmarks\avg_ms.php on line 6
+
+Call Stack:
+    0.0007     407056   1. {main}() C:\laragon\www\benchmarks\benchmarks\avg_ms.php:0
+
+NAN: 

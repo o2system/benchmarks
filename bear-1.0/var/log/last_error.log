@@ -1,0 +1,52 @@
+Thu, 04 Jun 2020 13:32:06 +0000
+get page://self/benchmarks/bear-1.0/var/www/index.php/hello
+
+[BEAR\Resource\Exception\ResourceNotFoundException]
+page://self/benchmarks/bear-1.0/var/www/index.php/hello
+in file C:\laragon\www\benchmarks\bear-1.0\vendor\bear\resource\src\AppAdapter.php on line 78
+
+#0 C:\laragon\www\benchmarks\bear-1.0\vendor\bear\resource\src\AppAdapter.php(61): BEAR\Resource\AppAdapter->getNotFound(Object(BEAR\Resource\Uri), Object(Ray\Compiler\Exception\NotCompiled), 'My\\Hello\\Resour...')
+#1 C:\laragon\www\benchmarks\bear-1.0\vendor\bear\resource\src\Factory.php(52): BEAR\Resource\AppAdapter->get(Object(BEAR\Resource\Uri))
+#2 C:\laragon\www\benchmarks\bear-1.0\vendor\bear\resource\src\Resource.php(85): BEAR\Resource\Factory->newInstance(Object(BEAR\Resource\Uri))
+#3 C:\laragon\www\benchmarks\bear-1.0\vendor\bear\resource\src\Resource.php(113): BEAR\Resource\Resource->newInstance(Object(BEAR\Resource\Uri))
+#4 C:\laragon\www\benchmarks\bear-1.0\bootstrap\bootstrap.php(27): BEAR\Resource\Resource->uri(Object(BEAR\Resource\Uri))
+#5 C:\laragon\www\benchmarks\bear-1.0\var\www\index.php(13): require('C:\\laragon\\www\\...')
+#6 {main}
+
+PHP Variables
+
+$_SERVER => Array
+(
+    [HTTP_HOST] => 127.0.0.1
+    [HTTP_USER_AGENT] => curl/7.62.0
+    [HTTP_ACCEPT] => */*
+    [PATH] => C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Wachid\AppData\Local\Microsoft\WindowsApps;C:\Users\Wachid\AppData\Local\Programs\Microsoft VS Code\bin;C:\laragon\bin\php\php-7.4.3-Win32-vc15-x64;C:\laragon\bin\git\bin;C:\laragon\bin\go\go1.14.2\bin;C:\laragon\bin\composer;C:\laragon\bin\nodejs\node-v12;C:\laragon\bin\mysql\mysql-5.7.24-winx64\bin;C:\laragon\bin\yarn\bin;C:\Users\Wachid\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64\;C:\Users\Wachid\AppData\Local\Pandoc\;C:\Program Files\Java\jdk-11.0.7\bin;C:\Users\Wachid\AppData\Local\Android\Sdk\platform-tools;
+    [SystemRoot] => C:\WINDOWS
+    [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+    [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    [WINDIR] => C:\WINDOWS
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.4.35 (Win64) OpenSSL/1.1.1d PHP/7.4.3
+    [SERVER_NAME] => 127.0.0.1
+    [SERVER_ADDR] => 127.0.0.1
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 127.0.0.1
+    [DOCUMENT_ROOT] => C:/laragon/www
+    [REQUEST_SCHEME] => http
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => C:/laragon/www
+    [SERVER_ADMIN] => admin@example.com
+    [SCRIPT_FILENAME] => C:/laragon/www/benchmarks/bear-1.0/var/www/index.php
+    [REMOTE_PORT] => 64293
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => 
+    [REQUEST_URI] => /benchmarks/bear-1.0/var/www/index.php/hello
+    [SCRIPT_NAME] => /benchmarks/bear-1.0/var/www/index.php
+    [PATH_INFO] => /hello
+    [PATH_TRANSLATED] => C:\laragon\www\hello
+    [PHP_SELF] => /benchmarks/bear-1.0/var/www/index.php/hello
+    [REQUEST_TIME_FLOAT] => 1591277526.153
+    [REQUEST_TIME] => 1591277526
+)
