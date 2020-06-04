@@ -4,13 +4,14 @@ cd `dirname $0`
 . ./_functions.sh
 
 base="$1"
-bm_name=`basename $0 .sh`
+bm_name=`basename "$0" .sh`
 
 results_file="output/results.$bm_name.log"
 check_file="output/check.$bm_name.log"
 error_file="output/error.$bm_name.log"
 url_file="output/urls.log"
 
+# shellcheck disable=SC2103
 cd ..
 
 mv "$results_file" "$results_file.old"
