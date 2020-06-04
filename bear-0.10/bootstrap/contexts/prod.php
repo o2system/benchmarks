@@ -65,7 +65,7 @@ try {
 //
 OK: {
     $app->response->setResource($app->page)->render()->send();
-    require $_SERVER['DOCUMENT_ROOT'].'/php-framework-benchmark/libs/output_data.php';
+    require $_SERVER['DOCUMENT_ROOT'].'/benchmarks/libs/output_data.php';
     exit(0);
 }
 

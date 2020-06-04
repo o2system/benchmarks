@@ -16,4 +16,4 @@ require 'init_autoloader.php';
 // Run the application!
 Zend\Mvc\Application::init(require 'config/application.config.php')->run();
 
-require $_SERVER['DOCUMENT_ROOT'].'/php-framework-benchmark/libs/output_data.php';
+require $_SERVER['DOCUMENT_ROOT'].'/benchmarks/libs/output_data.php';

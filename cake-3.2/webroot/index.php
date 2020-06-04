@@ -36,4 +36,4 @@ $dispatcher->dispatch(
     new Response()
 );
 
-require $_SERVER['DOCUMENT_ROOT'].'/php-framework-benchmark/libs/output_data.php';
+require $_SERVER['DOCUMENT_ROOT'].'/benchmarks/libs/output_data.php';

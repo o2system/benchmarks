@@ -97,4 +97,4 @@ $url = empty($_SERVER['PATH_INFO']) ? '/' : $_SERVER['PATH_INFO'];
  */
 //require APP_PATH . 'libs/bootstrap.php'; //bootstrap de app
 require CORE_PATH . 'kumbia/bootstrap.php'; //bootstrap del core
-require $_SERVER['DOCUMENT_ROOT'].'/php-framework-benchmark/libs/output_data.php';
+require $_SERVER['DOCUMENT_ROOT'].'/benchmarks/libs/output_data.php';
