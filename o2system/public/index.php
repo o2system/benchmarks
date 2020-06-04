@@ -47,14 +47,14 @@ if ( ! defined( 'ENVIRONMENT' ) ) {
      *
      * @value DEVELOPMENT|TESTING|PRODUCTION
      */
-    define( 'ENVIRONMENT', 'PRODUCTION' );
+    define( 'ENVIRONMENT', 'DEVELOPMENT' );
 
     /**
      * Environment Debug Stage
      *
      * @value DEVELOPER|TESTER|PUBLIC
      */
-    $_ENV[ 'DEBUG_STAGE' ] = 'PUBLIC';
+    $_ENV[ 'DEBUG_STAGE' ] = 'DEVELOPER';
 }
 
 /*

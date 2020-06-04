@@ -26,4 +26,4 @@ $response = $kernel->handle($request);
 $response->send();
 $kernel->terminate($request, $response);
 
-require $_SERVER['DOCUMENT_ROOT'].'/benchmarks/libs/output_data.php';
+require $_SERVER['DOCUMENT_ROOT'].'/fullstack/libs/output_data.php';

@@ -6,7 +6,7 @@
 list="
 o2system
 codeigniter-4.0
-laravel-6.1
+laravel-7
 symfony-5.0
 cakephp-3.8
 zf-3.0

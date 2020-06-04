@@ -9,6 +9,6 @@ class HelloController extends Controller
     public function index()
     {
 	    echo 'Hello World!';
-	    require $_SERVER['DOCUMENT_ROOT'].'/benchmarks/libs/output_data.php';
+	    require $_SERVER['DOCUMENT_ROOT'].'/fullstack/libs/output_data.php';
     }
 }

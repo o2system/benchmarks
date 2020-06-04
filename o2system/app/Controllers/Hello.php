@@ -28,8 +28,11 @@ class Hello extends Controller
      */
     public function index()
     {
-	echo 'Hello World!';
-	require $_SERVER['DOCUMENT_ROOT'].'/benchmarks/libs/output_data.php';
-        //exit(EXIT_SUCCESS);
+//        presenter()->page->setHeader( 'Hello World' );
+//
+//        view('hello');
+        echo 'Hello World!';
+        require $_SERVER['DOCUMENT_ROOT'].'/benchmarks/libs/output_data.php';
+        exit(EXIT_SUCCESS);
     }
 }
