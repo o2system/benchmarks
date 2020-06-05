@@ -24,15 +24,15 @@
 		.navbar-nav {
 			.nav-item {
 				.nav-link {
-					color: $white !important;
+					color: white !important;
 					&:hover {
-						color: $gray-400 !important;
+						color: $primary !important;
 					}
 				}
 
 				.btn{
-					border-color: $white;
-					color: $white;
+					border-color: white;
+					color: white;
 				}
 			}
 		}
@@ -43,7 +43,7 @@
 		.navbar-nav {
 			.nav-item {
 				.nav-link {
-					color: $gray-600;
+					color: $default;
 				}
 			}
 		}
@@ -81,7 +81,7 @@
 			list-style: none;
 
 			a {
-			    color: $gray-600;
+			    color: $default;
 			    padding: 8px 0px;
 			    display: block;
 
@@ -132,7 +132,7 @@
 			margin: 0 20px;
 			.nav-link {
 				padding: 12px 0px;
-				color: $gray-600;
+				color: $default;
 				font-weight: 400;
 				&:hover {
 					color: $primary;
@@ -174,7 +174,7 @@
 				padding: 12px 0px;
 				font-weight: 400;
 				&:hover {
-					color: $body-color;
+					color: $default;
 				}
 			}
 			.btn {
@@ -194,11 +194,11 @@
 			a {
 				padding: 10px 8px;
 				display: block;
-				color: $gray-600;
+				color: $default;
 				font-weight: 400;
 				font-size: 14px;
 				&:hover {
-					color: $body-color;
+					color: $default;
 				}
 				.info-icon {
 					display: inline-block;
@@ -229,7 +229,7 @@
 		margin: 0 auto;
 		width: 240px;
 		text-align: center;
-		background: $white;
+		background: white;
 		-webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
 		box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
 		padding: 30px 15px;
@@ -255,7 +255,7 @@
 			font-weight: 500;
 			text-transform: uppercase;
 			font-size: 14px;
-			color: $gray-600;
+			color: $default;
 			border-top: 1px solid transparent;
 		}
 		.nav-item.active {
@@ -276,7 +276,7 @@
 	.navbar {
 		.hidden-lg-up {
 			padding: 15px;
-			color: $white;
+			color: white;
 			font-weight: 500;
 			font-size: 14px;
 			text-transform: uppercase;
@@ -284,7 +284,7 @@
 		.navbar-nav {
 			.nav-link {
 				padding: 15px;
-				color: $white;
+				color: white;
 				font-weight: 500;
 				font-size: 14px;
 				text-transform: uppercase;
@@ -292,15 +292,15 @@
 			.nav-item {
 				&:hover {
 					.nav-link {
-						background: $white;
-						color: $body-color;
+						background: white;
+						color: $default;
 					}
 				}
 			}
 			.nav-item.active {
 				.nav-link {
-					background: $white;
-					color: $body-color;
+					background: white;
+					color: $default;
 				}
 			}
 			.search {
@@ -345,7 +345,7 @@
 	} */
 	.navbar-nav {
 		.nav-link {
-			color: $white;
+			color: white;
 			font-size: 14px;
 			padding: 25px 18px;
 			font-weight: 500;
@@ -368,7 +368,7 @@
 		color: rgba(255, 255, 255, 0.5);
 		font-size: 14px;
 		a {
-			color: $white;
+			color: white;
 			font-weight: 500;
 			&:hover {
 				color: $danger;
@@ -385,7 +385,7 @@
 			a {
 				padding: 3px 15px;
 				display: block;
-				color: $gray-600;
+				color: $default;
 				font-weight: 400;
 				border-bottom: 0px !important;
 				&:hover {
@@ -406,18 +406,18 @@
 	.navbar-nav {
 		.nav-link {
 			padding: 35px 15px;
-			color: $gray-600;
+			color: $default;
 		}
 		.nav-item {
 			&:hover {
 				.nav-link {
-					color: $body-color;
+					color: $default;
 				}
 			}
 		}
 		.nav-item.active {
 			.nav-link {
-				color: $body-color;
+				color: $default;
 			}
 		}
 	}
@@ -428,11 +428,11 @@
 	}
 }
 .header8 {
-	background: $body-color;
+	background: $default;
 	max-height: 120px;
 	.navbar-type-8-topbar {
 		padding: 15px 0;
-		color: $white;
+		color: white;
 	}
 	.topbar-btn {
 		a {
@@ -441,7 +441,7 @@
 		}
 	}
 	.navbar-type-8 {
-		background: $white;
+		background: white;
 		display: -webkit-box;
 		display: -webkit-flex;
 		display: -ms-flexbox;
@@ -474,9 +474,9 @@
 						display: inline-block;
 						padding: 15px 8px;
 						font-weight: 400;
-						color: $gray-600;
+						color: $default;
 						&:hover {
-							color: $body-color;
+							color: $default;
 						}
 					}
 				}
@@ -495,7 +495,7 @@
 						position: relative;
 						a {
 							padding: 20px 0px 21px;
-							color: $gray-600;
+							color: $default;
 							display: block;
 						}
 					}
@@ -531,7 +531,7 @@
 									transition: 0.2s ease-in;
 									&:hover {
 										padding: 13px 10px 13px 18px;
-										color: $body-color;
+										color: $default;
 									}
 								}
 							}
@@ -565,7 +565,7 @@
 			background: linear-gradient(to right, $primary 0%, #1dc8cc 100%);
 			border: 0px;
 			.dropdown-item {
-				color: $white;
+				color: white;
 			}
 		}
 		.dropdown-item {
@@ -578,7 +578,7 @@
 				background: linear-gradient(to right, $primary 0%, #1dc8cc 100%);
 				border: 0px;
 				.dropdown-item {
-					color: $white;
+					color: white;
 				}
 			}
 			&:hover {
@@ -590,7 +590,7 @@
 				background: linear-gradient(to right, $primary 0%, #1dc8cc 100%);
 				border: 0px;
 				.dropdown-item {
-					color: $white;
+					color: white;
 				}
 			}
 		}
@@ -659,7 +659,7 @@
 			position: relative;
 		}
 		.navbar-collapse {
-			background: $body-color;
+			background: $default;
 			padding: 15px 15px 20px;
 			border-radius: 4px;
 			-webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);

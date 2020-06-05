@@ -1,53 +1,46 @@
-/**
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- *
- * @author         Alfian Imanuddin
- * @copyright      Copyright (c) http://alfianimanuddin.com 
-*/
+.footer{
+    padding: 0;
 
-.footer-benchmarks{
-    background-color: #3e4555;
-    padding: 90px 0;
-    .footer-top{
-        .icon{
-            margin-right: 20px;
-            font-size: 26px;
-        }
-        .content{
-            span{
-                margin-top: 5px;
-                display: block;
-            }
-        }
-        .social{
-            margin-left: auto!important;
-            a{
-                background: rgba(120, 130, 140, 0.13);
-                color: #8d97ad;
-                width: 40px;
-                height: 40px;
-                text-align: center;
-                display: inline-block;
-                border-radius: 100%;
-                margin: 0 5px;
-                -webkit-transition: 0.2s ease-in;
-                -o-transition: 0.2s ease-in;
-                transition: 0.2s ease-in;
-                i{
-                    line-height: 40px;
+    &-top{
+        .navbar{
+            background-color: #b83638;
+            position: relative;
+            padding-top: 15px;
+            padding-bottom: 15px;
+
+            &-brand{
+                img{
+                    height: 50px;
+                    width: auto;
                 }
-                &:hover{
-                    color: #ffffff;
-                    -webkit-transform: translate3d(0px, -5px, 0px);
-                    transform: translate3d(0px, -5px, 0px);
+            }
+
+            .navbar-nav{
+                .nav{
+                    &-item{
+                        margin-right: 30px;
+                        @include device(mobile){
+                            margin-right: 0;
+                        }
+
+                        &:last-child{
+                            margin-right: 0;
+                        }
+                    }
+
+                    &-link{
+                        font-size: 15px;
+                        color: white;
+                        text-transform: uppercase;
+                    }
                 }
             }
         }
     }
-    .footer-bottom{
-        margin-top: 40px;
-        border-top: 1px solid rgba(120, 130, 140, 0.13);
-        padding-top: 20px;
+
+    &-bottom{
+        background-color: $primary;
+        color: white;
+        padding: 15px 0;
     }
 }

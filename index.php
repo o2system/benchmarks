@@ -54,20 +54,9 @@ echo $chart_rpm, $chart_mem, $chart_time, $chart_file;
 </head>
 <body>
 
-<div class="banner-benchmarks">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-8 align-self-center text-center">
-                <h1 class="title">
-                    PHP Framework Benchmark
-                </h1>
-                <h6 class="subtitle">
-                    Hello World Benchmark
-                </h6>
-            </div>
-        </div>
-    </div>
-</div>
+<section class="hero p-0">
+    <img src="./img/hero.jpg" alt="" class="w-100">
+</section>
 
 <div class="chart">
 <?php
@@ -111,69 +100,51 @@ echo $div_rpm, $div_mem, $div_time, $div_file;
 
 
 
-<div class="footer-benchmarks">
-    <div class="footer-top">
+<div class="footer-top">
+    <nav class="navbar navbar-expand-md navbar-dark" id="page-navigation-footer">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-4">
-                    <div class="d-flex text-white">
-                        <div class="icon">
-                            <i class="fas fa-phone"></i>
-                        </div>
-                        <div class="content">
-                            <span>
-                                1 (888) 123 4567
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="d-flex text-white">
-                        <div class="icon">
-                            <i class="far fa-envelope"></i>
-                        </div>
-                        <div class="content">
-                            <a href="mailto:email@venus.com" class="text-white">
-                                email@venus.com
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 ml-auto">
-                    <div class="social text-right">
-                        <a href="#">
-                            <i class="fab fa-facebook-f"></i>
+            <!-- Navbar Brand -->
+            <!--<a href="{{ base_url() }}" class="navbar-brand">
+                <img src="assets/img/logo-white.png" alt="">
+            </a>-->
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarcollapse-footer" aria-controls="navbarcollapse-footer" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarcollapse-footer">
+                <!-- Navbar Menu -->
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            Why O2System
                         </a>
-                        <a href="#">
-                            <i class="fab fa-twitter"></i>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            Contributors
                         </a>
-                        <a href="#">
-                            <i class="fab fa-youtube"></i>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            Partners
                         </a>
-                        <a href="#">
-                            <i class="fab fa-instagram"></i>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            Sponsors
                         </a>
-                        <a href="#">
-                            <i class="fab fa-github"></i>
-                        </a>
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </div>
+
         </div>
-    </div>
-    <div class="footer-bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <span>
-                        Copyright &copy; <?php echo date('Y') ?>. All Rights Reserved by <a href="o2system.id">O2System</a>.
-                    </span>
-                </div>
-                <div class="col-lg-6">
-                    <p style="text-align: right">This page is a part of <a href="https://github.com/kenjis/php-framework-benchmark">php-framework-benchmark</a>.</p>
-                </div>
-            </div>
-        </div>
+    </nav>
+</div>
+
+<div class="footer-bottom">
+    <div class="container">
+        <p class="mb-0 text-uppercase text-center small">O2System Framework is a Trademark of Steeve Andrian</p>
     </div>
 </div>
 
