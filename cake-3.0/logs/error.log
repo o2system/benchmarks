@@ -1,0 +1,198 @@
+2020-06-04 13:32:08 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php): failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.0\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:09 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php): failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.0\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:09 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php): failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.0\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:09 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php): failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.0\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:09 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php): failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.0\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:09 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php): failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.0\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:09 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php): failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.0\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:09 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php): failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.0\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:09 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php): failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.0\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:09 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php): failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.0\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:09 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php): failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.0\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:20 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php): failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.0\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:21 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php): failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.0\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:23 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php): failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.0\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:25 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php): failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.0\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:27 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php): failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.0\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:29 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php): failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.0\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:31 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php): failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.0\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:32 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php): failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.0\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:34 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php): failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.0\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:36 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php): failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.0\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:38 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php): failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.0\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
