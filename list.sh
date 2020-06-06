@@ -12,6 +12,7 @@ cakephp-3.8
 zf-3.0
 yii-2.0
 fuel-1.8
+laminas
 "
 
 # full stack services
