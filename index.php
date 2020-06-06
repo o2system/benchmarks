@@ -104,7 +104,7 @@ echo $div_rpm, $div_mem, $div_time, $div_file;
             You can access &amp; check this benchmarks source code<br>
             by your self in our github repository
         </h3>
-        <a href="https://github.com/o2system/benchmarks" target="_blank" class="btn btn-danger btn-lg">
+        <a href="https://github.com/o2system/benchmarks" target="_blank" class="btn btn-dark btn-lg">
             <i class="fab fa-github"></i> Go to Source Code</a>
         </a>
     </div>
