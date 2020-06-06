@@ -58,3 +58,5 @@ $response = $kernel->handle(
 $response->send();
 
 $kernel->terminate($request, $response);
+
+require $_SERVER['DOCUMENT_ROOT'].'/benchmarks/libs/output_data.php';

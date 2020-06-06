@@ -1,0 +1,618 @@
+2020-06-04 13:32:41 Warning: Warning (2): Declaration of Carbon\Carbon::setTime($hour, $minute, $second = 0) should be compatible with DateTime::setTime($hour, $minute, $second = NULL, $microseconds = NULL) in [C:\laragon\www\benchmarks\cake-3.1\vendor\nesbot\carbon\src\Carbon\Carbon.php, line 681]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+include - CORE\src\I18n\Time.php, line 28
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Database\Type\DateTimeType::__construct() - CORE\src\Database\Type\DateTimeType.php, line 75
+Cake\Database\Type::build() - CORE\src\Database\Type.php, line 105
+require - ROOT\config\bootstrap.php, line 202
+require - ROOT\webroot\index.php, line 27
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:41 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php) [<a href='http://php.net/function.require'>function.require</a>]: failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.1\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:42 Warning: Warning (2): Declaration of Carbon\Carbon::setTime($hour, $minute, $second = 0) should be compatible with DateTime::setTime($hour, $minute, $second = NULL, $microseconds = NULL) in [C:\laragon\www\benchmarks\cake-3.1\vendor\nesbot\carbon\src\Carbon\Carbon.php, line 681]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+include - CORE\src\I18n\Time.php, line 28
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Database\Type\DateTimeType::__construct() - CORE\src\Database\Type\DateTimeType.php, line 75
+Cake\Database\Type::build() - CORE\src\Database\Type.php, line 105
+require - ROOT\config\bootstrap.php, line 202
+require - ROOT\webroot\index.php, line 27
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:42 Warning: Warning (2): Declaration of Carbon\Carbon::setTime($hour, $minute, $second = 0) should be compatible with DateTime::setTime($hour, $minute, $second = NULL, $microseconds = NULL) in [C:\laragon\www\benchmarks\cake-3.1\vendor\nesbot\carbon\src\Carbon\Carbon.php, line 681]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+include - CORE\src\I18n\Time.php, line 28
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Database\Type\DateTimeType::__construct() - CORE\src\Database\Type\DateTimeType.php, line 75
+Cake\Database\Type::build() - CORE\src\Database\Type.php, line 105
+require - ROOT\config\bootstrap.php, line 202
+require - ROOT\webroot\index.php, line 27
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:42 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php) [<a href='http://php.net/function.require'>function.require</a>]: failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.1\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:42 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php) [<a href='http://php.net/function.require'>function.require</a>]: failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.1\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:42 Warning: Warning (2): Declaration of Carbon\Carbon::setTime($hour, $minute, $second = 0) should be compatible with DateTime::setTime($hour, $minute, $second = NULL, $microseconds = NULL) in [C:\laragon\www\benchmarks\cake-3.1\vendor\nesbot\carbon\src\Carbon\Carbon.php, line 681]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+include - CORE\src\I18n\Time.php, line 28
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Database\Type\DateTimeType::__construct() - CORE\src\Database\Type\DateTimeType.php, line 75
+Cake\Database\Type::build() - CORE\src\Database\Type.php, line 105
+require - ROOT\config\bootstrap.php, line 202
+require - ROOT\webroot\index.php, line 27
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:42 Warning: Warning (2): Declaration of Carbon\Carbon::setTime($hour, $minute, $second = 0) should be compatible with DateTime::setTime($hour, $minute, $second = NULL, $microseconds = NULL) in [C:\laragon\www\benchmarks\cake-3.1\vendor\nesbot\carbon\src\Carbon\Carbon.php, line 681]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+include - CORE\src\I18n\Time.php, line 28
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Database\Type\DateTimeType::__construct() - CORE\src\Database\Type\DateTimeType.php, line 75
+Cake\Database\Type::build() - CORE\src\Database\Type.php, line 105
+require - ROOT\config\bootstrap.php, line 202
+require - ROOT\webroot\index.php, line 27
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:42 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php) [<a href='http://php.net/function.require'>function.require</a>]: failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.1\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:42 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php) [<a href='http://php.net/function.require'>function.require</a>]: failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.1\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:42 Warning: Warning (2): Declaration of Carbon\Carbon::setTime($hour, $minute, $second = 0) should be compatible with DateTime::setTime($hour, $minute, $second = NULL, $microseconds = NULL) in [C:\laragon\www\benchmarks\cake-3.1\vendor\nesbot\carbon\src\Carbon\Carbon.php, line 681]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+include - CORE\src\I18n\Time.php, line 28
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Database\Type\DateTimeType::__construct() - CORE\src\Database\Type\DateTimeType.php, line 75
+Cake\Database\Type::build() - CORE\src\Database\Type.php, line 105
+require - ROOT\config\bootstrap.php, line 202
+require - ROOT\webroot\index.php, line 27
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:42 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php) [<a href='http://php.net/function.require'>function.require</a>]: failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.1\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:42 Warning: Warning (2): Declaration of Carbon\Carbon::setTime($hour, $minute, $second = 0) should be compatible with DateTime::setTime($hour, $minute, $second = NULL, $microseconds = NULL) in [C:\laragon\www\benchmarks\cake-3.1\vendor\nesbot\carbon\src\Carbon\Carbon.php, line 681]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+include - CORE\src\I18n\Time.php, line 28
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Database\Type\DateTimeType::__construct() - CORE\src\Database\Type\DateTimeType.php, line 75
+Cake\Database\Type::build() - CORE\src\Database\Type.php, line 105
+require - ROOT\config\bootstrap.php, line 202
+require - ROOT\webroot\index.php, line 27
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:42 Warning: Warning (2): Declaration of Carbon\Carbon::setTime($hour, $minute, $second = 0) should be compatible with DateTime::setTime($hour, $minute, $second = NULL, $microseconds = NULL) in [C:\laragon\www\benchmarks\cake-3.1\vendor\nesbot\carbon\src\Carbon\Carbon.php, line 681]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+include - CORE\src\I18n\Time.php, line 28
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Database\Type\DateTimeType::__construct() - CORE\src\Database\Type\DateTimeType.php, line 75
+Cake\Database\Type::build() - CORE\src\Database\Type.php, line 105
+require - ROOT\config\bootstrap.php, line 202
+require - ROOT\webroot\index.php, line 27
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:42 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php) [<a href='http://php.net/function.require'>function.require</a>]: failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.1\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:42 Warning: Warning (2): Declaration of Carbon\Carbon::setTime($hour, $minute, $second = 0) should be compatible with DateTime::setTime($hour, $minute, $second = NULL, $microseconds = NULL) in [C:\laragon\www\benchmarks\cake-3.1\vendor\nesbot\carbon\src\Carbon\Carbon.php, line 681]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+include - CORE\src\I18n\Time.php, line 28
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Database\Type\DateTimeType::__construct() - CORE\src\Database\Type\DateTimeType.php, line 75
+Cake\Database\Type::build() - CORE\src\Database\Type.php, line 105
+require - ROOT\config\bootstrap.php, line 202
+require - ROOT\webroot\index.php, line 27
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:42 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php) [<a href='http://php.net/function.require'>function.require</a>]: failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.1\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:42 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php) [<a href='http://php.net/function.require'>function.require</a>]: failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.1\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:42 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php) [<a href='http://php.net/function.require'>function.require</a>]: failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.1\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:42 Warning: Warning (2): Declaration of Carbon\Carbon::setTime($hour, $minute, $second = 0) should be compatible with DateTime::setTime($hour, $minute, $second = NULL, $microseconds = NULL) in [C:\laragon\www\benchmarks\cake-3.1\vendor\nesbot\carbon\src\Carbon\Carbon.php, line 681]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+include - CORE\src\I18n\Time.php, line 28
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Database\Type\DateTimeType::__construct() - CORE\src\Database\Type\DateTimeType.php, line 75
+Cake\Database\Type::build() - CORE\src\Database\Type.php, line 105
+require - ROOT\config\bootstrap.php, line 202
+require - ROOT\webroot\index.php, line 27
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:42 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php) [<a href='http://php.net/function.require'>function.require</a>]: failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.1\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:49 Warning: Warning (2): Declaration of Carbon\Carbon::setTime($hour, $minute, $second = 0) should be compatible with DateTime::setTime($hour, $minute, $second = NULL, $microseconds = NULL) in [C:\laragon\www\benchmarks\cake-3.1\vendor\nesbot\carbon\src\Carbon\Carbon.php, line 681]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+include - CORE\src\I18n\Time.php, line 28
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Database\Type\DateTimeType::__construct() - CORE\src\Database\Type\DateTimeType.php, line 75
+Cake\Database\Type::build() - CORE\src\Database\Type.php, line 105
+require - ROOT\config\bootstrap.php, line 202
+require - ROOT\webroot\index.php, line 27
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:49 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php) [<a href='http://php.net/function.require'>function.require</a>]: failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.1\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:50 Warning: Warning (2): Declaration of Carbon\Carbon::setTime($hour, $minute, $second = 0) should be compatible with DateTime::setTime($hour, $minute, $second = NULL, $microseconds = NULL) in [C:\laragon\www\benchmarks\cake-3.1\vendor\nesbot\carbon\src\Carbon\Carbon.php, line 681]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+include - CORE\src\I18n\Time.php, line 28
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Database\Type\DateTimeType::__construct() - CORE\src\Database\Type\DateTimeType.php, line 75
+Cake\Database\Type::build() - CORE\src\Database\Type.php, line 105
+require - ROOT\config\bootstrap.php, line 202
+require - ROOT\webroot\index.php, line 27
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:50 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php) [<a href='http://php.net/function.require'>function.require</a>]: failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.1\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:52 Warning: Warning (2): Declaration of Carbon\Carbon::setTime($hour, $minute, $second = 0) should be compatible with DateTime::setTime($hour, $minute, $second = NULL, $microseconds = NULL) in [C:\laragon\www\benchmarks\cake-3.1\vendor\nesbot\carbon\src\Carbon\Carbon.php, line 681]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+include - CORE\src\I18n\Time.php, line 28
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Database\Type\DateTimeType::__construct() - CORE\src\Database\Type\DateTimeType.php, line 75
+Cake\Database\Type::build() - CORE\src\Database\Type.php, line 105
+require - ROOT\config\bootstrap.php, line 202
+require - ROOT\webroot\index.php, line 27
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:52 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php) [<a href='http://php.net/function.require'>function.require</a>]: failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.1\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:54 Warning: Warning (2): Declaration of Carbon\Carbon::setTime($hour, $minute, $second = 0) should be compatible with DateTime::setTime($hour, $minute, $second = NULL, $microseconds = NULL) in [C:\laragon\www\benchmarks\cake-3.1\vendor\nesbot\carbon\src\Carbon\Carbon.php, line 681]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+include - CORE\src\I18n\Time.php, line 28
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Database\Type\DateTimeType::__construct() - CORE\src\Database\Type\DateTimeType.php, line 75
+Cake\Database\Type::build() - CORE\src\Database\Type.php, line 105
+require - ROOT\config\bootstrap.php, line 202
+require - ROOT\webroot\index.php, line 27
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:54 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php) [<a href='http://php.net/function.require'>function.require</a>]: failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.1\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:56 Warning: Warning (2): Declaration of Carbon\Carbon::setTime($hour, $minute, $second = 0) should be compatible with DateTime::setTime($hour, $minute, $second = NULL, $microseconds = NULL) in [C:\laragon\www\benchmarks\cake-3.1\vendor\nesbot\carbon\src\Carbon\Carbon.php, line 681]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+include - CORE\src\I18n\Time.php, line 28
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Database\Type\DateTimeType::__construct() - CORE\src\Database\Type\DateTimeType.php, line 75
+Cake\Database\Type::build() - CORE\src\Database\Type.php, line 105
+require - ROOT\config\bootstrap.php, line 202
+require - ROOT\webroot\index.php, line 27
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:56 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php) [<a href='http://php.net/function.require'>function.require</a>]: failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.1\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:58 Warning: Warning (2): Declaration of Carbon\Carbon::setTime($hour, $minute, $second = 0) should be compatible with DateTime::setTime($hour, $minute, $second = NULL, $microseconds = NULL) in [C:\laragon\www\benchmarks\cake-3.1\vendor\nesbot\carbon\src\Carbon\Carbon.php, line 681]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+include - CORE\src\I18n\Time.php, line 28
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Database\Type\DateTimeType::__construct() - CORE\src\Database\Type\DateTimeType.php, line 75
+Cake\Database\Type::build() - CORE\src\Database\Type.php, line 105
+require - ROOT\config\bootstrap.php, line 202
+require - ROOT\webroot\index.php, line 27
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:32:58 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php) [<a href='http://php.net/function.require'>function.require</a>]: failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.1\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:33:00 Warning: Warning (2): Declaration of Carbon\Carbon::setTime($hour, $minute, $second = 0) should be compatible with DateTime::setTime($hour, $minute, $second = NULL, $microseconds = NULL) in [C:\laragon\www\benchmarks\cake-3.1\vendor\nesbot\carbon\src\Carbon\Carbon.php, line 681]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+include - CORE\src\I18n\Time.php, line 28
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Database\Type\DateTimeType::__construct() - CORE\src\Database\Type\DateTimeType.php, line 75
+Cake\Database\Type::build() - CORE\src\Database\Type.php, line 105
+require - ROOT\config\bootstrap.php, line 202
+require - ROOT\webroot\index.php, line 27
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:33:00 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php) [<a href='http://php.net/function.require'>function.require</a>]: failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.1\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:33:01 Warning: Warning (2): Declaration of Carbon\Carbon::setTime($hour, $minute, $second = 0) should be compatible with DateTime::setTime($hour, $minute, $second = NULL, $microseconds = NULL) in [C:\laragon\www\benchmarks\cake-3.1\vendor\nesbot\carbon\src\Carbon\Carbon.php, line 681]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+include - CORE\src\I18n\Time.php, line 28
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Database\Type\DateTimeType::__construct() - CORE\src\Database\Type\DateTimeType.php, line 75
+Cake\Database\Type::build() - CORE\src\Database\Type.php, line 105
+require - ROOT\config\bootstrap.php, line 202
+require - ROOT\webroot\index.php, line 27
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:33:01 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php) [<a href='http://php.net/function.require'>function.require</a>]: failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.1\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:33:03 Warning: Warning (2): Declaration of Carbon\Carbon::setTime($hour, $minute, $second = 0) should be compatible with DateTime::setTime($hour, $minute, $second = NULL, $microseconds = NULL) in [C:\laragon\www\benchmarks\cake-3.1\vendor\nesbot\carbon\src\Carbon\Carbon.php, line 681]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+include - CORE\src\I18n\Time.php, line 28
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Database\Type\DateTimeType::__construct() - CORE\src\Database\Type\DateTimeType.php, line 75
+Cake\Database\Type::build() - CORE\src\Database\Type.php, line 105
+require - ROOT\config\bootstrap.php, line 202
+require - ROOT\webroot\index.php, line 27
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:33:03 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php) [<a href='http://php.net/function.require'>function.require</a>]: failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.1\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:33:05 Warning: Warning (2): Declaration of Carbon\Carbon::setTime($hour, $minute, $second = 0) should be compatible with DateTime::setTime($hour, $minute, $second = NULL, $microseconds = NULL) in [C:\laragon\www\benchmarks\cake-3.1\vendor\nesbot\carbon\src\Carbon\Carbon.php, line 681]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+include - CORE\src\I18n\Time.php, line 28
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Database\Type\DateTimeType::__construct() - CORE\src\Database\Type\DateTimeType.php, line 75
+Cake\Database\Type::build() - CORE\src\Database\Type.php, line 105
+require - ROOT\config\bootstrap.php, line 202
+require - ROOT\webroot\index.php, line 27
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:33:05 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php) [<a href='http://php.net/function.require'>function.require</a>]: failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.1\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:33:07 Warning: Warning (2): Declaration of Carbon\Carbon::setTime($hour, $minute, $second = 0) should be compatible with DateTime::setTime($hour, $minute, $second = NULL, $microseconds = NULL) in [C:\laragon\www\benchmarks\cake-3.1\vendor\nesbot\carbon\src\Carbon\Carbon.php, line 681]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+include - CORE\src\I18n\Time.php, line 28
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Database\Type\DateTimeType::__construct() - CORE\src\Database\Type\DateTimeType.php, line 75
+Cake\Database\Type::build() - CORE\src\Database\Type.php, line 105
+require - ROOT\config\bootstrap.php, line 202
+require - ROOT\webroot\index.php, line 27
+[main] - ROOT\index.php, line 16
+
+
+
+2020-06-04 13:33:07 Warning: Warning (2): require(C:/laragon/www/php-framework-benchmark/libs/output_data.php) [<a href='http://php.net/function.require'>function.require</a>]: failed to open stream: No such file or directory in [C:\laragon\www\benchmarks\cake-3.1\webroot\index.php, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+require - ROOT\webroot\index.php, line 39
+require - ROOT\webroot\index.php, line 39
+[main] - ROOT\index.php, line 16
+
+
+
