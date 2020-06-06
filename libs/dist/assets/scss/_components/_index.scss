@@ -9,8 +9,8 @@
 .framework-title{
     font-size: 40px;
     text-transform: uppercase;
-    font-weight: 700;
     margin-bottom: 3rem;
+    color: #333;
 }
 
 .framework-area{
@@ -19,8 +19,10 @@
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
+    justify-content: center;
     .framework-list{
-        width: calc(100% / 5);
+        width: 20%;
+        flex: 0 0 20%;
         text-align: center;
         padding: 0 1rem;
         margin-bottom: 1.5rem;
@@ -28,6 +30,16 @@
         -moz-transition: all .3s ease-in-out;
         -webkit-transition: all .3s ease-in-out;
         transition: all .3s ease-in-out;
+
+        @include device(tablet){
+            width: 33.333333%;
+            flex: 0 0 33.333333%;
+        }
+
+        @include device(mobile){
+            width: 50%;
+            flex: 0 0 50%;
+        }
         .framework-logo{
             width: 100%;
         }
